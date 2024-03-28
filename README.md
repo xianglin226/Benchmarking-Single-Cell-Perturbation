@@ -58,4 +58,4 @@ Many models for single-cell perturbation data coming out!
 |[scMulan](https://www.biorxiv.org/content/biorxiv/early/2024/01/29/2024.01.25.577152.full.pdf)  |  2024     |    | scMulan: a multitask generative pre-trained language model for single-cell analysis.
 
 ### These tables will be periodically updated. We will build APIs for some of these models on [TDC](https://tdcommons.ai/) for benchmarking.
-### [CZI](https://cellxgene.cziscience.com/) single-cell datanbase
+### [CZI](https://cellxgene.cziscience.com/) single-cell database
