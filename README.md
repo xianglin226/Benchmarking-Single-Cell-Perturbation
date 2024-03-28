@@ -1,4 +1,4 @@
-# Single-Cell Model collections
+# Single-Cell Model Collections
 ## Models developed for single-cell perturbation data  
 | Name   | Year          | Journal  | Title |
 | -------|:-------------:| -----:|--------:|
