@@ -35,7 +35,7 @@ Many models for single-cell perturbation data coming out!
 | [scDisInFact](https://www.nature.com/articles/s41467-024-45227-w)| 2024       |NC| scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data  
 | [CellCap](https://www.biorxiv.org/content/10.1101/2024.03.14.585078v1.abstract)| 2024         || Modeling interpretable correspondence between cell state and perturbation response with CellCap
 
-## (Pretrained) (Large) Models developed for single-cell data  
+## (Pretrained) (Large)(Language) Models developed for single-cell data  
 | Name          | Year          | Journal  | Title |
 | ------------- |:-------------:| -----:|--------:|
 |[DeepMAPS](https://www.nature.com/articles/s41467-023-36559-0)|2021       | NC   | DeepMAPS: Single-cell biological network inference using heterogeneous graph transformer
