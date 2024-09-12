@@ -7,7 +7,7 @@ Many models for single-cell perturbation data coming out!
 | [Rachel et al](https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf)  |2018  |Pacific Symposium on Biocomputing 2018|Cell-specific prediction and application of drug-induced gene expression profiles  
 | [scGEN](https://www.nature.com/articles/s41592-019-0494-8)|2019    |Nature Method|scGen predicts single-cell perturbation responses
 | [DTD](https://dl.acm.org/doi/abs/10.1145/3308558.3313476) |2019         |The World Wide Web Conference, 2019|Modeling Relational Drug-Target-Disease Interactions via Tensor Factorization with Multiple Web Sources 
-| [CPA](https://www.embopress.org/doi/full/10.15252/msb.202211517)|2021 |  |Predicting cellular responses to complex perturbations in high‐throughput screens 
+| [CPA](https://www.embopress.org/doi/full/10.15252/msb.202211517)|2021 |Molecular system biology|Predicting cellular responses to complex perturbations in high‐throughput screens 
 | [CellBox](https://www.cell.com/cell-systems/pdf/S2405-4712(20)30464-6.pdf)|2021  |Cell systems|CellBox: Interpretable Machine Learning for Perturbation Biology with Application to the Design of Cancer Combination Therapy 
 | [CellDrift](https://academic.oup.com/bib/article/23/5/bbac324/6673850)|2022         |BIB | CellDrift: inferring perturbation responses in temporally sampled single-cell data
 | [MultiCPA](https://www.biorxiv.org/content/10.1101/2022.07.08.499049v1.abstract)|2022          || MultiCPA: Multimodal Compositional Perturbation Autoencoder
