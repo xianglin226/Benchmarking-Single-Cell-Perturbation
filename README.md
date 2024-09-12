@@ -35,7 +35,7 @@ Many models for single-cell perturbation data coming out!
 | [Cell PaintingCNN](https://www.nature.com/articles/s41467-024-45999-1)|2024        |NC |  Learning representations for image-based profiling of perturbations
 | [scDisInFact](https://www.nature.com/articles/s41467-024-45227-w)| 2024       |NC| scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data  
 | [CellCap](https://www.biorxiv.org/content/10.1101/2024.03.14.585078v1.abstract)| 2024         || Modeling interpretable correspondence between cell state and perturbation response with CellCap
-
+| [CODEX](https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898) | 2024 | Bioinformatics | CODEX: COunterfactual Deep learning for the in silico EXploration of cancer cell line perturbations
 ## (Pretrained) (Large)(Language) Models developed for single-cell data  
 | Name          | Year          | Journal  | Title |
 | ------------- |:-------------:| -----:|--------:|
