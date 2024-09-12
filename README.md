@@ -56,7 +56,7 @@ Many models for single-cell perturbation data coming out!
 |[scTranslator](https://www.biorxiv.org/content/10.1101/2023.07.04.547619v2.full.pdf)  | 2023      |    | A pre-trained large generative model for translating single-cell transcriptome to proteome
 |[Cell2Sentence](https://www.biorxiv.org/content/biorxiv/early/2024/02/15/2023.09.11.557287.full.pdf)  | 2023      |    | Cell2Sentence: Teaching Large Language Models the Language of Biology
 |[genePT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10614824/pdf/nihpp-2023.10.16.562533v2.pdf)  |  2023     |    | GENEPT: A SIMPLE BUT HARD-TO-BEAT FOUNDATION MODEL FOR GENES AND CELLS BUILT FROM CHATGPT
-|[scMulan](https://www.biorxiv.org/content/biorxiv/early/2024/01/29/2024.01.25.577152.full.pdf)  |  2024     |    | scMulan: a multitask generative pre-trained language model for single-cell analysis.
+|[scMulan](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57)  |  2024     |ICRCMB| scMulan: a multitask generative pre-trained language model for single-cell analysis.
 
 ### These tables will be periodically updated. We will build APIs for some of these models on [TDC](https://tdcommons.ai/) for benchmarking.
 ### [CZI](https://cellxgene.cziscience.com/) single-cell database
