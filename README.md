@@ -26,7 +26,7 @@ Many models for single-cell perturbation data coming out!
 | [ContrastiveVI](https://www.nature.com/articles/s41592-023-01955-3)| 2023         |Nature Method|Isolating salient variations of interest in single-cell data with contrastiveVI 
 | [sVAE](https://proceedings.mlr.press/v213/lopez23a.html)| 2023       |PMLR | Learning Causal Representations of Single Cells via Sparse Mechanism Shift Modeling
 | [CellOT](https://www.nature.com/articles/s41592-023-01969-x)|2023         |Nature Method |Learning single-cell perturbation responses using neural optimal transport 
-| [samsVAE](https://arxiv.org/abs/2311.02794)| 2024       | | Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder 
+| [samsVAE](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html)| 2024       |Advances in Neural Information Processing Systems| Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder 
 | [STAMP](https://www.biorxiv.org/content/10.1101/2024.01.17.576034v1.abstract)|2024          ||Toward subtask decomposition-based learning and benchmarking for genetic perturbation outcome prediction and beyond 
 | [Biolord](https://www.nature.com/articles/s41587-023-02079-x)| 2024        |Nature Biotech| Disentanglement of single-cell data with biolord
 | [Pdgrapher](https://www.biorxiv.org/content/10.1101/2024.01.03.573985v2.abstract)|  2024       | | Combinatorial prediction of therapeutic perturbations using causally-inspired neural networks
