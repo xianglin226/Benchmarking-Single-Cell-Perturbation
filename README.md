@@ -36,11 +36,14 @@ Many models for single-cell perturbation data coming out!
 | [scDisInFact](https://www.nature.com/articles/s41467-024-45227-w)| 2024       |NC| scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data  
 | [CellCap](https://www.biorxiv.org/content/10.1101/2024.03.14.585078v1.abstract)| 2024         || Modeling interpretable correspondence between cell state and perturbation response with CellCap
 | [CODEX](https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898) | 2024 | Bioinformatics | CODEX: COunterfactual Deep learning for the in silico EXploration of cancer cell line perturbations
+| [PerturBase](https://www.biorxiv.org/content/10.1101/2024.02.03.578767v1.abstract) | 2024 | PerturBase: a comprehensive database for single-cell perturbation data analysis and visualization
   
-# Perturbation Datasets  
+## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
 [C-MAP](https://clue.io/)  
-  
+# Papers:
+[Multiome Perturb-seq](https://www.biorxiv.org/content/10.1101/2024.07.26.605307v1.full.pdf)
+
 ## (Pretrained) (Large)(Language) Models developed for single-cell data  
 | Name          | Year          | Journal  | Title |
 | ------------- |:-------------:| -----:|--------:|
