@@ -41,6 +41,7 @@ Many models for single-cell perturbation data coming out!
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
 [C-MAP](https://clue.io/)  
 [PerturbBase](http://www.perturbase.cn/)  
+[PerturbDB](http://research.gzsys.org.cn/perturbdb/#/home)
 [Multiome Perturb-seq](https://www.biorxiv.org/content/10.1101/2024.07.26.605307v1.full.pdf) (paper)
 
 ## (Pretrained) (Large)(Language) Models developed for single-cell data  
