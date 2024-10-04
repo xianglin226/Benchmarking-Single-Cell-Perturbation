@@ -45,6 +45,7 @@ Many models for single-cell perturbation data coming out!
 [Multiome Perturb-seq](https://www.biorxiv.org/content/10.1101/2024.07.26.605307v1.full.pdf) (paper)  
 [Spatial: Perturb-Fish](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10705493/) (paper)  
 [Spatial: PerturbView](https://www.biorxiv.org/content/10.1101/2023.12.26.573143v1.abstract) (paper)  
+[Spatial: Perturb-map](https://www.cell.com/cell/fulltext/S0092-8674(22)00195-7?) (paper)    
 
 ## (Pretrained) (Large)(Language) Models developed for single-cell data  
 | Name          | Year          | Journal  | Title |
