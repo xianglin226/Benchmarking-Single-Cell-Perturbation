@@ -41,6 +41,7 @@ Many models for single-cell perturbation data coming out!
 |[PRnet](https://www.nature.com/articles/s41467-024-53457-1) |2024| NC | Predicting transcriptional responses to novel chemical perturbations using deep generative model for drug discovery  
 |[TranSiGen](https://www.nature.com/articles/s41467-024-49620-3)|2024|NC|Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery  
 |[BioDiscoveryAgent](https://arxiv.org/abs/2405.17631)| 2024| | BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments  
+|[DRSPRING](https://www.sciencedirect.com/science/article/pii/S0010482524005201)| 2024| Computers in Biology and Medicine| DRSPRING: Graph convolutional network (GCN)-Based drug synergy prediction utilizing drug-induced gene expression profile  
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
