@@ -42,6 +42,8 @@ Many models for single-cell perturbation data coming out!
 |[TranSiGen](https://www.nature.com/articles/s41467-024-49620-3)|2024|NC|Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery  
 |[BioDiscoveryAgent](https://arxiv.org/abs/2405.17631)| 2024| | BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments  
 |[DRSPRING](https://www.sciencedirect.com/science/article/pii/S0010482524005201)| 2024| Computers in Biology and Medicine| DRSPRING: Graph convolutional network (GCN)-Based drug synergy prediction utilizing drug-induced gene expression profile  
+|[PertKGE](https://www.biorxiv.org/content/10.1101/2024.04.08.588632v1.abstract)|2024|| Identify compound-protein interaction with knowledge graph embedding of perturbation transcriptomics  
+|[scRank](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X)| 2024| Cell Reports Medicine | scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network  
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
