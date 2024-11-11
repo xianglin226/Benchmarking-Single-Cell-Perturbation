@@ -26,6 +26,7 @@ Many models for single-cell perturbation data coming out!
 | [ContrastiveVI](https://www.nature.com/articles/s41592-023-01955-3)| 2023         |Nature Method|Isolating salient variations of interest in single-cell data with contrastiveVI 
 | [sVAE](https://proceedings.mlr.press/v213/lopez23a.html)| 2023       |PMLR | Learning Causal Representations of Single Cells via Sparse Mechanism Shift Modeling
 | [CellOT](https://www.nature.com/articles/s41592-023-01969-x)|2023         |Nature Method |Learning single-cell perturbation responses using neural optimal transport 
+|[MOASL](https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185)| 2024| Computers in Biology and Medicine | MOASL: Predicting drug mechanism of actions through similarity learning with transcriptomic signature  
 | [samsVAE](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html)| 2024       |Advances in Neural Information Processing Systems| Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder 
 | [Biolord](https://www.nature.com/articles/s41587-023-02079-x)| 2024        |Nature Biotech| Disentanglement of single-cell data with biolord
 | [Pdgrapher](https://www.biorxiv.org/content/10.1101/2024.01.03.573985v2.abstract)|  2024       | | Combinatorial prediction of therapeutic perturbations using causally-inspired neural networks
@@ -45,7 +46,7 @@ Many models for single-cell perturbation data coming out!
 |[PertKGE](https://www.biorxiv.org/content/10.1101/2024.04.08.588632v1.abstract)|2024|| Identify compound-protein interaction with knowledge graph embedding of perturbation transcriptomics  
 |[scRank](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X)| 2024| Cell Reports Medicine | scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network  
 |[Pertpy](https://www.biorxiv.org/content/10.1101/2024.08.04.606516v1.full.pdf)| 2024 | | Pertpy: an end-to-end framework for perturbation analysis  
-|[MOASL](https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185)| 2024| Computers in Biology and Medicine | MOASL: Predicting drug mechanism of actions through similarity learning with transcriptomic signature  
+
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
