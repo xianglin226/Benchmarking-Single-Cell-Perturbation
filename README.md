@@ -37,7 +37,7 @@ Many models for single-cell perturbation data coming out!
 | [CellCap](https://www.biorxiv.org/content/10.1101/2024.03.14.585078v1.abstract)| 2024         || Modeling interpretable correspondence between cell state and perturbation response with CellCap
 | [CODEX](https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898) | 2024 | Bioinformatics | CODEX: COunterfactual Deep learning for the in silico EXploration of cancer cell line perturbations
 | [scFM](https://www.biorxiv.org/content/10.1101/2024.10.02.616248v1) | 2024 |  | PertEval-scFM: Benchmarking Single-Cell Foundation Models for Perturbation Effect Prediction
-| [STAMP](https://www.nature.com/articles/s43588-024-00698-1) | 2024 | Toward subtask-decomposition-based learning and benchmarking for predicting genetic perturbation outcomes and beyond  
+| [STAMP](https://www.nature.com/articles/s43588-024-00698-1) | 2024 | NCS | Toward subtask-decomposition-based learning and benchmarking for predicting genetic perturbation outcomes and beyond  
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
