@@ -39,6 +39,7 @@ Many models for single-cell perturbation data coming out!
 | [STAMP](https://www.nature.com/articles/s43588-024-00698-1) | 2024 | NCS | Toward subtask-decomposition-based learning and benchmarking for predicting genetic perturbation outcomes and beyond  
 | [PrePR-CT](https://www.biorxiv.org/content/10.1101/2024.07.24.604816v1.full.pdf) |2024| |  PrePR-CT: Predicting Perturbation Responses in Unseen Cell Types Using Cell-Type-Specific Graphs  
 |[PRnet](https://www.nature.com/articles/s41467-024-53457-1) |2024| NC | Predicting transcriptional responses to novel chemical perturbations using deep generative model for drug discovery  
+|[TranSiGen](https://www.nature.com/articles/s41467-024-49620-3)|2024|NC|Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery  
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
