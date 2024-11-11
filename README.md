@@ -27,7 +27,6 @@ Many models for single-cell perturbation data coming out!
 | [sVAE](https://proceedings.mlr.press/v213/lopez23a.html)| 2023       |PMLR | Learning Causal Representations of Single Cells via Sparse Mechanism Shift Modeling
 | [CellOT](https://www.nature.com/articles/s41592-023-01969-x)|2023         |Nature Method |Learning single-cell perturbation responses using neural optimal transport 
 | [samsVAE](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html)| 2024       |Advances in Neural Information Processing Systems| Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder 
-| [STAMP](https://www.biorxiv.org/content/10.1101/2024.01.17.576034v1.abstract)|2024          ||Toward subtask decomposition-based learning and benchmarking for genetic perturbation outcome prediction and beyond 
 | [Biolord](https://www.nature.com/articles/s41587-023-02079-x)| 2024        |Nature Biotech| Disentanglement of single-cell data with biolord
 | [Pdgrapher](https://www.biorxiv.org/content/10.1101/2024.01.03.573985v2.abstract)|  2024       | | Combinatorial prediction of therapeutic perturbations using causally-inspired neural networks
 | [TAT](https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01855)| 2024        |Journal of Chemical Information and Modeling| Compound Activity Prediction with Dose-Dependent Transcriptomic Profiles and Deep Learning 
