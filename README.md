@@ -58,9 +58,9 @@ Many models for single-cell perturbation data coming out!
 [Spatial: Perturb-Fish](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10705493/) (paper)  
 [Spatial: PerturbView](https://www.nature.com/articles/s41587-024-02391-0) (paper)  
 [Spatial: Perturb-map](https://www.cell.com/cell/fulltext/S0092-8674(22)00195-7?) (paper)   
-[Spatial: Perturb-DBiT](https://www.biorxiv.org/content/10.1101/2024.11.18.624106v1.abstract)(paper)  
-[Spatial: Spatial-perturb-seq](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.628843.full.pdf)(paper)  
-[Spatial: NIS-seq](https://www.nature.com/articles/s41587-024-02516-5.pdf)(paper)  
+[Spatial: Perturb-DBiT](https://www.biorxiv.org/content/10.1101/2024.11.18.624106v1.abstract) (paper)  
+[Spatial: Spatial-perturb-seq](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.628843.full.pdf) (paper)  
+[Spatial: NIS-seq](https://www.nature.com/articles/s41587-024-02516-5.pdf) (paper)  
 
 ## (Pretrained) (Large)(Language) Models developed for single-cell data  
 | Name          | Year          | Journal  | Title |
