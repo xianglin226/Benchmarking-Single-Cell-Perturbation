@@ -52,7 +52,7 @@ Many models for single-cell perturbation data coming out!
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
 [C-MAP](https://clue.io/)  
 [PerturbBase](http://www.perturbase.cn/)  
-[PerturbDB](http://research.gzsys.org.cn/perturbdb/#/home)  
+[PerturDB](http://research.gzsys.org.cn/perturbdb/#/home)  
 [Multiome Perturb-seq](https://www.biorxiv.org/content/10.1101/2024.07.26.605307v1.full.pdf) (paper)  
 [Multiome: CRISPRmap](https://www.nature.com/articles/s41587-024-02386-x) (paper)  
 [Spatial: Perturb-Fish](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10705493/) (paper)  
