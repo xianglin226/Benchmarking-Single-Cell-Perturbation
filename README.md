@@ -83,6 +83,7 @@ Many models for single-cell perturbation data coming out!
 |[Cell2Sentence](https://www.biorxiv.org/content/biorxiv/early/2024/02/15/2023.09.11.557287.full.pdf)  | 2023      |    | Cell2Sentence: Teaching Large Language Models the Language of Biology
 |[genePT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10614824/pdf/nihpp-2023.10.16.562533v2.pdf)  |  2023     |    | GENEPT: A SIMPLE BUT HARD-TO-BEAT FOUNDATION MODEL FOR GENES AND CELLS BUILT FROM CHATGPT
 |[scMulan](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57)  |  2024     |ICRCMB| scMulan: a multitask generative pre-trained language model for single-cell analysis.
-|[Nicheformer](https://www.biorxiv.org/content/10.1101/2024.04.15.589472v1)  |  2024     | | Nicheformer: a foundation model for single-cell and spatial omics.
+|[Nicheformer](https://www.biorxiv.org/content/10.1101/2024.04.15.589472v1)  |  2024     | | Nicheformer: a foundation model for single-cell and spatial omics.  
+|[CellPLM](https://openreview.net/forum?id=BKXvPDekud)  |  2024     | ICLR | CellPLM: Pre-training of Cell Language Model Beyond Single Cells  
 ### These tables will be periodically updated. We will build APIs for some of these models on [TDC](https://tdcommons.ai/) for benchmarking.
 ### [CZI](https://cellxgene.cziscience.com/) single-cell database
