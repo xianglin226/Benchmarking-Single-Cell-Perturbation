@@ -48,6 +48,7 @@ Many models for single-cell perturbation data coming out!
 |[Pertpy](https://www.biorxiv.org/content/10.1101/2024.08.04.606516v1.full.pdf)| 2024 | | Pertpy: an end-to-end framework for perturbation analysis  
 |[CellFlow](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1)| 2025 | | CellFlow enables generative single-cell phenotype modeling with flow matching  
 |[TxPert](https://arxiv.org/abs/2505.14919)| 2025 | | TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Transcriptomic Perturbation Prediction  
+|[IMPA](https://www.nature.com/articles/s41467-024-55707-8) |2025| NC | Predicting cell morphological responses to perturbations using generative modeling  
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
