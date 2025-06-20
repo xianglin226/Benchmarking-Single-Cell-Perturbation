@@ -98,10 +98,10 @@ A tool to quickly check the DEGs of perturbations
 Please contact Xiang Lin (xiang_lin@hms.harvard.edu) for any of those listed in the title.
 
 ## Citation is appeciated
-@misc{pertogether2025,
-  title  = {PerTogether: A tool for a convenient perturbation community},
-  author = {Xiang Lin},
-  year   = {2025},
-  url    = {https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/},
-  note   = {Version 1.0. Accessed: 2025-06-6}
+@misc{pertogether2025,  
+  title  = {PerTogether: A tool for a convenient perturbation community},  
+  author = {Xiang Lin},  
+  year   = {2025},  
+  url    = {https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/},  
+  note   = {Version 1.0. Accessed: 2025-06-6}  
 }
