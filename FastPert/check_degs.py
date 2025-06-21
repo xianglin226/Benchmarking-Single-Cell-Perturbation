@@ -13,6 +13,8 @@ if st.button("Load DEGs"):
     else:
         dat = pd.read_csv(file_path, index_col=0)
         dat = dat[dat["condition"] == drug]
-        st.write(f"Showing top 10 DEGs for cell line {cell_line} with {type} perturbagen: {drug}")
-        st.dataframe(dat[['name','logfoldchanges']])
+        dat = dat.sort_values(by="logfoldchanges", ascending=False)
+        dat = dat[['name','logfoldchanges']]
+        st.write(f"Showing top 20 DEGs for cell line {cell_line} with {type} perturbagen: {drug}")
+        st.dataframe(dat)
 
