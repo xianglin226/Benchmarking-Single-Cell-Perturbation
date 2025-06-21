@@ -12,7 +12,7 @@ if st.button("Load DEGs"):
         st.write(f"DEGs not found for: {cell_line} with {drug}")
     else:
         dat = pd.read_csv(file_path, index_col=0)
-        dat = df[df["condition"] == drug]
+        dat = dat[dat["condition"] == drug]
         st.write(f"Showing top 10 DEGs for cell line {cell_line} with {type} perturbagen: {drug}")
         st.dataframe(dat)
 
