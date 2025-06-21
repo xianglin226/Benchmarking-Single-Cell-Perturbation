@@ -15,6 +15,7 @@ if st.button("Load DEGs"):
         dat = dat[dat["condition"] == drug]
         dat = dat.sort_values(by="logfoldchanges", ascending=False)
         dat = dat[['names','logfoldchanges']]
+        dat = dat.reset_index(drop=True)
         st.write(f"Showing top 20 DEGs for cell line {cell_line} with {type} perturbagen: {drug}")
         st.dataframe(dat)
 
