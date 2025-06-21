@@ -21,3 +21,6 @@
 |[scMulan](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57)  |  2024     |ICRCMB| scMulan: a multitask generative pre-trained language model for single-cell analysis.
 |[Nicheformer](https://www.biorxiv.org/content/10.1101/2024.04.15.589472v1)  |  2024     | | Nicheformer: a foundation model for single-cell and spatial omics.  
 |[CellPLM](https://openreview.net/forum?id=BKXvPDekud)  |  2024     | ICLR | CellPLM: Pre-training of Cell Language Model Beyond Single Cells  
+|[UCE](https://www.biorxiv.org/content/10.1101/2023.11.28.568918v1.full.pdf)  |  2024     |  | Universal Cell Embeddings: A Foundation Model for Cell Biology 
+|[PaSCient ](https://www.biorxiv.org/content/10.1101/2024.11.18.624166v1.full)  |  2024     | ICLR | Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states
+|[mcBERT](https://www.biorxiv.org/content/10.1101/2024.11.04.621897v1)  |  2024     | ICLR | mcBERT: Patient-Level Single-cell Transcriptomics Data Representation
