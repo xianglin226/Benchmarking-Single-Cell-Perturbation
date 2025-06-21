@@ -14,5 +14,5 @@ if st.button("Load DEGs"):
         dat = pd.read_csv(file_path, index_col=0)
         dat = dat[dat["condition"] == drug]
         st.write(f"Showing top 10 DEGs for cell line {cell_line} with {type} perturbagen: {drug}")
-        st.dataframe(dat)
+        st.dataframe(dat[['name','logfoldchanges']])
 
