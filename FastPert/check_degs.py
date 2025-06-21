@@ -9,7 +9,7 @@ type = st.selectbox("Select data type", ['chemical','genetic'])
 if st.button("Load DEGs"):
     file_path = f"data/{type}_top20degs_{cell_line}.csv"
     if not os.path.exists(file_path):
-        st.write(f"File not found: {file_path}")
+        st.write(f"File not found: {file_path} in {os.getcwd()}")
     else:
         dat = pd.read_csv(f'data/{type}_top20degs_{cell_line}.csv', index_col=0)
         dat = df[df["condition"] == drug]
