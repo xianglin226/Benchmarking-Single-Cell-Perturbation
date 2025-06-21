@@ -3,7 +3,7 @@ import pandas as pd
 
 # Sidebar inputs
 drug = st.text_input("Enter drug name:")
-cell_line = st.selectbox("Select Cell Line", df["cell_line"].unique())
+cell_line = st.selectbox("Select Cell Line", ['A549','MCF7','PC3', 'VCAP', 'MDAMB231', 'BT20', 'HT29', 'A375', 'HELA'])
 type = st.selectbox("Select data type", ['chemical','genetic'])
 
 dat = pd.read_csv(f'data/{type}_top20degs_{cell_line}.csv', index_col=0)
