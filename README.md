@@ -66,8 +66,8 @@ Many models for single-cell perturbation data coming out!
 [Spatial: NIS-seq](https://www.nature.com/articles/s41587-024-02516-5.pdf) (paper)  
 
 ### List of [scFM](https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/blob/master/scFM/README.md)  
-### These tables will be periodically updated. We will build APIs for some of these models on [TDC](https://tdcommons.ai/) for benchmarking.
-### [CZI](https://cellxgene.cziscience.com/) single-cell database
+### These tables will be periodically updated. 
+### We will build APIs for some of these models on [TDC](https://tdcommons.ai/) for benchmarking. [CZI](https://cellxgene.cziscience.com/) single-cell database
 
 ## FastPert  
 A tool to quickly check the DEGs of perturbations  - [FastPert](https://benchmarking-single-cell-perturbation-cxpnztwdkmkuhrqv555ut8.streamlit.app/)
