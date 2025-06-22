@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 drug = st.text_input("Enter drug name: (e.g. drug like pazopanib or CRISPR-KO like CCL1)")
-cell_line = st.selectbox("Select Cell Line", ['A549','MCF7','PC3', 'VCAP', 'MDAMB231', 'BT20', 'HT29', 'A375', 'HELA'])
+cell_line = st.selectbox("Select Cell Line", ['A549','MCF7','PC3', 'VCAP', 'MDAMB231', 'BT20', 'HT29', 'A375', 'HELA', 'BICR6', 'YAPC', 'AGS', 'U251MG', 'ES2']])
 type = st.selectbox("Select data type", ['chemical','genetic'])
 if type == 'chemical':
     drug = drug.lower()
