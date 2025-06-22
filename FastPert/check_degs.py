@@ -15,7 +15,7 @@ if st.button("Load DEGs"):
     if not os.path.exists(file_path):
         st.write(f"DEGs not found for: {cell_line} with {type} perturbation")
     else:
-        dat = pd.read_csv(file_path, index_col=0)
+        dat = pd.read_csv(file_path)
         dat = dat[dat["condition"] == drug]
         dat = dat.sort_values(by="logfoldchanges", ascending=False)
         dat = dat[['names','logfoldchanges']]
