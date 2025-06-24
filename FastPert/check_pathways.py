@@ -18,5 +18,6 @@ if st.button("Load Enriched Genesets"):
         dat = pd.read_csv(file_path)
         dat = dat[dat["Perturbation"] == drug]
         dat = dat.sort_values(by="NES", ascending=False)
+        dat = dat.reset_index(drop=True)
         st.write(f"Showing top 10 enriched genesets for cell line {cell_line} with {type} perturbagen: {drug}")
         st.dataframe(dat)
