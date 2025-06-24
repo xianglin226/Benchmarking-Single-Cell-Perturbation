@@ -72,8 +72,8 @@ Many models for single-cell perturbation data coming out!
 
 ## FastPert  
 A tool to quickly check:  
-DEGs of perturbations  - [FastPert](https://benchmarking-single-cell-perturbation-cxpnztwdkmkuhrqv555ut8.streamlit.app/)
-Enriched pathways of perturbations - [FastPert](https://benchmarking-single-cell-perturbation-h6zgs5utz5cbk9ckdavgxf.streamlit.app/)
+DEGs of perturbations  - [FastPert](https://benchmarking-single-cell-perturbation-cxpnztwdkmkuhrqv555ut8.streamlit.app/)  
+Enriched pathways of perturbations - [FastPert](https://benchmarking-single-cell-perturbation-h6zgs5utz5cbk9ckdavgxf.streamlit.app/)  
 
 ## Questions, ideas, comments, ...
 Please contact Xiang Lin (xiang_lin@hms.harvard.edu).
