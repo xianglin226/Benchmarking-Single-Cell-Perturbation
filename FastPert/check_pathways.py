@@ -10,10 +10,10 @@ if type == 'chemical':
 #elif type =='genetic':
 #    drug = drug.upper()
 
-if st.button("Load DEGs"):
-    file_path = f"/mount/src/benchmarking-single-cell-perturbation/FastPert/data/{type}_chemical_top10gsea_reactome_{cell_line}.csv"
+if st.button("Load Enriched Genesets"):
+    file_path = f"/mount/src/benchmarking-single-cell-perturbation/FastPert/data/{type}_top10gsea_reactome_{cell_line}.csv"
     if not os.path.exists(file_path):
-        st.write(f"DEGs not found for: {cell_line} with {type} perturbation")
+        st.write(f"Genesets not found for: {cell_line} with {type} perturbation")
     else:
         dat = pd.read_csv(file_path)
         dat = dat[dat["Perturbation"] == drug]
