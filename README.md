@@ -85,5 +85,5 @@ Please contact Xiang Lin (xiang_lin@hms.harvard.edu).
   author = {Xiang Lin},  
   year   = {2025},  
   url    = {https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/},  
-  note   = {Version 1.0. Accessed: 2025-06-6}  
+  note   = {Version 1.0}  
 }
