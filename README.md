@@ -50,7 +50,8 @@ Many models for single-cell perturbation data coming out!
 |[TxPert](https://arxiv.org/abs/2505.14919)| 2025 | | TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Transcriptomic Perturbation Prediction  
 |[IMPA](https://www.nature.com/articles/s41467-024-55707-8) |2025| NC | Predicting cell morphological responses to perturbations using generative modeling  
 |[STATE](https://arcinstitute.org/manuscripts/State) |2025|  | Predicting cellular responses to perturbation across diverse contexts with State   
-
+|[scAgent](https://openreview.net/forum?id=HGJQvwGtfJ) |2025|  | scAgents:AMulti-AgentFramework forFullyAutonomousEnd-to-EndSingle-Cell PerturbationAnalysis  
+  
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
 [C-MAP](https://clue.io/)  
