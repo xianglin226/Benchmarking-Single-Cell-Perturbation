@@ -69,6 +69,7 @@ Many models for single-cell perturbation data coming out!
 [Spatial: Perturb-DBiT](https://www.biorxiv.org/content/10.1101/2024.11.18.624106v1.abstract) (paper)  
 [Spatial: Spatial-perturb-seq](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.628843.full.pdf) (paper)  
 [Spatial: NIS-seq](https://www.nature.com/articles/s41587-024-02516-5.pdf) (paper)  
+[Spatial: PERTURB-CAST](https://www.nature.com/articles/s41551-025-01437-1) (paper)  
 
 ### List of [scFM](https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/blob/master/scFM/README.md)  
 ### These tables will be periodically updated. 
