@@ -54,6 +54,7 @@ Many models for single-cell perturbation data coming out!
 |[UNAGI](https://doi.org/10.1038/s41551-025-01423-7) |2025| Nature Biomedical Engineering | A deep generative model for deciphering cellular dynamics and in silico drug discovery in complex diseases    
 |[STATE](https://arcinstitute.org/manuscripts/State) |2025|  | Predicting cellular responses to perturbation across diverse contexts with State   
 |[scAgent](https://openreview.net/forum?id=HGJQvwGtfJ) |2025|  | scAgents:AMulti-AgentFramework forFullyAutonomousEnd-to-EndSingle-Cell PerturbationAnalysis  
+|[CONCERT](https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract) |2025|  | CONCERT predicts niche-aware perturbation responses in spatial transcriptomics   
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
