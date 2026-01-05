@@ -59,10 +59,10 @@ Many models for single-cell perturbation data coming out!
 |[Pertpy](https://www.nature.com/articles/s41592-025-02909-7) |2025| NM | Pertpy: an end-to-end framework for perturbation analysis    
 
 ## Benchmark and Challenges
-|2025|BMC genomics| Benchmarking foundation cell models for post-perturbation RNA-seq prediction (https://link.springer.com/article/10.1186/s12864-025-11600-2)  
-|2025| NM | Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (https://www.nature.com/articles/s41592-025-02772-6)  
-|2025| Communications Biology | A large-scale benchmark for network inference from single-cell perturbation data (https://www.nature.com/articles/s42003-025-07764-y)  
-|2025| Bioinformatics | Simple controls exceed best deep learning algorithms and reveal foundation model effectiveness for predicting genetic perturbations (https://academic.oup.com/bioinformatics/article/41/6/btaf317/8142305)  
+|2025|BMC genomics| [Benchmarking foundation cell models for post-perturbation RNA-seq prediction](https://link.springer.com/article/10.1186/s12864-025-11600-2)  
+|2025| NM | [Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines](https://www.nature.com/articles/s41592-025-02772-6)  
+|2025| Communications Biology | [A large-scale benchmark for network inference from single-cell perturbation data](https://www.nature.com/articles/s42003-025-07764-y)  
+|2025| Bioinformatics | [Simple controls exceed best deep learning algorithms and reveal foundation model effectiveness for predicting genetic perturbations](https://academic.oup.com/bioinformatics/article/41/6/btaf317/8142305)  
 
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
