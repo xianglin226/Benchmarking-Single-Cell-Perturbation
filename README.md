@@ -55,6 +55,7 @@ Many models for single-cell perturbation data coming out!
 |[STATE](https://arcinstitute.org/manuscripts/State) |2025|  | Predicting cellular responses to perturbation across diverse contexts with State   
 |[scAgent](https://openreview.net/forum?id=HGJQvwGtfJ) |2025|  | scAgents:AMulti-AgentFramework forFullyAutonomousEnd-to-EndSingle-Cell PerturbationAnalysis  
 |[CONCERT](https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract) |2025|  | CONCERT predicts niche-aware perturbation responses in spatial transcriptomics   
+|[C-PGC](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_One_Perturbation_is_Enough_On_Generating_Universal_Adversarial_Perturbations_against_ICCV_2025_paper.html) |2025| ICCV | One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models     
   
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
