@@ -54,10 +54,15 @@ Many models for single-cell perturbation data coming out!
 |[UNAGI](https://doi.org/10.1038/s41551-025-01423-7) |2025| Nature Biomedical Engineering | A deep generative model for deciphering cellular dynamics and in silico drug discovery in complex diseases    
 |[STATE](https://arcinstitute.org/manuscripts/State) |2025|  | Predicting cellular responses to perturbation across diverse contexts with State   
 |[scAgent](https://openreview.net/forum?id=HGJQvwGtfJ) |2025|  | scAgents:AMulti-AgentFramework forFullyAutonomousEnd-to-EndSingle-Cell PerturbationAnalysis  
-|[CONCERT](https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract) |2025|  | CONCERT predicts niche-aware perturbation responses in spatial transcriptomics   
-|[C-PGC](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_One_Perturbation_is_Enough_On_Generating_Universal_Adversarial_Perturbations_against_ICCV_2025_paper.html) |2025| ICCV | One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models     
+|[CONCERT](https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract) |2025|  | CONCERT predicts niche-aware perturbation responses in spatial transcriptomics     
 |[Cradle-VAE](https://ojs.aaai.org/index.php/AAAI/article/view/33695) |2025| AAAI Conference on AI | Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement  
 |[Pertpy](https://www.nature.com/articles/s41592-025-02909-7) |2025| NM | Pertpy: an end-to-end framework for perturbation analysis    
+
+## Benchmark and Challenges
+|2025|BMC genomics| Benchmarking foundation cell models for post-perturbation RNA-seq prediction (https://link.springer.com/article/10.1186/s12864-025-11600-2)  
+|2025| NM | Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (https://www.nature.com/articles/s41592-025-02772-6)  
+|2025| Communications Biology | A large-scale benchmark for network inference from single-cell perturbation data (https://www.nature.com/articles/s42003-025-07764-y)  
+|2025| Bioinformatics | Simple controls exceed best deep learning algorithms and reveal foundation model effectiveness for predicting genetic perturbations (https://academic.oup.com/bioinformatics/article/41/6/btaf317/8142305)  
 
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
