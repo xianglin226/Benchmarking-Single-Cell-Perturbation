@@ -56,7 +56,9 @@ Many models for single-cell perturbation data coming out!
 |[scAgent](https://openreview.net/forum?id=HGJQvwGtfJ) |2025|  | scAgents:AMulti-AgentFramework forFullyAutonomousEnd-to-EndSingle-Cell PerturbationAnalysis  
 |[CONCERT](https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract) |2025|  | CONCERT predicts niche-aware perturbation responses in spatial transcriptomics   
 |[C-PGC](https://openaccess.thecvf.com/content/ICCV2025/html/Fang_One_Perturbation_is_Enough_On_Generating_Universal_Adversarial_Perturbations_against_ICCV_2025_paper.html) |2025| ICCV | One Perturbation is Enough: On Generating Universal Adversarial Perturbations against Vision-Language Pre-training Models     
-  
+|[Cradle-VAE](https://ojs.aaai.org/index.php/AAAI/article/view/33695) |2025| AAAI Conference on AI | Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement  
+|[Pertpy](https://www.nature.com/articles/s41592-025-02909-7) |2025| NM | Pertpy: an end-to-end framework for perturbation analysis    
+
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
 [C-MAP](https://clue.io/)  
