@@ -1,5 +1,5 @@
 ![](https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/blob/master/mach.jpg)
-Many models for single-cell perturbation data coming out!
+Many perturbation models are coming out!
 ## Models developed for single-cell perturbation data  
 | Name   | Year          | Journal  | Title |
 | -------|:-------------:| -----:|--------:|
@@ -28,7 +28,7 @@ Many models for single-cell perturbation data coming out!
 |[MOASL](https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185)| 2023| Computers in Biology and Medicine | MOASL: Predicting drug mechanism of actions through similarity learning with transcriptomic signature  
 | [samsVAE](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html)| 2024       |Advances in Neural Information Processing Systems| Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder 
 | [Biolord](https://www.nature.com/articles/s41587-023-02079-x)| 2024        |Nature Biotech| Disentanglement of single-cell data with biolord
-| [Pdgrapher](https://www.biorxiv.org/content/10.1101/2024.01.03.573985v2.abstract)|  2024 | Nature Biomedical Engineering | Combinatorial prediction of therapeutic perturbations using causally-inspired neural networks
+| [PDGrapher](https://www.biorxiv.org/content/10.1101/2024.01.03.573985v2.abstract)|  2024 | Nature Biomedical Engineering | Combinatorial prediction of therapeutic perturbations using causally-inspired neural networks
 | [TAT](https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01855)| 2024        |Journal of Chemical Information and Modeling| Compound Activity Prediction with Dose-Dependent Transcriptomic Profiles and Deep Learning 
 | [scVAE](https://www.biorxiv.org/content/10.1101/2024.01.05.574421v1.abstract)|  2024      | | A Supervised Contrastive Framework for Learning Disentangled Representations of Cell Perturbation Data 
 | [Cell PaintingCNN](https://www.nature.com/articles/s41467-024-45999-1)|2024        |NC |  Learning representations for image-based profiling of perturbations
@@ -55,6 +55,8 @@ Many models for single-cell perturbation data coming out!
 |[CONCERT](https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract) |2025|  | CONCERT predicts niche-aware perturbation responses in spatial transcriptomics     
 |[Cradle-VAE](https://ojs.aaai.org/index.php/AAAI/article/view/33695) |2025| AAAI Conference on AI | Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement  
 |[Pertpy](https://www.nature.com/articles/s41592-025-02909-7) |2025| NM | Pertpy: an end-to-end framework for perturbation analysis    
+|[Scouter](https://www.nature.com/articles/s43588-025-00912-8) |2025| NCS | Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings  
+|[PertAdapt](https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1) |2025|  | PertAdapt: Unlocking Single-Cell Foundation Models for Genetic Perturbation Prediction via Condition-Sensitive Adaptation
 
 ## Benchmark and Challenges
 |2025|BMC genomics| [Benchmarking foundation cell models for post-perturbation RNA-seq prediction](https://link.springer.com/article/10.1186/s12864-025-11600-2)  
