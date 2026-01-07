@@ -1,6 +1,6 @@
 ![](https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/blob/master/mach.jpg)
 Many perturbation models are coming out!
-## Models developed for single-cell perturbation data  
+## Models developed for genetic/chemical perturbation data  
 | Name   | Year          | Journal  | Title |
 | -------|:-------------:| -----:|--------:|
 | [Rachel et al](https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf)  |2018  |Pacific Symposium on Biocomputing 2018|Cell-specific prediction and application of drug-induced gene expression profiles  
