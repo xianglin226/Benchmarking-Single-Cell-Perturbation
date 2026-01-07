@@ -1,4 +1,3 @@
-# Single-Cell Model Collections
 ![](https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/blob/master/mach.jpg)
 Many models for single-cell perturbation data coming out!
 ## Models developed for single-cell perturbation data  
