@@ -58,7 +58,7 @@ Many perturbation models are coming out!
 |[Scouter](https://www.nature.com/articles/s43588-025-00912-8) |2025| NCS | Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings  
 |[PertAdapt](https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1) |2025|  | PertAdapt: Unlocking Single-Cell Foundation Models for Genetic Perturbation Prediction via Condition-Sensitive Adaptation
 |[CausalGRN](https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract) |2025|  | CausalGRN: deciphering causal gene regulatory networks from single-cell CRISPR screens  
-|[Systema](https://www.nature.com/articles/s41587-025-02777-8) |2025|  | Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation      
+|[Systema](https://www.nature.com/articles/s41587-025-02777-8) |2025| Nature Biotechnology | Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation      
 |[Stack](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1) |2026|  | Stack: In-Context Learning of Single-Cell Biology    
 
 ## Benchmark and Challenges
