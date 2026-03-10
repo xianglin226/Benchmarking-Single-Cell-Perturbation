@@ -60,6 +60,7 @@ Many perturbation models are coming out!
 |[CausalGRN](https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract) |2025|  | CausalGRN: deciphering causal gene regulatory networks from single-cell CRISPR screens  
 |[Systema](https://www.nature.com/articles/s41587-025-02777-8) |2025| Nature Biotechnology | Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation      
 |[Stack](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1) |2026|  | Stack: In-Context Learning of Single-Cell Biology    
+|[AlphaCell](https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract) |2026|  | Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell      
 
 ## Review
 |2026|Nature Reviews Genetics| [Interpretation, extrapolation and perturbation of single cells](https://www.nature.com/articles/s41576-025-00920-4)
