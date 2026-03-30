@@ -61,7 +61,8 @@ Many perturbation models are coming out!
 |[Systema](https://www.nature.com/articles/s41587-025-02777-8) |2025| Nature Biotechnology | Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation      
 |[Stack](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1) |2026|  | Stack: In-Context Learning of Single-Cell Biology    
 |[AlphaCell](https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract) |2026|  | Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell      
-
+|[PrePR-CT](https://www.nature.com/articles/s42256-026-01202-2) |2026| NMI | Predicting and interpreting cell-type-specific drug responses in the small-data regime using inductive priors  
+|[SequenTx](https://www.nature.com/articles/s42256-026-01192-1) |2026| NMI | Reinforcement learning-based design of sequential drug treatment targeting the evolving tumour landscape with SequenTx   
 ## Review
 |2026|Nature Reviews Genetics| [Interpretation, extrapolation and perturbation of single cells](https://www.nature.com/articles/s41576-025-00920-4)
 
