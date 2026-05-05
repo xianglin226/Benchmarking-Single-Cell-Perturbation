@@ -44,8 +44,7 @@ Many perturbation models are coming out!
 |[DRSPRING](https://www.sciencedirect.com/science/article/pii/S0010482524005201)| 2024| Computers in Biology and Medicine| DRSPRING: Graph convolutional network (GCN)-Based drug synergy prediction utilizing drug-induced gene expression profile  
 |[PertKGE](https://www.biorxiv.org/content/10.1101/2024.04.08.588632v1.abstract)|2024|| Identify compound-protein interaction with knowledge graph embedding of perturbation transcriptomics  
 |[scRank](https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X)| 2024| Cell Reports Medicine | scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network  
-|[CellFlow](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1)| 2025 | | CellFlow enables generative single-cell phenotype modeling with flow matching  
-|[TxPert](https://arxiv.org/abs/2505.14919)| 2025 | | TxPert: Leveraging Biochemical Relationships for Out-of-Distribution Transcriptomic Perturbation Prediction  
+|[CellFlow](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1)| 2025 | | CellFlow enables generative single-cell phenotype modeling with flow matching   
 |[IMPA](https://www.nature.com/articles/s41467-024-55707-8) |2025| NC | Predicting cell morphological responses to perturbations using generative modeling  
 |[PS](https://www.nature.com/articles/s41556-025-01626-9) |2025| Nature Cell Biology | Decoding heterogeneous single-cell perturbation responses  
 |[TRADE](https://www.nature.com/articles/s41588-025-02169-3) |2025| Nature Genetics | Transcriptome-wide analysis of differential expression in perturbation atlases  
@@ -56,14 +55,15 @@ Many perturbation models are coming out!
 |[Cradle-VAE](https://ojs.aaai.org/index.php/AAAI/article/view/33695) |2025| AAAI Conference on AI | Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement  
 |[Pertpy](https://www.nature.com/articles/s41592-025-02909-7) |2025| NM | Pertpy: an end-to-end framework for perturbation analysis    
 |[Scouter](https://www.nature.com/articles/s43588-025-00912-8) |2025| NCS | Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings  
-|[PertAdapt](https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1) |2025|  | PertAdapt: Unlocking Single-Cell Foundation Models for Genetic Perturbation Prediction via Condition-Sensitive Adaptation
+|[PertAdapt](https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1) |2025|  | PertAdapt: Unlocking Single-Cell Foundation Models for Genetic Perturbation Prediction via Condition-Sensitive Adaptation  
 |[CausalGRN](https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract) |2025|  | CausalGRN: deciphering causal gene regulatory networks from single-cell CRISPR screens  
-|[Systema](https://www.nature.com/articles/s41587-025-02777-8) |2025| Nature Biotechnology | Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation      
+|[Systema](https://www.nature.com/articles/s41587-025-02777-8) |2025| Nature Biotechnology | Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation  
 |[Stack](https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1) |2026|  | Stack: In-Context Learning of Single-Cell Biology    
 |[AlphaCell](https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract) |2026|  | Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell  
 |[XPert](https://www.nature.com/articles/s42256-025-01165-w) |2026| NMI | Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch transformer  
 |[PrePR-CT](https://www.nature.com/articles/s42256-026-01202-2) |2026| NMI | Predicting and interpreting cell-type-specific drug responses in the small-data regime using inductive priors  
-|[SequenTx](https://www.nature.com/articles/s42256-026-01192-1) |2026| NMI | Reinforcement learning-based design of sequential drug treatment targeting the evolving tumour landscape with SequenTx   
+|[SequenTx](https://www.nature.com/articles/s42256-026-01192-1) |2026| NMI | Reinforcement learning-based design of sequential drug treatment targeting the evolving tumour landscape with SequenTx  
+|[TxPert](https://www.nature.com/articles/s41587-026-03113-4)| 2026 | NBT | TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects  
 ## Review
 |2026|Nature Reviews Genetics| [Interpretation, extrapolation and perturbation of single cells](https://www.nature.com/articles/s41576-025-00920-4)
 
