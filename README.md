@@ -64,6 +64,8 @@ Many perturbation models are coming out!
 |[PrePR-CT](https://www.nature.com/articles/s42256-026-01202-2) |2026| NMI | Predicting and interpreting cell-type-specific drug responses in the small-data regime using inductive priors  
 |[SequenTx](https://www.nature.com/articles/s42256-026-01192-1) |2026| NMI | Reinforcement learning-based design of sequential drug treatment targeting the evolving tumour landscape with SequenTx  
 |[TxPert](https://www.nature.com/articles/s41587-026-03113-4)| 2026 | NBT | TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects  
+|[scPert](https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.abstract)| 2026 |  | A Multi-modal LLM-Knowledge Fusion Framework for Predicting Single-cell Genetic Perturbation Effects  
+
 ## Review
 |2026|Nature Reviews Genetics| [Interpretation, extrapolation and perturbation of single cells](https://www.nature.com/articles/s41576-025-00920-4)
 
