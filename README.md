@@ -86,10 +86,11 @@ Many perturbation models are coming out!
 [Spatial: Perturb-Fish](https://www.cell.com/cell/fulltext/S0092-8674(25)00197-7) (paper)  
 [Spatial: PerturbView](https://www.nature.com/articles/s41587-024-02391-0) (paper)  
 [Spatial: Perturb-map](https://www.cell.com/cell/fulltext/S0092-8674(22)00195-7?) (paper)   
-[Spatial: Perturb-DBiT](https://www.biorxiv.org/content/10.1101/2024.11.18.624106v1.abstract) (paper)  
+[Spatial: Perturb-DBiT](https://www.nature.com/articles/s41587-026-03127-y) (paper - NBT)  
 [Spatial: Spatial-perturb-seq](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.628843.full.pdf) (paper)  
 [Spatial: NIS-seq](https://www.nature.com/articles/s41587-024-02516-5.pdf) (paper)  
 [Spatial: PERTURB-CAST](https://www.nature.com/articles/s41551-025-01437-1) (paper)  
+[Spatial: SPAC-seq](https://www.cell.com/cell/fulltext/S0092-8674(26)00516-7)(paper)  
 
 ### List of [scFM](https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/blob/master/scFM/README.md)  
 ### These tables will be periodically updated. 
