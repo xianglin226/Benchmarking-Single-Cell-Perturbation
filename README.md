@@ -74,6 +74,7 @@ Many perturbation models are coming out!
 |2025| NM | [Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines](https://www.nature.com/articles/s41592-025-02772-6)  
 |2025| Communications Biology | [A large-scale benchmark for network inference from single-cell perturbation data](https://www.nature.com/articles/s42003-025-07764-y)  
 |2025| Bioinformatics | [Simple controls exceed best deep learning algorithms and reveal foundation model effectiveness for predicting genetic perturbations](https://academic.oup.com/bioinformatics/article/41/6/btaf317/8142305)  
+|2026|NeurIPS| [PerturBench: Benchmarking Machine Learning Models for Cellular Perturbation Analysis](https://proceedings.neurips.cc/paper_files/paper/2025/file/8aee537279a66ced96319dfca3c00002-Paper-Datasets_and_Benchmarks_Track.pdf)  
 
 ## Perturbation Datasets  
 [SC-perturb](http://projects.sanderlab.org/scperturb/)  
