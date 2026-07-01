@@ -108,7 +108,7 @@ Please contact Xiang Lin (xiang_lin@hms.harvard.edu).
 ## Citation is appeciated
 @misc{pertogether2025,  
   title  = {PerTogether: A tool for perturbation research and modeling},  
-  author = {Xiang Lin},  
+  author = {Xiang Lin， Zhenxing Li, Chenyi Li, Hengyu Zhang},  
   year   = {2025},  
   url    = {https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/},  
   note   = {Version 1.0}  
