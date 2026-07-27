@@ -67,7 +67,7 @@ Many perturbation models are coming out!
 |[scPert](https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.abstract)| 2026 |  | A Multi-modal LLM-Knowledge Fusion Framework for Predicting Single-cell Genetic Perturbation Effects  
 |[X-Cell](https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1.abstract)| 2026 | | X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models 
 |[RegVelo](https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5)| 2026 | Cell | RegVelo: Gene-regulatory-informed dynamics of single cells   
-  
+|[UniPert-G2CP](https://www.sciencedirect.com/science/article/pii/S0092867426006549)| 2026 | Cell | UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling    
 ## Review
 |2026|Nature Reviews Genetics| [Interpretation, extrapolation and perturbation of single cells](https://www.nature.com/articles/s41576-025-00920-4)
 
