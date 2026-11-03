@@ -265,7 +265,7 @@ Resources for finding perturbation data, comparing molecular readouts, and study
 
 ## FastPert (a toy APP)  
 Quickly check perturbation responses:  
-DEGs of perturbations: [FastPert](https://benchmarking-single-cell-perturbation-cxpnztwdkmkuhrqv555ut8.streamlit.app/)  
+- DEGs of perturbations: [FastPert](https://benchmarking-single-cell-perturbation-cxpnztwdkmkuhrqv555ut8.streamlit.app/)  
 - Enriched pathways of perturbations: [FastPert](https://benchmarking-single-cell-perturbation-h6zgs5utz5cbk9ckdavgxf.streamlit.app/)  
 
 ## Questions, ideas, comments, ...
