@@ -1,6 +1,6 @@
-![PerTogether overview](mach.jpg)
+![Virtual cell lab overview](mach.jpg)
 
-# PerTogether
+# Virtual cell lab
 
 A curated guide to perturbation-response models, analysis methods, benchmarks, and datasets.
 
