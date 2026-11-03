@@ -1,6 +1,6 @@
 ![Virtual cell lab overview](mach.jpg)
 
-# Virtual cell lab
+# Virtual Cell Lab
 
 A curated guide to perturbation-response models, analysis methods, benchmarks, and datasets.
 
