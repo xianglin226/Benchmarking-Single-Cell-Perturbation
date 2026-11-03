@@ -6,9 +6,9 @@ A curated guide to perturbation-response models, analysis methods, benchmarks, a
 
 **Last checked: 3 November 2026.** Years use first online publication for journal articles, proceedings publication year for conference papers, and posting year for preprints. Meeting and proceedings years can differ. Workshop papers and preprints are labeled explicitly.
 
-Model names link to primary papers or official proceedings. The Code column links to the official code repository.  
+**Model names** link to primary papers or official proceedings. The Code column links to the official code repository.  
 
-The **model structure** column links short architecture/type labels to archived diagrams in model_figures.  
+**Model structure** column links the published figure of each model's architecture.  
 
 [Response prediction](#genetic-and-chemical-response-prediction) · [Spatial context and dynamics](#spatial-context-and-cellular-dynamics) · [Target discovery](#target-discovery-and-experimental-design) · [Analysis and applications](#perturbation-analysis-and-related-applications) · [Benchmarks](#benchmarks-and-challenges) · [Datasets](#perturbation-datasets) · [Single-cell foundation models](scFM/README.md)
 
