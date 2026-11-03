@@ -250,8 +250,8 @@ A tool to quickly check:
 Please contact Xiang Lin (xianglin@seu.edu.cn).
 
 ## Citation is appeciated
-@misc{pertogether2026,  
-  title  = {PerTogether: A tool for perturbation research and modeling},  
+@misc{virtualcelllab2026,  
+  title  = {Virtual cell lab for perturbation research and modeling},  
   author = {Xiang Lin, Zhenxing Li, Chenyi Li},  
   year   = {2026},  
   url    = {https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/},  
