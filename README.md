@@ -106,13 +106,13 @@ A tool to quickly check:
 - Enriched pathways of perturbations: [FastPert](https://benchmarking-single-cell-perturbation-h6zgs5utz5cbk9ckdavgxf.streamlit.app/)  
 
 ## Questions, ideas, comments, ...
-Please contact Xiang Lin (xiang_lin@hms.harvard.edu).
+Please contact Xiang Lin (xianglin@seu.edu.cn).
 
 ## Citation is appeciated
-@misc{pertogether2025,  
+@misc{pertogether2026,  
   title  = {PerTogether: A tool for perturbation research and modeling},  
-  author = {Xiang Lin, Zhenxing Li, Chenyi Li, Hengyu Zhang},  
-  year   = {2025},  
+  author = {Xiang Lin, Zhenxing Li, Chenyi Li},  
+  year   = {2026},  
   url    = {https://github.com/xianglin226/Benchmarking-Single-Cell-Perturbation/},  
   note   = {Version 1.0}  
 }
