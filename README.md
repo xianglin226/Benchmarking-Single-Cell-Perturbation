@@ -260,11 +260,10 @@ Resources for finding perturbation data, comparing molecular readouts, and study
 *Readout coverage varies by platform: targeted RNA panels, whole-transcriptome sequencing, and optical phenotypes provide different kinds of evidence. Paper links lead to the study and its data-availability information; they are not all direct dataset downloads.*
 
 ### [Single-cell foundation models and related methods](scFM/README.md)
-### These tables will be periodically updated. 
-### We will build APIs for some of these models on [TDC](https://tdcommons.ai/) for benchmarking. 
-### Find single-cell data from [CZI](https://cellxgene.cziscience.com/) database
 
-## FastPert  
+### These tables will be periodically updated. 
+
+## FastPert （a toy app）  
 A tool to quickly check:  
 - DEGs of perturbations: [FastPert](https://benchmarking-single-cell-perturbation-cxpnztwdkmkuhrqv555ut8.streamlit.app/)  
 - Enriched pathways of perturbations: [FastPert](https://benchmarking-single-cell-perturbation-h6zgs5utz5cbk9ckdavgxf.streamlit.app/)  
