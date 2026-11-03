@@ -222,21 +222,42 @@ scAgents is retained as an OpenReview submission; workshop formatting alone was 
 </details>
 
 ## Perturbation datasets
-[SC-perturb](http://projects.sanderlab.org/scperturb/)  
-[C-MAP](https://clue.io/)  
-[PerturbBase](http://www.perturbase.cn/)  
-[PerturDB](http://research.gzsys.org.cn/perturbdb/#/home)  
-[Tahoe-100M](https://huggingface.co/datasets/tahoebio/Tahoe-100M)  
-[Multiome Perturb-seq](https://www.biorxiv.org/content/10.1101/2024.07.26.605307v1.full.pdf) (paper)  
-[Multiome: CRISPRmap](https://www.nature.com/articles/s41587-024-02386-x) (paper)  
-[Spatial: Perturb-Fish](https://www.cell.com/cell/fulltext/S0092-8674(25)00197-7) (paper)  
-[Spatial: PerturbView](https://www.nature.com/articles/s41587-024-02391-0) (paper)  
-[Spatial: Perturb-map](https://www.cell.com/cell/fulltext/S0092-8674(22)00195-7?) (paper)   
-[Spatial: Perturb-DBiT](https://www.nature.com/articles/s41587-026-03127-y) (paper - NBT)  
-[Spatial: Spatial-perturb-seq](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.628843.full.pdf) (paper)  
-[Spatial: NIS-seq](https://www.nature.com/articles/s41587-024-02516-5.pdf) (paper)  
-[Spatial: PERTURB-CAST](https://www.nature.com/articles/s41551-025-01437-1) (paper)  
-[Spatial: SPAC-seq](https://www.cell.com/cell/fulltext/S0092-8674(26)00516-7)(paper)  
+
+Resources for finding perturbation data, comparing molecular readouts, and studying responses in tissue. Data portals and large-scale atlases are listed separately from experimental platforms and their associated datasets.
+
+**Browse:** [Data portals and atlases](#data-portals-and-atlases) · [Multiomic and optical screens](#multiomic-and-optical-screens) · [Spatial perturbation studies](#spatial-perturbation-studies)
+
+### Data portals and atlases
+
+| Resource | Type | Coverage and use | Access |
+| :--- | :--- | :--- | :--- |
+| **scPerturb** | Harmonized collection | Standardized single-cell perturbation datasets, including RNA and chromatin-accessibility readouts, for cross-study analysis and benchmarking. | [Portal](http://projects.sanderlab.org/scperturb/) · [Paper](https://www.nature.com/articles/s41592-023-02144-y) |
+| **Connectivity Map (CMap)** | Perturbation-signature resource | Chemical and genetic perturbation signatures, including bulk L1000 expression profiles, for mechanism and connectivity analysis. | [Portal](https://clue.io/) |
+| **PerturBase** | Single-cell database | Browse, visualize, and analyze genetic and chemical perturbation datasets at the dataset or perturbation level. | [Portal](http://www.perturbase.cn/) · [Paper](https://doi.org/10.1093/nar/gkae858) |
+| **PerturbDB** | Functional-genomics database | Perturb-seq and complementary perturbation transcriptomics, with gene-function and regulatory-network analyses. | [Portal](http://research.gzsys.org.cn/perturbdb/#/home) · [Paper](https://doi.org/10.1093/nar/gkae777) |
+| **Tahoe-100M** | Single-cell drug-response atlas | Drug-perturbed cancer-cell expression profiles with compound, sample, and cell-line metadata. | [Dataset](https://huggingface.co/datasets/tahoebio/Tahoe-100M) |
+
+### Multiomic and optical screens
+
+| Platform / study | Molecular or imaging readout | Key capability | Sources |
+| :--- | :--- | :--- | :--- |
+| **Multiome Perturb-seq** | Gene expression + chromatin accessibility | Jointly measures transcriptional and epigenomic responses to CRISPR perturbations in the same nuclei. | [Paper](https://doi.org/10.1016/j.cels.2024.12.002) · [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.26.605307v1.full.pdf) |
+| **CRISPRmap** | In situ barcodes + RNA, protein, and morphology imaging | Maps genetic perturbations to multimodal cellular and tissue phenotypes. | [Paper](https://www.nature.com/articles/s41587-024-02386-x) |
+| **PerturbView** | In situ barcode sequencing + multiplexed imaging | Optical pooled screening with rich phenotypic readouts in primary cells and tissues. | [Paper](https://www.nature.com/articles/s41587-024-02391-0) |
+| **NIS-Seq** | Nuclear genomic DNA barcodes + imaging | Reads perturbation barcodes directly from genomic DNA for cell-type-agnostic optical screening. | [Paper](https://www.nature.com/articles/s41587-024-02516-5.pdf) |
+
+### Spatial perturbation studies
+
+| Platform / study | Molecular or imaging readout | Key capability | Sources |
+| :--- | :--- | :--- | :--- |
+| **Perturb-FISH** | Guide-RNA detection + targeted spatial RNA imaging | Measures intracellular and neighboring-cell responses while retaining spatial context. | [Paper](https://www.cell.com/cell/fulltext/S0092-8674(25)00197-7) |
+| **Perturb-map** | Protein barcodes, imaging, and spatial transcriptomics | Links genetic perturbations to tumor organization and the surrounding microenvironment. | [Paper](https://www.cell.com/cell/fulltext/S0092-8674(22)00195-7) |
+| **Perturb-DBiT** | Spatial total RNA + sgRNA sequencing | Co-profiles perturbation identity and coding/noncoding RNA responses in tissue sections. | [Paper](https://www.nature.com/articles/s41587-026-03127-y) |
+| **Spatial Perturb-Seq** | Spatial gene expression + CRISPR barcodes | Links perturbations to cell states and local tissue context using spatial transcriptomics. | [Paper](https://www.nature.com/articles/s41467-026-69677-6) · [Preprint](https://www.biorxiv.org/content/biorxiv/early/2024/12/20/2024.12.19.628843.full.pdf) |
+| **PERTURB-CAST** | Visium expression + perturbation barcodes | Maps combinatorial genetic perturbations to transcriptomic phenotypes in tumors. | [Paper](https://www.nature.com/articles/s41551-025-01437-1) |
+| **SPAC-seq** | Spatial whole-transcriptome expression + sgRNAs | Profiles spatially resolved CRISPR perturbation effects and neighboring-cell responses. | [Paper](https://www.cell.com/cell/fulltext/S0092-8674(26)00516-7) |
+
+*Readout coverage varies by platform: targeted RNA panels, whole-transcriptome sequencing, and optical phenotypes provide different kinds of evidence. Paper links lead to the study and its data-availability information; they are not all direct dataset downloads.*
 
 ### [Single-cell foundation models and related methods](scFM/README.md)
 ### These tables will be periodically updated. 
