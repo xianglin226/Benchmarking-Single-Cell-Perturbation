@@ -6,42 +6,42 @@ This page covers general single-cell representation learning, RNA-to-protein tra
 
 **Last checked: 3 November 2026.** Years use first online publication for journal articles, proceedings publication year for conference papers, and posting year for preprints. Meeting and proceedings years can differ. Workshop papers and preprints are labeled explicitly.
 
-Model names link to papers or official proceedings. The feature column distinguishes the main training objective from downstream applications; a perturbation demonstration does not mean the model was pretrained to predict perturbation responses. Full titles appear in the expandable reference list.
+Model names link to papers or official proceedings. The Code column links to the official code repository; — means no public repository was found. The feature column distinguishes the main training objective from downstream applications; a perturbation demonstration does not mean the model was pretrained to predict perturbation responses. Full titles appear in the expandable reference list.
 
 ## Pretrained models and foundation-derived representations
 
-| Model | Year | Publication / status | Features and scope |
-| :--- | :---: | :--- | :--- |
-| [scBERT](https://www.nature.com/articles/s42256-022-00534-z) | 2022 | Nature Machine Intelligence | Masked-expression pretraining with gene and binned-expression embeddings; fine-tuned for cell-type annotation. |
-| [CellLM](https://arxiv.org/pdf/2306.04371.pdf) | 2023 | arXiv preprint | Divide-and-conquer contrastive pretraining learns cell representations for annotation and drug-sensitivity tasks. |
-| [Geneformer](https://www.nature.com/articles/s41586-023-06139-9) | 2023 | Nature | Rank-encoded transcriptome pretraining enables transfer learning and in silico gene perturbation; not trained primarily on Perturb-seq responses. |
-| [tGPT](https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf) | 2023 | iScience | Autoregressive pretraining models gene-expression rankings to learn reusable transcriptome representations. |
-| [Cell2Sentence](https://proceedings.mlr.press/v235/levine24a.html) | 2024 | ICML | Converts expression-ranked genes into text-like cell sentences to adapt language models for cell representation and generation. |
-| [CellPLM](https://openreview.net/forum?id=BKXvPDekud) | 2024 | ICLR | Pretrained cell-language model explicitly captures inter-cell relationships through cell-level representations. |
-| [GenePT](https://www.nature.com/articles/s41551-024-01284-6) | 2024 | Nature Biomedical Engineering | Builds gene embeddings from text descriptions using a general language model; no large transcriptome-pretraining stage is required. |
-| [scFoundation](https://www.nature.com/articles/s41592-024-02305-7) | 2024 | Nature Methods | Read-depth-aware transcriptome pretraining learns gene/cell representations for multiple downstream tasks, including perturbation prediction. |
-| [scGPT](https://www.nature.com/articles/s41592-024-02201-0) | 2024 | Nature Methods | Generative transcriptome pretraining supports multi-omics representations and task-specific fine-tuning, including perturbation prediction. |
-| [SCimilarity](https://www.nature.com/articles/s41586-024-08411-y) | 2024 | Nature | Metric learning with cell-type supervision creates a shared space for scalable cell-state similarity search. |
-| [scMulan](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57) | 2024 | RECOMB 2024 | Multitask generative pretraining combines expression and metadata for annotation, metadata prediction, and conditional cell generation. |
-| [mcBERT](https://openreview.net/pdf/7c26dfa4dc9e49fb033965e77ec0050a7b7644a6.pdf) | 2025 | ICLR 2025 LMRL Workshop | Self-supervised and contrastive learning aggregate cells into patient-level representations; focuses on disease-cohort comparisons. |
-| [Nicheformer](https://www.nature.com/articles/s41592-025-02814-z) | 2025 | Nature Methods | Pretrained on dissociated and spatial transcriptomes to learn cell representations informed by tissue context. |
-| [scTranslator](https://www.nature.com/articles/s41551-025-01528-z) | 2025 | Nature Biomedical Engineering | Pretrained RNA-to-protein translation; perturbation prediction is a downstream application, not the core pretraining task. |
-| [PaSCient](https://doi.org/10.1016/j.cels.2026.101570) | 2026 | Cell Systems | Multi-level representation learning aggregates single-cell profiles into patient embeddings for disease-state characterization. |
-| [UCE](https://www.nature.com/articles/s41586-026-10689-z) | 2026 | Nature | Protein-language-model gene embeddings support self-supervised, cross-species cell representations and zero-shot embedding. |
+| Model | Year | Publication / status | Features and scope | Code |
+| :--- | :---: | :--- | :--- | :---: |
+| [scBERT](https://www.nature.com/articles/s42256-022-00534-z) | 2022 | Nature Machine Intelligence | Masked-expression pretraining with gene and binned-expression embeddings; fine-tuned for cell-type annotation. | [GitHub](https://github.com/TencentAILabHealthcare/scBERT) |
+| [CellLM](https://arxiv.org/pdf/2306.04371.pdf) | 2023 | arXiv preprint | Divide-and-conquer contrastive pretraining learns cell representations for annotation and drug-sensitivity tasks. | [GitHub](https://github.com/PharMolix/OpenBioMed) |
+| [Geneformer](https://www.nature.com/articles/s41586-023-06139-9) | 2023 | Nature | Rank-encoded transcriptome pretraining enables transfer learning and in silico gene perturbation; not trained primarily on Perturb-seq responses. | [Hugging Face](https://huggingface.co/ctheodoris/Geneformer) |
+| [tGPT](https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf) | 2023 | iScience | Autoregressive pretraining models gene-expression rankings to learn reusable transcriptome representations. | [GitHub](https://github.com/deeplearningplus/tGPT) |
+| [Cell2Sentence](https://proceedings.mlr.press/v235/levine24a.html) | 2024 | ICML | Converts expression-ranked genes into text-like cell sentences to adapt language models for cell representation and generation. | [GitHub](https://github.com/vandijklab/cell2sentence) |
+| [CellPLM](https://openreview.net/forum?id=BKXvPDekud) | 2024 | ICLR | Pretrained cell-language model explicitly captures inter-cell relationships through cell-level representations. | [GitHub](https://github.com/OmicsML/CellPLM) |
+| [GenePT](https://www.nature.com/articles/s41551-024-01284-6) | 2024 | Nature Biomedical Engineering | Builds gene embeddings from text descriptions using a general language model; no large transcriptome-pretraining stage is required. | [GitHub](https://github.com/yiqunchen/GenePT) |
+| [scFoundation](https://www.nature.com/articles/s41592-024-02305-7) | 2024 | Nature Methods | Read-depth-aware transcriptome pretraining learns gene/cell representations for multiple downstream tasks, including perturbation prediction. | [GitHub](https://github.com/biomap-research/scFoundation) |
+| [scGPT](https://www.nature.com/articles/s41592-024-02201-0) | 2024 | Nature Methods | Generative transcriptome pretraining supports multi-omics representations and task-specific fine-tuning, including perturbation prediction. | [GitHub](https://github.com/bowang-lab/scGPT) |
+| [SCimilarity](https://www.nature.com/articles/s41586-024-08411-y) | 2024 | Nature | Metric learning with cell-type supervision creates a shared space for scalable cell-state similarity search. | [GitHub](https://github.com/Genentech/scimilarity) |
+| [scMulan](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57) | 2024 | RECOMB 2024 | Multitask generative pretraining combines expression and metadata for annotation, metadata prediction, and conditional cell generation. | [GitHub](https://github.com/SuperBianC/scMulan) |
+| [mcBERT](https://openreview.net/pdf/7c26dfa4dc9e49fb033965e77ec0050a7b7644a6.pdf) | 2025 | ICLR 2025 LMRL Workshop | Self-supervised and contrastive learning aggregate cells into patient-level representations; focuses on disease-cohort comparisons. | [GitHub](https://github.com/COMSYS/mcBERT) |
+| [Nicheformer](https://www.nature.com/articles/s41592-025-02814-z) | 2025 | Nature Methods | Pretrained on dissociated and spatial transcriptomes to learn cell representations informed by tissue context. | [GitHub](https://github.com/theislab/nicheformer) |
+| [scTranslator](https://www.nature.com/articles/s41551-025-01528-z) | 2025 | Nature Biomedical Engineering | Pretrained RNA-to-protein translation; perturbation prediction is a downstream application, not the core pretraining task. | [GitHub](https://github.com/TencentAILabHealthcare/scTranslator) |
+| [PaSCient](https://doi.org/10.1016/j.cels.2026.101570) | 2026 | Cell Systems | Multi-level representation learning aggregates single-cell profiles into patient embeddings for disease-state characterization. | [GitHub](https://github.com/Genentech/pascient) |
+| [UCE](https://www.nature.com/articles/s41586-026-10689-z) | 2026 | Nature | Protein-language-model gene embeddings support self-supervised, cross-species cell representations and zero-shot embedding. | [GitHub](https://github.com/snap-stanford/UCE) |
 
 GenePT derives representations from a general-purpose language model rather than a dedicated transcriptome-pretraining stage. mcBERT and PaSCient represent patient samples; they are not interchangeable with per-cell encoders.
 
 ## Related task-specific methods
 
-| Model | Year | Publication / status | Features and scope |
-| :--- | :---: | :--- | :--- |
-| [scMVP](https://link.springer.com/article/10.1186/s13059-021-02595-6) | 2022 | Genome Biology | Multi-view VAE jointly represents RNA and chromatin accessibility for integration and imputation; task-specific multi-omics model. |
-| [TransCluster](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full) | 2022 | Frontiers in Genetics | Task-specific transformer for supervised cell-type identification; not presented here as a broadly pretrained foundation model. |
-| [CIForm](https://academic.oup.com/bib/article/24/4/bbad195/7169137) | 2023 | Briefings in Bioinformatics | Splits expression vectors into patches for transformer-based cell-type annotation; a task-specific classifier. |
-| [DeepMAPS](https://www.nature.com/articles/s41467-023-36559-0) | 2023 | Nature Communications | Heterogeneous cell–gene graph transformer infers cell-type-specific biological networks from multi-omics data; task-specific inference. |
-| [scMoFormer](https://dl.acm.org/doi/pdf/10.1145/3583780.3615061) | 2023 | CIKM 2023 | Combines multimodal graphs and transformers to predict surface-protein abundance from RNA; task-specific cross-modal prediction. |
-| [scTransSort](https://www.mdpi.com/2218-273X/13/4/611) | 2023 | Biomolecules | Gene-expression embeddings and transformer features support cell-type annotation; a task-specific classifier. |
-| [TOSICA](https://www.nature.com/articles/s41467-023-35923-4) | 2023 | Nature Communications | Supervised pathway/regulon-token transformer for interpretable cell-type annotation; not a general pretraining framework. |
+| Model | Year | Publication / status | Features and scope | Code |
+| :--- | :---: | :--- | :--- | :---: |
+| [scMVP](https://link.springer.com/article/10.1186/s13059-021-02595-6) | 2022 | Genome Biology | Multi-view VAE jointly represents RNA and chromatin accessibility for integration and imputation; task-specific multi-omics model. | [GitHub](https://github.com/bm2-lab/scMVP) |
+| [TransCluster](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full) | 2022 | Frontiers in Genetics | Task-specific transformer for supervised cell-type identification; not presented here as a broadly pretrained foundation model. | [GitHub](https://github.com/Danica123/TransCluster) |
+| [CIForm](https://academic.oup.com/bib/article/24/4/bbad195/7169137) | 2023 | Briefings in Bioinformatics | Splits expression vectors into patches for transformer-based cell-type annotation; a task-specific classifier. | [GitHub](https://github.com/zhanglab-wbgcas/CIForm) |
+| [DeepMAPS](https://www.nature.com/articles/s41467-023-36559-0) | 2023 | Nature Communications | Heterogeneous cell–gene graph transformer infers cell-type-specific biological networks from multi-omics data; task-specific inference. | [GitHub](https://github.com/OSU-BMBL/deepmaps) |
+| [scMoFormer](https://dl.acm.org/doi/pdf/10.1145/3583780.3615061) | 2023 | CIKM 2023 | Combines multimodal graphs and transformers to predict surface-protein abundance from RNA; task-specific cross-modal prediction. | [GitHub](https://github.com/OmicsML/scMoFormer) |
+| [scTransSort](https://www.mdpi.com/2218-273X/13/4/611) | 2023 | Biomolecules | Gene-expression embeddings and transformer features support cell-type annotation; a task-specific classifier. | [GitHub](https://github.com/jiaojiao-123/scTransSort) |
+| [TOSICA](https://www.nature.com/articles/s41467-023-35923-4) | 2023 | Nature Communications | Supervised pathway/regulon-token transformer for interpretable cell-type annotation; not a general pretraining framework. | [GitHub](https://github.com/JackieHanLab/TOSICA) |
 
 <details>
 <summary>Full paper titles and sources</summary>
