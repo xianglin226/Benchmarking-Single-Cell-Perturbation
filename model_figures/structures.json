@@ -1,0 +1,1309 @@
+{
+  "checked_on": "2026-11-03",
+  "models": [
+    {
+      "name": "Hodos et al.",
+      "model_structure": "kNN / tensor completion",
+      "table": "README.md",
+      "figure_file": "Hodos_et_al._Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf",
+      "figure_source_url": "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf",
+      "note": "Figure 1 为数据特征分析；另附 Figure 2 方法流程图。",
+      "evidence_urls": [
+        "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf"
+      ]
+    },
+    {
+      "name": "scGen",
+      "model_structure": "VAE",
+      "table": "README.md",
+      "figure_file": "scGen_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-019-0494-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-019-0494-8/MediaObjects/41592_2019_494_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-019-0494-8"
+      ]
+    },
+    {
+      "name": "CellBox",
+      "model_structure": "ODE network",
+      "table": "README.md",
+      "figure_file": "CellBox_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.cels.2020.11.013",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2405471220304646-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.cels.2020.11.013"
+      ]
+    },
+    {
+      "name": "chemCPA",
+      "model_structure": "Compositional autoencoder",
+      "table": "README.md",
+      "figure_file": "chemCPA_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/aa933b5abc1be30baece1d230ec575a7-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/aa933b5abc1be30baece1d230ec575a7-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/aa933b5abc1be30baece1d230ec575a7-Abstract-Conference.html"
+      ]
+    },
+    {
+      "name": "MultiCPA",
+      "model_structure": "Compositional autoencoder",
+      "table": "README.md",
+      "figure_file": "MultiCPA_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf",
+      "figure_source_url": "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf"
+      ]
+    },
+    {
+      "name": "scPreGAN",
+      "model_structure": "Autoencoder + GAN",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://academic.oup.com/bioinformatics/article/38/13/3377/6593485",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://academic.oup.com/bioinformatics/article/38/13/3377/6593485"
+      ]
+    },
+    {
+      "name": "CellOT",
+      "model_structure": "Neural optimal transport",
+      "table": "README.md",
+      "figure_file": "CellOT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-023-01969-x",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-01969-x/MediaObjects/41592_2023_1969_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-023-01969-x"
+      ]
+    },
+    {
+      "name": "CPA",
+      "model_structure": "Compositional autoencoder",
+      "table": "README.md",
+      "figure_file": "CPA_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.embopress.org/doi/full/10.15252/msb.202211517",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b72/10258562/2b1f6cfa2f9e/MSB-19-e11517-g003.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.embopress.org/doi/full/10.15252/msb.202211517"
+      ]
+    },
+    {
+      "name": "GEARS",
+      "model_structure": "GNN",
+      "table": "README.md",
+      "figure_file": "GEARS_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41587-023-01905-6",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-023-01905-6/MediaObjects/41587_2023_1905_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41587-023-01905-6"
+      ]
+    },
+    {
+      "name": "ontoVAE",
+      "model_structure": "Ontology-informed VAE",
+      "table": "README.md",
+      "figure_file": "ontoVAE_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://academic.oup.com/bioinformatics/article/39/6/btad387/7199588",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ea93/10301695/d78709fd58a7/btad387f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://academic.oup.com/bioinformatics/article/39/6/btad387/7199588"
+      ]
+    },
+    {
+      "name": "SAMS-VAE",
+      "model_structure": "Sparse additive VAE",
+      "table": "README.md",
+      "figure_file": "SAMS-VAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/0001ca33ba34ce0351e4612b744b3936-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html"
+      ]
+    },
+    {
+      "name": "scDiff",
+      "model_structure": "Conditional diffusion",
+      "table": "README.md",
+      "figure_file": "scDiff_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.abstract"
+      ]
+    },
+    {
+      "name": "scVIDR",
+      "model_structure": "VAE",
+      "table": "README.md",
+      "figure_file": "scVIDR_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.cell.com/patterns/pdf/S2666-3899(23)00186-1.pdf",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dcc/10436058/7d7782e9d44c/gr1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.cell.com/patterns/pdf/S2666-3899(23)00186-1.pdf"
+      ]
+    },
+    {
+      "name": "biolord",
+      "model_structure": "Disentangled latent model",
+      "table": "README.md",
+      "figure_file": "biolord_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41587-023-02079-x",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-023-02079-x/MediaObjects/41587_2023_2079_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41587-023-02079-x"
+      ]
+    },
+    {
+      "name": "CODEX",
+      "model_structure": "Counterfactual neural network",
+      "table": "README.md",
+      "figure_file": "CODEX_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c315/11211812/3a44e2d9c67c/btae261f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898"
+      ]
+    },
+    {
+      "name": "cycleCDR",
+      "model_structure": "Cycle-consistent network",
+      "table": "README.md",
+      "figure_file": "cycleCDR_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btae248",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d8b/11256949/a413e4cf9e3f/btae248f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btae248"
+      ]
+    },
+    {
+      "name": "PRnet",
+      "model_structure": "Conditional encoder–decoder",
+      "table": "README.md",
+      "figure_file": "PRnet_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-53457-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-53457-1/MediaObjects/41467_2024_53457_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-53457-1"
+      ]
+    },
+    {
+      "name": "scDisInFact",
+      "model_structure": "Disentangled VAE",
+      "table": "README.md",
+      "figure_file": "scDisInFact_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-45227-w",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-45227-w/MediaObjects/41467_2024_45227_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-45227-w"
+      ]
+    },
+    {
+      "name": "scLAMBDA",
+      "model_structure": "VAE",
+      "table": "README.md",
+      "figure_file": "scLAMBDA_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1101/2024.12.04.626878",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11643044/supplementaryFiles",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1101/2024.12.04.626878"
+      ]
+    },
+    {
+      "name": "STAMP",
+      "model_structure": "Multi-task neural network",
+      "table": "README.md",
+      "figure_file": "STAMP_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s43588-024-00698-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-024-00698-1/MediaObjects/43588_2024_698_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s43588-024-00698-1"
+      ]
+    },
+    {
+      "name": "TranSiGen",
+      "model_structure": "Dual VAE",
+      "table": "README.md",
+      "figure_file": "TranSiGen_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-49620-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-49620-3/MediaObjects/41467_2024_49620_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-49620-3"
+      ]
+    },
+    {
+      "name": "CausalGRN",
+      "model_structure": "Causal regulatory network",
+      "table": "README.md",
+      "figure_file": "CausalGRN_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract"
+      ]
+    },
+    {
+      "name": "CellFlow",
+      "model_structure": "Flow matching",
+      "table": "README.md",
+      "figure_file": "CellFlow_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1",
+      "figure_source_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/4f42b78a-5f94-4234-a8b7-644864ce7137/content",
+      "note": "使用 ETH 机构仓储保存的作者预印本版本。",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1"
+      ]
+    },
+    {
+      "name": "Cradle-VAE",
+      "model_structure": "Causal VAE",
+      "table": "README.md",
+      "figure_file": "Cradle-VAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33695",
+      "figure_source_url": "https://arxiv.org/pdf/2409.05484",
+      "note": "使用作者 arXiv 预印本版本。",
+      "evidence_urls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/33695"
+      ]
+    },
+    {
+      "name": "GPerturb",
+      "model_structure": "Gaussian process",
+      "table": "README.md",
+      "figure_file": "GPerturb_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-025-61165-7",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-61165-7/MediaObjects/41467_2025_61165_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-025-61165-7"
+      ]
+    },
+    {
+      "name": "IMPA",
+      "model_structure": "Adversarial autoencoder",
+      "table": "README.md",
+      "figure_file": "IMPA_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-55707-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-55707-8/MediaObjects/41467_2024_55707_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-55707-8"
+      ]
+    },
+    {
+      "name": "PerturbNet",
+      "model_structure": "Conditional normalizing flow",
+      "table": "README.md",
+      "figure_file": "PerturbNet_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s44320-025-00131-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44320-025-00131-3/MediaObjects/44320_2025_131_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s44320-025-00131-3"
+      ]
+    },
+    {
+      "name": "PRESAGE",
+      "model_structure": "Attention network",
+      "table": "README.md",
+      "figure_file": "PRESAGE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1101/2025.06.03.657653",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657653v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1101/2025.06.03.657653"
+      ]
+    },
+    {
+      "name": "Scouter",
+      "model_structure": "Compressor–generator network",
+      "table": "README.md",
+      "figure_file": "Scouter_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s43588-025-00912-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-025-00912-8/MediaObjects/43588_2025_912_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s43588-025-00912-8"
+      ]
+    },
+    {
+      "name": "Squidiff",
+      "model_structure": "Conditional diffusion",
+      "table": "README.md",
+      "figure_file": "Squidiff_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-025-02877-y",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/00e3/12872408/161d1f1e16b7/nihms-2128263-f0001.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-025-02877-y"
+      ]
+    },
+    {
+      "name": "Conditional Monge Gap",
+      "model_structure": "Conditional optimal transport",
+      "table": "README.md",
+      "figure_file": "Conditional_Monge_Gap_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s42256-026-01242-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01242-8/MediaObjects/42256_2026_1242_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s42256-026-01242-8"
+      ]
+    },
+    {
+      "name": "CSTATE",
+      "model_structure": "Structural causal model",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://doi.org/10.1145/3807503.3819991",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://doi.org/10.1145/3807503.3819991"
+      ]
+    },
+    {
+      "name": "LCD",
+      "model_structure": "Latent causal diffusion",
+      "table": "README.md",
+      "figure_file": "LCD_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1073/pnas.2602630123",
+      "figure_source_url": "https://arxiv.org/pdf/2601.15341",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1073/pnas.2602630123"
+      ]
+    },
+    {
+      "name": "MultiPert",
+      "model_structure": "Autoencoder + dual attention",
+      "table": "README.md",
+      "figure_file": "MultiPert_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1371/journal.pcbi.1014054",
+      "figure_source_url": "https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1014054.g001",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1371/journal.pcbi.1014054"
+      ]
+    },
+    {
+      "name": "PertAdapt",
+      "model_structure": "Foundation-model adapter",
+      "table": "README.md",
+      "figure_file": "PertAdapt_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag307",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/df8c/13341120/7e0b7b9fd7f9/btag307f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btag307"
+      ]
+    },
+    {
+      "name": "PerturbDiff",
+      "model_structure": "Functional diffusion",
+      "table": "README.md",
+      "figure_file": "PerturbDiff_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://proceedings.mlr.press/v306/yuan26d.html",
+      "figure_source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yuan26d/yuan26d.pdf",
+      "note": "Figure 1 为建模概念示意；另附 Figure 2 模型框架图。",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v306/yuan26d.html"
+      ]
+    },
+    {
+      "name": "PerturbLDM",
+      "model_structure": "Latent diffusion",
+      "table": "README.md",
+      "figure_file": "PerturbLDM_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.64898/2026.08.07.743610",
+      "figure_source_url": "https://raw.githubusercontent.com/davidroad/PerturbLDM/HEAD/docs/figures/fig1_PerturbLDM.png",
+      "note": "Figure 1 原图来自作者官方代码仓库。",
+      "evidence_urls": [
+        "https://doi.org/10.64898/2026.08.07.743610"
+      ]
+    },
+    {
+      "name": "PopPert",
+      "model_structure": "Gaussian copula",
+      "table": "README.md",
+      "figure_file": "PopPert_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://arxiv.org/abs/2609.01357",
+      "figure_source_url": "https://arxiv.org/pdf/2609.01357",
+      "note": "Figure 1 为建模范式对比；另附 Figure 2 模型概览。",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2609.01357"
+      ]
+    },
+    {
+      "name": "PrePR-CT",
+      "model_structure": "Graph attention network",
+      "table": "README.md",
+      "figure_file": "PrePR-CT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s42256-026-01202-2",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01202-2/MediaObjects/42256_2026_1202_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s42256-026-01202-2"
+      ]
+    },
+    {
+      "name": "scBalFlow",
+      "model_structure": "Staged flow matching",
+      "table": "README.md",
+      "figure_file": "scBalFlow_Architecture_Figure2.webp",
+      "figure_number": 2,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag682",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13619003/supplementaryFiles",
+      "note": "Figure 1 展示数据不平衡；另附 Figure 2 模型结构图。",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btag682"
+      ]
+    },
+    {
+      "name": "scDFM",
+      "model_structure": "Flow matching",
+      "table": "README.md",
+      "figure_file": "scDFM_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/75f029a1289a47aa99c86588239f0c12-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/75f029a1289a47aa99c86588239f0c12-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/75f029a1289a47aa99c86588239f0c12-Abstract-Conference.html"
+      ]
+    },
+    {
+      "name": "scDRP",
+      "model_structure": "VAE + optimal transport",
+      "table": "README.md",
+      "figure_file": "scDRP_Figure1.webp",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bib/bbag482",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/91c0/13704780/9e0f52daeea1/bbag482f1.webp",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bib/bbag482"
+      ]
+    },
+    {
+      "name": "scLDM",
+      "model_structure": "VAE + latent diffusion",
+      "table": "README.md",
+      "figure_file": "scLDM_Figure1.webp",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag727",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/700a/13661255/338ec69d1574/btag727f1.webp",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btag727"
+      ]
+    },
+    {
+      "name": "scPert",
+      "model_structure": "Transformer",
+      "table": "README.md",
+      "figure_file": "scPert_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.abstract"
+      ]
+    },
+    {
+      "name": "Stack",
+      "model_structure": "Cell-set transformer",
+      "table": "README.md",
+      "figure_file": "Stack_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ec10/12803207/c760613c4b2e/nihpp-2026.01.09.698608v1-f0001.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1"
+      ]
+    },
+    {
+      "name": "STATE",
+      "model_structure": "Set transformer",
+      "table": "README.md",
+      "figure_file": "STATE_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.cell.2026.07.052",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009219-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.cell.2026.07.052",
+        "https://huggingface.co/collections/arcinstitute/state"
+      ]
+    },
+    {
+      "name": "TxPert",
+      "model_structure": "GNN + encoder–decoder",
+      "table": "README.md",
+      "figure_file": "TxPert_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://www.nature.com/articles/s41587-026-03113-4",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-026-03113-4/MediaObjects/41587_2026_3113_Fig2_HTML.png",
+      "note": "Figure 1 为数据与基准分析；另附 Figure 2 模型框架图。",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41587-026-03113-4"
+      ]
+    },
+    {
+      "name": "UniPert-G2CP",
+      "model_structure": "Multimodal neural encoder",
+      "table": "README.md",
+      "figure_file": "UniPert-G2CP_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0092867426006549",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426006549-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0092867426006549"
+      ]
+    },
+    {
+      "name": "X-Cell",
+      "model_structure": "Diffusion language model",
+      "table": "README.md",
+      "figure_file": "X-Cell_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1.abstract",
+      "figure_source_url": "https://www.cdn.xaira.com/papers/X_CELL_V1_0316_final.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1.abstract"
+      ]
+    },
+    {
+      "name": "XPert",
+      "model_structure": "Dual-branch transformer",
+      "table": "README.md",
+      "figure_file": "XPert_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s42256-025-01165-w",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01165-w/MediaObjects/42256_2025_1165_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s42256-025-01165-w"
+      ]
+    },
+    {
+      "name": "CellDrift",
+      "model_structure": "GLM / functional analysis",
+      "table": "README.md",
+      "figure_file": "CellDrift_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://academic.oup.com/bib/article/23/5/bbac324/6673850",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9487655/supplementaryFiles",
+      "note": "",
+      "evidence_urls": [
+        "https://academic.oup.com/bib/article/23/5/bbac324/6673850"
+      ]
+    },
+    {
+      "name": "CONCERT",
+      "model_structure": "GP-VAE",
+      "table": "README.md",
+      "figure_file": "CONCERT_Architecture_Figure2.jpg",
+      "figure_number": 2,
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12642540/supplementaryFiles",
+      "note": "另附 Figure 2，详细展示模型结构。",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12642540/"
+      ]
+    },
+    {
+      "name": "UNAGI",
+      "model_structure": "VAE-GAN + GCN",
+      "table": "README.md",
+      "figure_file": "UNAGI_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s41551-025-01423-7",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01423-7/MediaObjects/41551_2025_1423_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s41551-025-01423-7"
+      ]
+    },
+    {
+      "name": "AlphaCell",
+      "model_structure": "World-model framework",
+      "table": "README.md",
+      "figure_file": "AlphaCell_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract"
+      ]
+    },
+    {
+      "name": "Celcomen",
+      "model_structure": "Causal graph model",
+      "table": "README.md",
+      "figure_file": "Celcomen_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s41467-026-69856-5",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-69856-5/MediaObjects/41467_2026_69856_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s41467-026-69856-5"
+      ]
+    },
+    {
+      "name": "RegVelo",
+      "model_structure": "VAE + neural ODE",
+      "table": "README.md",
+      "figure_file": "RegVelo_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426004575-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5",
+        "https://regvelo.readthedocs.io/en/stable/api/genapi/regvelo.VELOVAE.html"
+      ]
+    },
+    {
+      "name": "BioDiscoveryAgent",
+      "model_structure": "LLM agent",
+      "table": "README.md",
+      "figure_file": "BioDiscoveryAgent_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/4252dc94531833029000f85dc5fac792-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html"
+      ]
+    },
+    {
+      "name": "PDGrapher",
+      "model_structure": "GNN",
+      "table": "README.md",
+      "figure_file": "PDGrapher_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41551-025-01481-x",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01481-x/MediaObjects/41551_2025_1481_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41551-025-01481-x"
+      ]
+    },
+    {
+      "name": "SequenTx",
+      "model_structure": "Neural model + RL",
+      "table": "README.md",
+      "figure_file": "SequenTx_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s42256-026-01192-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01192-1/MediaObjects/42256_2026_1192_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s42256-026-01192-1"
+      ]
+    },
+    {
+      "name": "DTD",
+      "model_structure": "Tensor factorization",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://dl.acm.org/doi/abs/10.1145/3308558.3313476",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://dl.acm.org/doi/abs/10.1145/3308558.3313476"
+      ]
+    },
+    {
+      "name": "scINSIGHT",
+      "model_structure": "Matrix factorization",
+      "table": "README.md",
+      "figure_file": "scINSIGHT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1186/s13059-022-02649-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-022-02649-3/MediaObjects/13059_2022_2649_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1186/s13059-022-02649-3"
+      ]
+    },
+    {
+      "name": "CINEMA-OT",
+      "model_structure": "ICA + optimal transport",
+      "table": "README.md",
+      "figure_file": "CINEMA-OT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-023-02040-5",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-02040-5/MediaObjects/41592_2023_2040_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-023-02040-5"
+      ]
+    },
+    {
+      "name": "contrastiveVI",
+      "model_structure": "Contrastive VAE",
+      "table": "README.md",
+      "figure_file": "contrastiveVI_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-023-01955-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-01955-3/MediaObjects/41592_2023_1955_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-023-01955-3"
+      ]
+    },
+    {
+      "name": "DREEP",
+      "model_structure": "Signature enrichment",
+      "table": "README.md",
+      "figure_file": "DREEP_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://link.springer.com/article/10.1186/s12916-023-03182-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-023-03182-1/MediaObjects/12916_2023_3182_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1186/s12916-023-03182-1"
+      ]
+    },
+    {
+      "name": "MOASL",
+      "model_structure": "Contrastive neural network",
+      "table": "README.md",
+      "figure_file": "MOASL_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0010482523013185-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185"
+      ]
+    },
+    {
+      "name": "sVAE",
+      "model_structure": "Sparse VAE",
+      "table": "README.md",
+      "figure_file": "sVAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.mlr.press/v213/lopez23a.html",
+      "figure_source_url": "https://proceedings.mlr.press/v213/lopez23a/lopez23a.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v213/lopez23a.html"
+      ]
+    },
+    {
+      "name": "Cell Painting CNN",
+      "model_structure": "CNN",
+      "table": "README.md",
+      "figure_file": "Cell_Painting_CNN_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-45999-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-45999-1/MediaObjects/41467_2024_45999_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-45999-1"
+      ]
+    },
+    {
+      "name": "DRSPRING",
+      "model_structure": "GCN",
+      "table": "README.md",
+      "figure_file": "DRSPRING_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0010482524005201",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0010482524005201-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0010482524005201"
+      ]
+    },
+    {
+      "name": "PertKGE",
+      "model_structure": "Knowledge-graph embeddings",
+      "table": "README.md",
+      "figure_file": "PertKGE_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.xgen.2024.100655",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2666979X24002660-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.xgen.2024.100655"
+      ]
+    },
+    {
+      "name": "SC-VAE",
+      "model_structure": "Contrastive VAE",
+      "table": "README.md",
+      "figure_file": "SC-VAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.mlr.press/v240/tu24a.html",
+      "figure_source_url": "https://proceedings.mlr.press/v240/tu24a/tu24a.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v240/tu24a.html"
+      ]
+    },
+    {
+      "name": "scRank",
+      "model_structure": "Regulatory-network model",
+      "table": "README.md",
+      "figure_file": "scRank_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S266637912400260X-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X"
+      ]
+    },
+    {
+      "name": "TAT",
+      "model_structure": "Transformer",
+      "table": "README.md",
+      "figure_file": "TAT_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01855",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2023.08.03.551883v1.full.pdf",
+      "note": "Figure 1 为任务概览；另附 Figure 2 模型结构图。使用作者预印本版本。",
+      "evidence_urls": [
+        "https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01855"
+      ]
+    },
+    {
+      "name": "CellCap",
+      "model_structure": "VAE + attention",
+      "table": "README.md",
+      "figure_file": "CellCap_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.cels.2025.101245",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S240547122500078X-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.cels.2025.101245",
+        "https://cellcap.readthedocs.io/en/latest/"
+      ]
+    },
+    {
+      "name": "Pertpy",
+      "model_structure": "Analysis toolkit",
+      "table": "README.md",
+      "figure_file": "Pertpy_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-025-02909-7",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-025-02909-7/MediaObjects/41592_2025_2909_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-025-02909-7"
+      ]
+    },
+    {
+      "name": "PS",
+      "model_structure": "Constrained regression",
+      "table": "README.md",
+      "figure_file": "PS_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41556-025-01626-9",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41556-025-01626-9/MediaObjects/41556_2025_1626_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41556-025-01626-9"
+      ]
+    },
+    {
+      "name": "scAgents",
+      "model_structure": "LLM multi-agent framework",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://openreview.net/forum?id=HGJQvwGtfJ",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://openreview.net/forum?id=HGJQvwGtfJ"
+      ]
+    },
+    {
+      "name": "TRADE",
+      "model_structure": "Statistical effect model",
+      "table": "README.md",
+      "figure_file": "TRADE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41588-025-02169-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-025-02169-3/MediaObjects/41588_2025_2169_Fig1_HTML.png",
+      "note": "Figure 1 以分布与效应量示意图说明统计方法，并非神经网络结构图。",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41588-025-02169-3"
+      ]
+    },
+    {
+      "name": "scBERT",
+      "model_structure": "Transformer (Performer)",
+      "table": "scFM/README.md",
+      "figure_file": "scBERT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s42256-022-00534-z",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-022-00534-z/MediaObjects/42256_2022_534_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s42256-022-00534-z"
+      ]
+    },
+    {
+      "name": "CellLM",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "CellLM_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://arxiv.org/pdf/2306.04371.pdf",
+      "figure_source_url": "https://arxiv.org/pdf/2306.04371.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://arxiv.org/pdf/2306.04371.pdf"
+      ]
+    },
+    {
+      "name": "Geneformer",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "Geneformer_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41586-023-06139-9",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/60a6/10949956/5afcbd873ef2/nihms-1971443-f0001.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-023-06139-9"
+      ]
+    },
+    {
+      "name": "tGPT",
+      "model_structure": "Autoregressive transformer",
+      "table": "scFM/README.md",
+      "figure_file": "tGPT_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2589004223006132-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf"
+      ]
+    },
+    {
+      "name": "Cell2Sentence",
+      "model_structure": "Autoregressive language model",
+      "table": "scFM/README.md",
+      "figure_file": "Cell2Sentence_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.mlr.press/v235/levine24a.html",
+      "figure_source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/levine24a/levine24a.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v235/levine24a.html"
+      ]
+    },
+    {
+      "name": "CellPLM",
+      "model_structure": "Cell-level transformer",
+      "table": "scFM/README.md",
+      "figure_file": "CellPLM_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://openreview.net/forum?id=BKXvPDekud",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560734v1.full.pdf",
+      "note": "Figure 1 为语言建模概念对比；另附 Figure 2 预训练模型结构。使用作者预印本版本。",
+      "evidence_urls": [
+        "https://openreview.net/forum?id=BKXvPDekud"
+      ]
+    },
+    {
+      "name": "GenePT",
+      "model_structure": "Text-embedding model",
+      "table": "scFM/README.md",
+      "figure_file": "GenePT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41551-024-01284-6",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-024-01284-6/MediaObjects/41551_2024_1284_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41551-024-01284-6"
+      ]
+    },
+    {
+      "name": "scFoundation",
+      "model_structure": "Asymmetric transformer",
+      "table": "scFM/README.md",
+      "figure_file": "scFoundation_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-024-02305-7",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02305-7/MediaObjects/41592_2024_2305_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-024-02305-7"
+      ]
+    },
+    {
+      "name": "scGPT",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "scGPT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-024-02201-0",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02201-0/MediaObjects/41592_2024_2201_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-024-02201-0"
+      ]
+    },
+    {
+      "name": "SCimilarity",
+      "model_structure": "Autoencoder + metric learning",
+      "table": "scFM/README.md",
+      "figure_file": "SCimilarity_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41586-024-08411-y",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-024-08411-y/MediaObjects/41586_2024_8411_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-024-08411-y"
+      ]
+    },
+    {
+      "name": "scMulan",
+      "model_structure": "Autoregressive transformer",
+      "table": "scFM/README.md",
+      "figure_file": "scMulan_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2024.01.25.577152v1.full.pdf",
+      "note": "使用与表中论文对应的作者预印本版本。",
+      "evidence_urls": [
+        "https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57"
+      ]
+    },
+    {
+      "name": "mcBERT",
+      "model_structure": "Transformer + pooling",
+      "table": "scFM/README.md",
+      "figure_file": "mcBERT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://openreview.net/pdf/7c26dfa4dc9e49fb033965e77ec0050a7b7644a6.pdf",
+      "figure_source_url": "https://jpennekamp.de/wp-content/papercite-data/pdf/vqlp%2B25.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://openreview.net/pdf/7c26dfa4dc9e49fb033965e77ec0050a7b7644a6.pdf"
+      ]
+    },
+    {
+      "name": "Nicheformer",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "Nicheformer_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-025-02814-z",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-025-02814-z/MediaObjects/41592_2025_2814_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-025-02814-z"
+      ]
+    },
+    {
+      "name": "scTranslator",
+      "model_structure": "Transformer encoder–decoder",
+      "table": "scFM/README.md",
+      "figure_file": "scTranslator_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41551-025-01528-z",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01528-z/MediaObjects/41551_2025_1528_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41551-025-01528-z"
+      ]
+    },
+    {
+      "name": "PaSCient",
+      "model_structure": "DeepSets + attention pooling",
+      "table": "scFM/README.md",
+      "figure_file": "PaSCient_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.cels.2026.101570",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2405471226000529-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.cels.2026.101570"
+      ]
+    },
+    {
+      "name": "UCE",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "UCE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41586-026-10689-z",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10689-z/MediaObjects/41586_2026_10689_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41586-026-10689-z"
+      ]
+    },
+    {
+      "name": "scMVP",
+      "model_structure": "Multi-view VAE",
+      "table": "scFM/README.md",
+      "figure_file": "scMVP_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://link.springer.com/article/10.1186/s13059-021-02595-6",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-021-02595-6/MediaObjects/13059_2021_2595_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1186/s13059-021-02595-6"
+      ]
+    },
+    {
+      "name": "TransCluster",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "TransCluster_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full",
+      "figure_source_url": "https://www.frontiersin.org/files/Articles/1038919/fgene-13-1038919-HTML/image_m/fgene-13-1038919-g001.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full"
+      ]
+    },
+    {
+      "name": "CIForm",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "CIForm_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://academic.oup.com/bib/article/24/4/bbad195/7169137",
+      "figure_source_url": "https://raw.githubusercontent.com/zhanglab-wbgcas/CIForm/HEAD/Figure%201.jpg",
+      "note": "Figure 1 原图来自作者官方代码仓库。",
+      "evidence_urls": [
+        "https://academic.oup.com/bib/article/24/4/bbad195/7169137"
+      ]
+    },
+    {
+      "name": "DeepMAPS",
+      "model_structure": "Heterogeneous graph transformer",
+      "table": "scFM/README.md",
+      "figure_file": "DeepMAPS_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-023-36559-0",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-36559-0/MediaObjects/41467_2023_36559_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-023-36559-0"
+      ]
+    },
+    {
+      "name": "scMoFormer",
+      "model_structure": "Graph transformers",
+      "table": "scFM/README.md",
+      "figure_file": "scMoFormer_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://dl.acm.org/doi/pdf/10.1145/3583780.3615061",
+      "figure_source_url": "https://arxiv.org/pdf/2303.00233",
+      "note": "",
+      "evidence_urls": [
+        "https://dl.acm.org/doi/pdf/10.1145/3583780.3615061"
+      ]
+    },
+    {
+      "name": "scTransSort",
+      "model_structure": "Transformer",
+      "table": "scFM/README.md",
+      "figure_file": "scTransSort_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.mdpi.com/2218-273X/13/4/611",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/89d8/10136153/3519595df893/biomolecules-13-00611-g001.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.mdpi.com/2218-273X/13/4/611"
+      ]
+    },
+    {
+      "name": "TOSICA",
+      "model_structure": "Pathway-informed transformer",
+      "table": "scFM/README.md",
+      "figure_file": "TOSICA_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-023-35923-4",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35923-4/MediaObjects/41467_2023_35923_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-023-35923-4"
+      ]
+    }
+  ]
+}

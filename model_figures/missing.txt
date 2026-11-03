@@ -1,0 +1,17 @@
+未获取到 Figure 1 的模型（2026-11-03）
+
+DTD
+https://dl.acm.org/doi/abs/10.1145/3308558.3313476
+截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。
+
+scPreGAN
+https://academic.oup.com/bioinformatics/article/38/13/3377/6593485
+截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。
+
+scAgents
+https://openreview.net/forum?id=HGJQvwGtfJ
+截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。
+
+CSTATE
+https://doi.org/10.1145/3807503.3819991
+截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。

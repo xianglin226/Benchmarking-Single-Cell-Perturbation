@@ -1,0 +1,2773 @@
+{
+  "collection_date": "2026-11-03",
+  "scope": "Pertogether 的 perturbation 与 scFM/related 两个模型表；不包含独立 benchmark study 行。",
+  "total_models": 100,
+  "models_with_figure1": 96,
+  "image_count": 104,
+  "missing_models": [
+    "DTD",
+    "scPreGAN",
+    "scAgents",
+    "CSTATE"
+  ],
+  "models": [
+    {
+      "name": "Hodos et al.",
+      "group": "perturbation",
+      "year": 2018,
+      "venue": "PSB 2018",
+      "title": "Cell-specific prediction and application of drug-induced gene expression profiles",
+      "paper_url": "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf",
+      "status": "downloaded",
+      "note": "Figure 1 为数据特征分析；另附 Figure 2 方法流程图。",
+      "images": [
+        {
+          "file": "Hodos_et_al._Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/45c2/5753597/cc96f4b7d07e/nihms921438f1.jpg",
+          "dimensions": [
+            750,
+            478
+          ],
+          "method": "publisher_image",
+          "sha256": "7db63586cdf700dcb5307900cf62325de8f3ef415d3d8ddc81b5751887892eae",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "Hodos_et_al._Architecture_Figure2.png",
+          "figure_number": 2,
+          "source_url": "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf",
+          "dimensions": [
+            683,
+            611
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "59a8e8a3634af9a5feaa3f73f97f5a8ec1ba637c9cd642250e07f4346586ad6b",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            56,
+            80,
+            319,
+            315
+          ],
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scGen",
+      "group": "perturbation",
+      "year": 2019,
+      "venue": "Nature Methods",
+      "title": "scGen predicts single-cell perturbation responses",
+      "paper_url": "https://www.nature.com/articles/s41592-019-0494-8",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scGen_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-019-0494-8/MediaObjects/41592_2019_494_Fig1_HTML.png",
+          "dimensions": [
+            2103,
+            698
+          ],
+          "method": "publisher_image",
+          "sha256": "7dd22af8b6988eb75d84a25e30085531134b563bcc449e49a3623332560e25e0",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "DTD",
+      "group": "perturbation",
+      "year": 2019,
+      "venue": "The Web Conference 2019",
+      "title": "Modeling Relational Drug-Target-Disease Interactions via Tensor Factorization with Multiple Web Sources",
+      "paper_url": "https://dl.acm.org/doi/abs/10.1145/3308558.3313476",
+      "status": "unavailable",
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "images": []
+    },
+    {
+      "name": "CellBox",
+      "group": "perturbation",
+      "year": 2020,
+      "venue": "Cell Systems",
+      "title": "CellBox: Interpretable Machine Learning for Perturbation Biology with Application to the Design of Cancer Combination Therapy",
+      "paper_url": "https://doi.org/10.1016/j.cels.2020.11.013",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CellBox_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2405471220304646-gr1_lrg.jpg",
+          "dimensions": [
+            2980,
+            2739
+          ],
+          "method": "publisher_image",
+          "sha256": "0514446e329230c36d08fd119effe470b6eb7480905df3a4e73b684525d42555",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CellDrift",
+      "group": "perturbation",
+      "year": 2022,
+      "venue": "Briefings in Bioinformatics",
+      "title": "CellDrift: inferring perturbation responses in temporally sampled single-cell data",
+      "paper_url": "https://academic.oup.com/bib/article/23/5/bbac324/6673850",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CellDrift_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9487655/supplementaryFiles",
+          "dimensions": [
+            666,
+            377
+          ],
+          "method": "europe_pmc_original_image",
+          "sha256": "5094319fd7d8819a0c88381714d627abb616a9bc7f779a7c768def837c22baf9",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "MultiCPA",
+      "group": "perturbation",
+      "year": 2022,
+      "venue": "ICML 2022 Computational Biology Workshop",
+      "title": "MultiCPA: Multimodal Compositional Perturbation Autoencoder",
+      "paper_url": "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "MultiCPA_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf",
+          "dimensions": [
+            644,
+            598
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "840e41dd6b88f24ba6acf4d2ce6e7448061426e228bdbc3e5bdc9031aa46087a",
+          "pdf_page": 2,
+          "pdf_crop_box": [
+            51,
+            62,
+            299,
+            292
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scINSIGHT",
+      "group": "perturbation",
+      "year": 2022,
+      "venue": "Genome Biology",
+      "title": "scINSIGHT for interpreting single-cell gene expression from biologically heterogeneous data",
+      "paper_url": "https://doi.org/10.1186/s13059-022-02649-3",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scINSIGHT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-022-02649-3/MediaObjects/13059_2022_2649_Fig1_HTML.png",
+          "dimensions": [
+            1418,
+            883
+          ],
+          "method": "publisher_image",
+          "sha256": "b2f9c24c3d3bf4ebe2cf997b32dae898fd7f8be594d7e4f4937a9e9f22865a27",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scPreGAN",
+      "group": "perturbation",
+      "year": 2022,
+      "venue": "Bioinformatics",
+      "title": "scPreGAN, a deep generative model for predicting the response of single-cell expression to perturbation",
+      "paper_url": "https://academic.oup.com/bioinformatics/article/38/13/3377/6593485",
+      "status": "unavailable",
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "images": []
+    },
+    {
+      "name": "chemCPA",
+      "group": "perturbation",
+      "year": 2022,
+      "venue": "NeurIPS 2022",
+      "title": "Predicting Cellular Responses to Novel Drug Perturbations at a Single-Cell Resolution",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/aa933b5abc1be30baece1d230ec575a7-Abstract-Conference.html",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "chemCPA_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/aa933b5abc1be30baece1d230ec575a7-Paper-Conference.pdf",
+          "dimensions": [
+            1165,
+            467
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "1347c11631171ee0f855fe7c5133a4c2871b9398c03f1b1d70cc3acb3de965b2",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            82.0,
+            44.009700000000066,
+            529.8924999999999,
+            223.46989059999999
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CPA",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Molecular Systems Biology",
+      "title": "Predicting cellular responses to complex perturbations in high‐throughput screens",
+      "paper_url": "https://www.embopress.org/doi/full/10.15252/msb.202211517",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CPA_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b72/10258562/2b1f6cfa2f9e/MSB-19-e11517-g003.jpg",
+          "dimensions": [
+            708,
+            377
+          ],
+          "method": "publisher_image",
+          "sha256": "1fc7c7f016395688c5a69665a34f2c42f2637802386a791a3dbd86d22d3cfab5",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "GEARS",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Nature Biotechnology",
+      "title": "Predicting transcriptional outcomes of novel multigene perturbations with GEARS",
+      "paper_url": "https://www.nature.com/articles/s41587-023-01905-6",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "GEARS_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-023-01905-6/MediaObjects/41587_2023_1905_Fig1_HTML.png",
+          "dimensions": [
+            1736,
+            1701
+          ],
+          "method": "publisher_image",
+          "sha256": "da64c47f51982dd743e27dff875dc4bb522bfd0ccf73c3a8002486499e400c9b",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scVIDR",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Patterns",
+      "title": "Generative modeling of single-cell gene expression for dose-dependent chemical perturbations",
+      "paper_url": "https://www.cell.com/patterns/pdf/S2666-3899(23)00186-1.pdf",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scVIDR_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dcc/10436058/7d7782e9d44c/gr1.jpg",
+          "dimensions": [
+            660,
+            720
+          ],
+          "method": "publisher_image",
+          "sha256": "f61eec81cc658c700120dd64aac0329bc23e71808d9b267d3b3d93ddc75630a1",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CINEMA-OT",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Nature Methods",
+      "title": "Causal identification of single-cell experimental perturbation effects with CINEMA-OT",
+      "paper_url": "https://www.nature.com/articles/s41592-023-02040-5",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CINEMA-OT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-02040-5/MediaObjects/41592_2023_2040_Fig1_HTML.png",
+          "dimensions": [
+            2167,
+            2135
+          ],
+          "method": "publisher_image",
+          "sha256": "49055c093c21c66aa85427cd2af110460d31e4b3799913474682925ea0c579ed",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "DREEP",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "BMC Medicine",
+      "title": "Predicting drug response from single-cell expression profiles of tumours",
+      "paper_url": "https://link.springer.com/article/10.1186/s12916-023-03182-1",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "DREEP_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-023-03182-1/MediaObjects/12916_2023_3182_Fig1_HTML.png",
+          "dimensions": [
+            1945,
+            904
+          ],
+          "method": "publisher_image",
+          "sha256": "6395c710288f2bbda8905a91f0131119ae86f1ce375a93c9c5360e77c38f73f7",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "ontoVAE",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Bioinformatics",
+      "title": "Biologically informed variational autoencoders allow predictive modeling of genetic and drug-induced perturbations",
+      "paper_url": "https://academic.oup.com/bioinformatics/article/39/6/btad387/7199588",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "ontoVAE_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ea93/10301695/d78709fd58a7/btad387f1.jpg",
+          "dimensions": [
+            800,
+            745
+          ],
+          "method": "publisher_image",
+          "sha256": "0c03ee8a0be085361c80b4f7d819bbbf9b09b41008a7ebf7cc9674fce3100302",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scDiff",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "bioRxiv preprint",
+      "title": "A GENERAL SINGLE-CELL ANALYSIS FRAMEWORK VIA CONDITIONAL DIFFUSION GENERATIVE MODELS",
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.abstract",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scDiff_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.full.pdf",
+          "dimensions": [
+            1155,
+            564
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "4f29e56345d76694082df44939f1eae5498893186494557b4c612758660beab5",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            83.6551948,
+            33.93687,
+            528.248257508,
+            250.932859
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "contrastiveVI",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Nature Methods",
+      "title": "Isolating salient variations of interest in single-cell data with contrastiveVI",
+      "paper_url": "https://www.nature.com/articles/s41592-023-01955-3",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "contrastiveVI_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-01955-3/MediaObjects/41592_2023_1955_Fig1_HTML.png",
+          "dimensions": [
+            2170,
+            1417
+          ],
+          "method": "publisher_image",
+          "sha256": "25fefdfea1a3855ee485504d0fa9b7936b729b61d72d420d3c8a7abac44c0fcf",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "sVAE",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "CLeaR 2023 (PMLR 213)",
+      "title": "Learning Causal Representations of Single Cells via Sparse Mechanism Shift Modeling",
+      "paper_url": "https://proceedings.mlr.press/v213/lopez23a.html",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "sVAE_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://proceedings.mlr.press/v213/lopez23a/lopez23a.pdf",
+          "dimensions": [
+            1199,
+            764
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "6e668d77c8e747642e1e22802390826fa4241e1dbd53557b7be20d0ffcbed12b",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            82.54523036999998,
+            85.821697685,
+            544.00051895,
+            379.78726559999996
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CellOT",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Nature Methods",
+      "title": "Learning single-cell perturbation responses using neural optimal transport",
+      "paper_url": "https://www.nature.com/articles/s41592-023-01969-x",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CellOT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-01969-x/MediaObjects/41592_2023_1969_Fig1_HTML.png",
+          "dimensions": [
+            1828,
+            899
+          ],
+          "method": "publisher_image",
+          "sha256": "a6c4438cb6c9153d8c89e0520267528f21524d85f2d9485ce570791b46931406",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "MOASL",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "Computers in Biology and Medicine",
+      "title": "MOASL: Predicting drug mechanism of actions through similarity learning with transcriptomic signature",
+      "paper_url": "https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "MOASL_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0010482523013185-gr1_lrg.jpg",
+          "dimensions": [
+            3059,
+            2380
+          ],
+          "method": "publisher_image",
+          "sha256": "71080d0075a1356bbca8ee78c1aa52428ca2d37a5f67acbfd4e89fb634de961e",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "SAMS-VAE",
+      "group": "perturbation",
+      "year": 2023,
+      "venue": "NeurIPS 2023",
+      "title": "Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder",
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "SAMS-VAE_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/0001ca33ba34ce0351e4612b744b3936-Paper-Conference.pdf",
+          "dimensions": [
+            923,
+            429
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "f7d1292d0b50a7bcc31ca91cb06124defbd029841aab856c21fd9c107c14c47b",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            103,
+            81,
+            458,
+            246
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "cycleCDR",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Bioinformatics",
+      "title": "Predicting single-cell cellular responses to perturbations using cycle consistency learning",
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btae248",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "cycleCDR_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d8b/11256949/a413e4cf9e3f/btae248f1.jpg",
+          "dimensions": [
+            794,
+            244
+          ],
+          "method": "publisher_image",
+          "sha256": "1c75a57b3d122339e510c9377c61eda6e131f5ffc32a013dcf753f90fdb9dfd1",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "biolord",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Nature Biotechnology",
+      "title": "Disentanglement of single-cell data with biolord",
+      "paper_url": "https://www.nature.com/articles/s41587-023-02079-x",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "biolord_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-023-02079-x/MediaObjects/41587_2023_2079_Fig1_HTML.png",
+          "dimensions": [
+            1710,
+            1387
+          ],
+          "method": "publisher_image",
+          "sha256": "5cb3cf54f6b895d138c2d71492a9bc70562c84efdf83bd975dca746ae854b410",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "TAT",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Journal of Chemical Information and Modeling",
+      "title": "Compound Activity Prediction with Dose-Dependent Transcriptomic Profiles and Deep Learning",
+      "paper_url": "https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01855",
+      "status": "downloaded",
+      "note": "Figure 1 为任务概览；另附 Figure 2 模型结构图。使用作者预印本版本。",
+      "images": [
+        {
+          "file": "TAT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.03.551883v1.full.pdf",
+          "dimensions": [
+            1484,
+            546
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "9e2e7fe7ba144bf71a672b52ca75ca2f61d060a59d5b4955540d032d9841af8f",
+          "pdf_page": 20,
+          "pdf_crop_box": [
+            34.82109,
+            106,
+            605.93014,
+            316.1346
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "TAT_Architecture_Figure2.png",
+          "figure_number": 2,
+          "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.03.551883v1.full.pdf",
+          "dimensions": [
+            1552,
+            794
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "3883d435f5c0e1683359ba6b8e6b60c5c7fe80119b4f074679c13f100ec7d346",
+          "pdf_page": 21,
+          "pdf_crop_box": [
+            15.177230000000002,
+            72.58819999999992,
+            612,
+            378.0546
+          ],
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "SC-VAE",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "MLCB 2023 (proceedings 2024)",
+      "title": "A Supervised Contrastive Framework for Learning Disentangled Representations of Cellular Perturbation Data",
+      "paper_url": "https://proceedings.mlr.press/v240/tu24a.html",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "SC-VAE_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://proceedings.mlr.press/v240/tu24a/tu24a.pdf",
+          "dimensions": [
+            1256,
+            489
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "a0444d04ba671c71f1f12cb0686491cab2b7836cd37d70de31ce5a31db0ccc79",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            69,
+            113,
+            552,
+            301
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Cell Painting CNN",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "title": "Learning representations for image-based profiling of perturbations",
+      "paper_url": "https://www.nature.com/articles/s41467-024-45999-1",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Cell_Painting_CNN_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-45999-1/MediaObjects/41467_2024_45999_Fig1_HTML.png",
+          "dimensions": [
+            2053,
+            884
+          ],
+          "method": "publisher_image",
+          "sha256": "b505d9e7acb70cd0f738e3ceb8995d116b3bbd0eb8c7b1481cfe3565a136fba1",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scDisInFact",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "title": "scDisInFact: disentangled learning for integration and prediction of multi-batch multi-condition single-cell RNA-sequencing data",
+      "paper_url": "https://www.nature.com/articles/s41467-024-45227-w",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scDisInFact_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-45227-w/MediaObjects/41467_2024_45227_Fig1_HTML.png",
+          "dimensions": [
+            1750,
+            1735
+          ],
+          "method": "publisher_image",
+          "sha256": "37a8e536473db779cb0b2ea928c28541934e9e1d1891307e1ea3552fd5051fe9",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CODEX",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Bioinformatics",
+      "title": "CODEX: COunterfactual Deep learning for the in silico EXploration of cancer cell line perturbations",
+      "paper_url": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CODEX_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c315/11211812/3a44e2d9c67c/btae261f1.jpg",
+          "dimensions": [
+            666,
+            268
+          ],
+          "method": "publisher_image",
+          "sha256": "805b9e1758bc7198c3be0ca26b69b8baf65f96cc99533c54a9da795742e69f89",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "STAMP",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Nature Computational Science",
+      "title": "Toward subtask-decomposition-based learning and benchmarking for predicting genetic perturbation outcomes and beyond",
+      "paper_url": "https://www.nature.com/articles/s43588-024-00698-1",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "STAMP_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-024-00698-1/MediaObjects/43588_2024_698_Fig1_HTML.png",
+          "dimensions": [
+            1832,
+            1998
+          ],
+          "method": "publisher_image",
+          "sha256": "ab05a017fd43a3151a757a6533f5c2ae20c52ec4638be0438f894266d83533be",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PRnet",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "title": "Predicting transcriptional responses to novel chemical perturbations using deep generative model for drug discovery",
+      "paper_url": "https://www.nature.com/articles/s41467-024-53457-1",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PRnet_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-53457-1/MediaObjects/41467_2024_53457_Fig1_HTML.png",
+          "dimensions": [
+            1855,
+            2493
+          ],
+          "method": "publisher_image",
+          "sha256": "3914191edc34b6a6ca3219354a6f559c0c888da1901bf06c453376b63d943c4f",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "TranSiGen",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Nature Communications",
+      "title": "Deep representation learning of chemical-induced transcriptional profile for phenotype-based drug discovery",
+      "paper_url": "https://www.nature.com/articles/s41467-024-49620-3",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "TranSiGen_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-49620-3/MediaObjects/41467_2024_49620_Fig1_HTML.png",
+          "dimensions": [
+            1750,
+            1351
+          ],
+          "method": "publisher_image",
+          "sha256": "623fad9ba4d04f27ae1150f576f3580327c5d9749e051e7c45e007df5c01af8f",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "DRSPRING",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Computers in Biology and Medicine",
+      "title": "DRSPRING: Graph convolutional network (GCN)-Based drug synergy prediction utilizing drug-induced gene expression profile",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0010482524005201",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "DRSPRING_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0010482524005201-gr1_lrg.jpg",
+          "dimensions": [
+            3060,
+            2164
+          ],
+          "method": "publisher_image",
+          "sha256": "524c5b8dcd5b14961618ea57f66f6988d5ca118aee6e444e3592d1142e106569",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PertKGE",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Cell Genomics",
+      "title": "Identifying compound-protein interactions with knowledge graph embedding of perturbation transcriptomics",
+      "paper_url": "https://doi.org/10.1016/j.xgen.2024.100655",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PertKGE_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2666979X24002660-gr1_lrg.jpg",
+          "dimensions": [
+            3359,
+            3180
+          ],
+          "method": "publisher_image",
+          "sha256": "b4d8b799d7fbec707b72781920d0aba88cd37d133587318d5619546e7be7064e",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scRank",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "Cell Reports Medicine",
+      "title": "scRank infers drug-responsive cell types from untreated scRNA-seq data using a target-perturbed gene regulatory network",
+      "paper_url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scRank_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S266637912400260X-gr1_lrg.jpg",
+          "dimensions": [
+            3335,
+            2236
+          ],
+          "method": "publisher_image",
+          "sha256": "706385b8f92bb2b5061d61886f687be561e04ec6dc1c71178e6b22dd6f6f3517",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PerturbNet",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Molecular Systems Biology",
+      "title": "PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations",
+      "paper_url": "https://doi.org/10.1038/s44320-025-00131-3",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PerturbNet_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44320-025-00131-3/MediaObjects/44320_2025_131_Fig1_HTML.png",
+          "dimensions": [
+            1338,
+            952
+          ],
+          "method": "publisher_image",
+          "sha256": "4c0f8b90827bc3703b7214c46022ab4b45a17f059438420e4e579d95b7947fbc",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PDGrapher",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Biomedical Engineering",
+      "title": "Combinatorial prediction of therapeutic perturbations using causally inspired neural networks",
+      "paper_url": "https://www.nature.com/articles/s41551-025-01481-x",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PDGrapher_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01481-x/MediaObjects/41551_2025_1481_Fig1_HTML.png",
+          "dimensions": [
+            2167,
+            1560
+          ],
+          "method": "publisher_image",
+          "sha256": "4d3e6447e959147c541403194511750a1987845f41126c1245b31c65bbfa382f",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CellCap",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Cell Systems",
+      "title": "Explainable modeling of single-cell perturbation data using attention and sparse dictionary learning",
+      "paper_url": "https://doi.org/10.1016/j.cels.2025.101245",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CellCap_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S240547122500078X-gr1_lrg.jpg",
+          "dimensions": [
+            2906,
+            2917
+          ],
+          "method": "publisher_image",
+          "sha256": "028f84f3760a56b00ea8b3d6bdc7986c2fe8b3c36871f5d5a83f4a133e217b63",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "BioDiscoveryAgent",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "ICLR",
+      "title": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "BioDiscoveryAgent_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/4252dc94531833029000f85dc5fac792-Paper-Conference.pdf",
+          "dimensions": [
+            1141,
+            691
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "64a121b14e87f883f7d52aa3b4ea9520409a319a78c1d7f1978072bcd0d6349d",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            86.80549604599997,
+            69.56612903400003,
+            525.703075335,
+            335.3115834
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CellFlow",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "bioRxiv preprint",
+      "title": "CellFlow enables generative single-cell phenotype modeling with flow matching",
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1",
+      "status": "downloaded",
+      "note": "使用 ETH 机构仓储保存的作者预印本版本。",
+      "images": [
+        {
+          "file": "CellFlow_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/4f42b78a-5f94-4234-a8b7-644864ce7137/content",
+          "dimensions": [
+            642,
+            806
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "cab8e2bba66134885f61accc6145f7682b045dc369dd07c53bda452c66b8816b",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            315,
+            53,
+            562,
+            363
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "IMPA",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Communications",
+      "title": "Predicting cell morphological responses to perturbations using generative modeling",
+      "paper_url": "https://www.nature.com/articles/s41467-024-55707-8",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "IMPA_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-55707-8/MediaObjects/41467_2024_55707_Fig1_HTML.png",
+          "dimensions": [
+            2000,
+            2336
+          ],
+          "method": "publisher_image",
+          "sha256": "1753a253240ed5cea81add6e314d0076289c542f5480f5a1b01281718cf988a9",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PS",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Cell Biology",
+      "title": "Decoding heterogeneous single-cell perturbation responses",
+      "paper_url": "https://www.nature.com/articles/s41556-025-01626-9",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PS_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41556-025-01626-9/MediaObjects/41556_2025_1626_Fig1_HTML.png",
+          "dimensions": [
+            1735,
+            1627
+          ],
+          "method": "publisher_image",
+          "sha256": "20418ce8629ae7437ebea347312cee1c1ee94a41fd49316291e482e1e5e46447",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "TRADE",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Genetics",
+      "title": "Transcriptome-wide analysis of differential expression in perturbation atlases",
+      "paper_url": "https://www.nature.com/articles/s41588-025-02169-3",
+      "status": "downloaded",
+      "note": "Figure 1 以分布与效应量示意图说明统计方法，并非神经网络结构图。",
+      "images": [
+        {
+          "file": "TRADE_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-025-02169-3/MediaObjects/41588_2025_2169_Fig1_HTML.png",
+          "dimensions": [
+            2165,
+            1044
+          ],
+          "method": "publisher_image",
+          "sha256": "396fd1369e103f3f7cbb80fd5fe967e16194e7a6f86c8ff7202dce626474ce33",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "UNAGI",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Biomedical Engineering",
+      "title": "A deep generative model for deciphering cellular dynamics and in silico drug discovery in complex diseases",
+      "paper_url": "https://doi.org/10.1038/s41551-025-01423-7",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "UNAGI_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01423-7/MediaObjects/41551_2025_1423_Fig1_HTML.png",
+          "dimensions": [
+            2162,
+            2185
+          ],
+          "method": "publisher_image",
+          "sha256": "16e07b0a351ad3dce72635927c2cecde6ee3596adf7d2bf8317f7ca5b70696b5",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scAgents",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "OpenReview submission",
+      "title": "scAgents:AMulti-AgentFramework forFullyAutonomousEnd-to-EndSingle-Cell PerturbationAnalysis",
+      "paper_url": "https://openreview.net/forum?id=HGJQvwGtfJ",
+      "status": "unavailable",
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "images": []
+    },
+    {
+      "name": "CONCERT",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "bioRxiv preprint",
+      "title": "CONCERT predicts niche-aware perturbation responses in spatial transcriptomics",
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract",
+      "status": "downloaded",
+      "note": "另附 Figure 2，详细展示模型结构。",
+      "images": [
+        {
+          "file": "CONCERT_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ecc4/12642540/6f8034cfe40a/nihpp-2025.11.08.686890v2-f0001.jpg",
+          "dimensions": [
+            770,
+            1099
+          ],
+          "method": "publisher_image",
+          "sha256": "a611e6e65dd734e733d27c05ea0e73cc647bd46abb398d9f48cb2da666e3b7a6",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "CONCERT_Architecture_Figure2.jpg",
+          "figure_number": 2,
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12642540/supplementaryFiles",
+          "dimensions": [
+            700,
+            824
+          ],
+          "method": "europe_pmc_original_image",
+          "sha256": "f608b25e2645c33c0fc14d162f61fd60bda25105f2521130e1ade65f4da65383",
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Cradle-VAE",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "AAAI 2025",
+      "title": "Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement",
+      "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33695",
+      "status": "downloaded",
+      "note": "使用作者 arXiv 预印本版本。",
+      "images": [
+        {
+          "file": "Cradle-VAE_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://arxiv.org/pdf/2409.05484",
+          "dimensions": [
+            1109,
+            879
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "4ef9b415a6c2861ca4aaeb22b5f8e28b7becba0c64154cdc9d123c1d6b44cb8c",
+          "pdf_page": 2,
+          "pdf_crop_box": [
+            92.799,
+            44.0021999999999,
+            519.1990000000001,
+            382.0623216
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Pertpy",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Methods",
+      "title": "Pertpy: an end-to-end framework for perturbation analysis",
+      "paper_url": "https://www.nature.com/articles/s41592-025-02909-7",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Pertpy_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-025-02909-7/MediaObjects/41592_2025_2909_Fig1_HTML.png",
+          "dimensions": [
+            1766,
+            2226
+          ],
+          "method": "publisher_image",
+          "sha256": "0c6afa883f09d6fdf0dc8ebcdadc00ba41fdc8a27327bff35f57ac5f2cc6af2c",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Scouter",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Computational Science",
+      "title": "Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings",
+      "paper_url": "https://www.nature.com/articles/s43588-025-00912-8",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Scouter_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-025-00912-8/MediaObjects/43588_2025_912_Fig1_HTML.png",
+          "dimensions": [
+            2059,
+            2442
+          ],
+          "method": "publisher_image",
+          "sha256": "d62093c6e8e2c63b46fd9d6a59e927ac0eb8325c6bd83fd44b7a5cacda4974d7",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CausalGRN",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "bioRxiv preprint",
+      "title": "CausalGRN: deciphering causal gene regulatory networks from single-cell CRISPR screens",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CausalGRN_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.full.pdf",
+          "dimensions": [
+            1099,
+            878
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "806f9127a4a0aaac0d3bfcbed5a098d12d058e00d90dfd3c1ee32571981d1114",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            98.595,
+            45.70252800000003,
+            521.2037248,
+            383.46718
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "STATE",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Cell",
+      "title": "Predicting cellular responses to perturbation across diverse contexts with State",
+      "paper_url": "https://doi.org/10.1016/j.cell.2026.07.052",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "STATE_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009219-gr1_lrg.jpg",
+          "dimensions": [
+            2917,
+            1750
+          ],
+          "method": "publisher_image",
+          "sha256": "acc6d8940eab6ebc3c15aee714cdb68ab80891fe590ff5d1f4610b71258fa04b",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PertAdapt",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Bioinformatics",
+      "title": "PertAdapt: unlocking single-cell foundation models for genetic perturbation prediction via condition-sensitive adaptation",
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag307",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PertAdapt_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/df8c/13341120/7e0b7b9fd7f9/btag307f1.jpg",
+          "dimensions": [
+            675,
+            389
+          ],
+          "method": "publisher_image",
+          "sha256": "58f05e599c346860d1b843b56ba4f4dd6f57b784d5d7803629dbbb744a5e8cf2",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Stack",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "bioRxiv preprint",
+      "title": "Stack: In-Context Learning of Single-Cell Biology",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Stack_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ec10/12803207/c760613c4b2e/nihpp-2026.01.09.698608v1-f0001.jpg",
+          "dimensions": [
+            778,
+            780
+          ],
+          "method": "publisher_image",
+          "sha256": "9741e3bed41cfdf6df203fe2e1e8a823c94effdbf911f7560105b14c1e058634",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "AlphaCell",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "bioRxiv preprint",
+      "title": "Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "AlphaCell_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.full.pdf",
+          "dimensions": [
+            1199,
+            1093
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "ee59049461b612bc7fcaaa29bc960b9eb56a761120e6653dddbbb459d771e63c",
+          "pdf_page": 5,
+          "pdf_crop_box": [
+            66.8999176,
+            48.273149399999966,
+            527.9998854,
+            468.95199999999994
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "XPert",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Nature Machine Intelligence",
+      "title": "Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch transformer",
+      "paper_url": "https://www.nature.com/articles/s42256-025-01165-w",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "XPert_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01165-w/MediaObjects/42256_2025_1165_Fig1_HTML.png",
+          "dimensions": [
+            2168,
+            1894
+          ],
+          "method": "publisher_image",
+          "sha256": "eb746eaed8a0ced6d8de2ef459dd19bbe32eea5d7f367ef6726673d9e817515f",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PrePR-CT",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Nature Machine Intelligence",
+      "title": "Predicting and interpreting cell-type-specific drug responses in the small-data regime using inductive priors",
+      "paper_url": "https://www.nature.com/articles/s42256-026-01202-2",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PrePR-CT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01202-2/MediaObjects/42256_2026_1202_Fig1_HTML.png",
+          "dimensions": [
+            1704,
+            865
+          ],
+          "method": "publisher_image",
+          "sha256": "ffedf8731e01c20779aa774c2f4dff9166894cd5c881b422e9a2f88d73b7dabd",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "SequenTx",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Nature Machine Intelligence",
+      "title": "Reinforcement learning-based design of sequential drug treatment targeting the evolving tumour landscape with SequenTx",
+      "paper_url": "https://www.nature.com/articles/s42256-026-01192-1",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "SequenTx_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01192-1/MediaObjects/42256_2026_1192_Fig1_HTML.png",
+          "dimensions": [
+            2169,
+            1315
+          ],
+          "method": "publisher_image",
+          "sha256": "302be93dfaabc1588897938e5dce6197582b608e66e3095db13e061452b50011",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "TxPert",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Nature Biotechnology",
+      "title": "TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects",
+      "paper_url": "https://www.nature.com/articles/s41587-026-03113-4",
+      "status": "downloaded",
+      "note": "Figure 1 为数据与基准分析；另附 Figure 2 模型框架图。",
+      "images": [
+        {
+          "file": "TxPert_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-026-03113-4/MediaObjects/41587_2026_3113_Fig1_HTML.png",
+          "dimensions": [
+            1604,
+            1446
+          ],
+          "method": "publisher_image",
+          "sha256": "cff7c25c852751c4b376f229e4443ece1c29877c51b1be8efe490e653a656ee5",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "TxPert_Architecture_Figure2.png",
+          "figure_number": 2,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-026-03113-4/MediaObjects/41587_2026_3113_Fig2_HTML.png",
+          "dimensions": [
+            1831,
+            1834
+          ],
+          "method": "publisher_image",
+          "sha256": "4085328907b807a8c7b64a4e9aed9b3f1ac81e7443063407e2c5bdf8ea7c8ca8",
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scPert",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "bioRxiv preprint",
+      "title": "A Multi-modal LLM-Knowledge Fusion Framework for Predicting Single-cell Genetic Perturbation Effects",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.abstract",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scPert_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.full.pdf",
+          "dimensions": [
+            1329,
+            589
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "5a258d57b9d87a060f0d156c2a48d10c9a690dfddd1fc008dc4630559138f9be",
+          "pdf_page": 27,
+          "pdf_crop_box": [
+            42.05,
+            42.069999999999936,
+            553.25,
+            268.65095999999994
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "X-Cell",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "bioRxiv preprint",
+      "title": "X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models",
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1.abstract",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "X-Cell_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.cdn.xaira.com/papers/X_CELL_V1_0316_final.pdf",
+          "dimensions": [
+            1273,
+            1077
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "acab49d760f436487bc261d67b02ef1f40cef584a97070c2a08257a897bb12a0",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            51.28491190276,
+            47.71697356000004,
+            540.6356209734199,
+            462.06809939999994
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "RegVelo",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Cell",
+      "title": "RegVelo: Gene-regulatory-informed dynamics of single cells",
+      "paper_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "RegVelo_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426004575-gr1_lrg.jpg",
+          "dimensions": [
+            3332,
+            3236
+          ],
+          "method": "publisher_image",
+          "sha256": "ba7d3e0cb30f6b59c41c723f8b5d2d401704a7120e6eb9cd916f6dbe704b2a74",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "UniPert-G2CP",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Cell",
+      "title": "UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0092867426006549",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "UniPert-G2CP_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426006549-gr1_lrg.jpg",
+          "dimensions": [
+            2896,
+            2383
+          ],
+          "method": "publisher_image",
+          "sha256": "2fe512dbf39b46cd654f35872dc7b2d8849f13a70a3bd88a2338ae2aaa702878",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "GPerturb",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Communications",
+      "title": "GPerturb: Gaussian process modelling of single-cell perturbation data",
+      "paper_url": "https://www.nature.com/articles/s41467-025-61165-7",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "GPerturb_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-61165-7/MediaObjects/41467_2025_61165_Fig1_HTML.png",
+          "dimensions": [
+            1998,
+            2117
+          ],
+          "method": "publisher_image",
+          "sha256": "34fd4fec8e48f94d22fc12a2116d6f32df9b864447fb31491ad64d4a3dd3d048",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Squidiff",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "Nature Methods",
+      "title": "Squidiff: predicting cellular development and responses to perturbations using a diffusion model",
+      "paper_url": "https://www.nature.com/articles/s41592-025-02877-y",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Squidiff_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/00e3/12872408/161d1f1e16b7/nihms-2128263-f0001.jpg",
+          "dimensions": [
+            1050,
+            1011
+          ],
+          "method": "publisher_image",
+          "sha256": "11e31de4ee7f01693b9ed28ab8fd95a693ee5edc7a5a821a0849fa4e0ed9ac6e",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scDFM",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "ICLR 2026",
+      "title": "scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction",
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/75f029a1289a47aa99c86588239f0c12-Abstract-Conference.html",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scDFM_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/75f029a1289a47aa99c86588239f0c12-Paper-Conference.pdf",
+          "dimensions": [
+            1347,
+            678
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "8d17a0ec4ceca0e937fbd68a930480f3a8504a93988c9e3b881c5a5a25756cdc",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            12.00199678060001,
+            25.22041544600006,
+            529.9814956499999,
+            286.1793216
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Conditional Monge Gap",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Nature Machine Intelligence",
+      "title": "Conditional Monge Gap enables generalizable single-cell perturbation modelling",
+      "paper_url": "https://doi.org/10.1038/s42256-026-01242-8",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Conditional_Monge_Gap_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01242-8/MediaObjects/42256_2026_1242_Fig1_HTML.png",
+          "dimensions": [
+            2167,
+            1560
+          ],
+          "method": "publisher_image",
+          "sha256": "25f27c71434ac1da2f192abb662e5628df5e230d6e43adaa51d92d182f2f6ee7",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Celcomen",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Nature Communications",
+      "title": "Celcomen: spatial causal disentanglement for single-cell and tissue perturbation modeling",
+      "paper_url": "https://doi.org/10.1038/s41467-026-69856-5",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Celcomen_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-69856-5/MediaObjects/41467_2026_69856_Fig1_HTML.png",
+          "dimensions": [
+            1994,
+            1921
+          ],
+          "method": "publisher_image",
+          "sha256": "95b0f205e3012985ac167e7a768758363d41a11a7415d5cfee59b400a7884732",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "MultiPert",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "PLOS Computational Biology",
+      "title": "MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction",
+      "paper_url": "https://doi.org/10.1371/journal.pcbi.1014054",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "MultiPert_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1014054.g001",
+          "dimensions": [
+            3192,
+            3724
+          ],
+          "method": "publisher_image",
+          "sha256": "4f067b5355f363664cb0fc4a0a638eb58356a39bc6902e28625c4dc0ddd50a7e",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "LCD",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "PNAS",
+      "title": "Latent causal diffusions for single-cell perturbation modeling",
+      "paper_url": "https://doi.org/10.1073/pnas.2602630123",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "LCD_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://arxiv.org/pdf/2601.15341",
+          "dimensions": [
+            1306,
+            883
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "f75e2e31614d17880ee8ad3da4c0381fe360cfc42a2a601077fd81eb1f02c723",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            46.33132412170001,
+            60.67185490999998,
+            548.57619323,
+            400.30009939999997
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scLDM",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Bioinformatics",
+      "title": "scLDM: a conditional diffusion framework for single-cell perturbation prediction",
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag727",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scLDM_Figure1.webp",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/700a/13661255/338ec69d1574/btag727f1.webp",
+          "dimensions": [
+            1600,
+            1349
+          ],
+          "method": "publisher_image",
+          "sha256": "816501b1684cbccaf284a3ba0b8f63f8c66171136e62764f5feeb18342bd79f9",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scDRP",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Briefings in Bioinformatics",
+      "title": "scDRP: disentangled representation learning for predicting single-cell responses to perturbations and estimating individual treatment effects",
+      "paper_url": "https://doi.org/10.1093/bib/bbag482",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scDRP_Figure1.webp",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/91c0/13704780/9e0f52daeea1/bbag482f1.webp",
+          "dimensions": [
+            1600,
+            1714
+          ],
+          "method": "publisher_image",
+          "sha256": "57b7bf37dbf08119a96e5c9b38895e56c08bb5521dfb212613a78cab7249b3d1",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scBalFlow",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "Bioinformatics",
+      "title": "scBalFlow: a staged flow matching framework for imbalanced single-cell drug perturbation prediction",
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag682",
+      "status": "downloaded",
+      "note": "Figure 1 展示数据不平衡；另附 Figure 2 模型结构图。",
+      "images": [
+        {
+          "file": "scBalFlow_Figure1.webp",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/9b2f/13619003/f665e0e4f0d8/btag682f1.webp",
+          "dimensions": [
+            1400,
+            2049
+          ],
+          "method": "publisher_image",
+          "sha256": "56e892fabce3da6c282e8252b871033f6b40c135a32229812651b8b3f45608f0",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "scBalFlow_Architecture_Figure2.webp",
+          "figure_number": 2,
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13619003/supplementaryFiles",
+          "dimensions": [
+            1600,
+            774
+          ],
+          "method": "europe_pmc_original_image",
+          "sha256": "b59969d4737c44309dafa982a23b9aa750b601bc5ffd39f7bbc33c425c667753",
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CSTATE",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "ACM BCB 2026",
+      "title": "CSTATE: Predicting cellular responses to perturbations",
+      "paper_url": "https://doi.org/10.1145/3807503.3819991",
+      "status": "unavailable",
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "images": []
+    },
+    {
+      "name": "PerturbDiff",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "ICML 2026",
+      "title": "PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling",
+      "paper_url": "https://proceedings.mlr.press/v306/yuan26d.html",
+      "status": "downloaded",
+      "note": "Figure 1 为建模概念示意；另附 Figure 2 模型框架图。",
+      "images": [
+        {
+          "file": "PerturbDiff_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yuan26d/yuan26d.pdf",
+          "dimensions": [
+            1367,
+            399
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "b33b3d627dc2c1c820396442a219627778edfefb1cb0b93fc640767cb460b8fb",
+          "pdf_page": 2,
+          "pdf_crop_box": [
+            39.1480815,
+            43.75684375000003,
+            564.90440681,
+            197.49211519999994
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "PerturbDiff_Architecture_Figure2.png",
+          "figure_number": 2,
+          "source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yuan26d/yuan26d.pdf",
+          "dimensions": [
+            1361,
+            346
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "538306c362c62be0a335798248bc44efcc6475c72a82cb81c02928e03d7feab5",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            34.845630889999995,
+            46.25246319000007,
+            558.2710380899999,
+            179.05411519999996
+          ],
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scLAMBDA",
+      "group": "perturbation",
+      "year": 2024,
+      "venue": "bioRxiv preprint",
+      "title": "Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA",
+      "paper_url": "https://doi.org/10.1101/2024.12.04.626878",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scLAMBDA_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11643044/supplementaryFiles",
+          "dimensions": [
+            696,
+            418
+          ],
+          "method": "europe_pmc_original_image",
+          "sha256": "c70b626f308e21e79b8775522be9c2f692e50b2d9d2a37932d4fbaa4117926c1",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PRESAGE",
+      "group": "perturbation",
+      "year": 2025,
+      "venue": "bioRxiv preprint",
+      "title": "Gene-embedding-based prediction and functional evaluation of perturbation expression responses with PRESAGE",
+      "paper_url": "https://doi.org/10.1101/2025.06.03.657653",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PRESAGE_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657653v1.full.pdf",
+          "dimensions": [
+            1352,
+            1154
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "39737f3e4a9fd29c49326ded65e59b7565aca455840cee19c662817ea67b42a7",
+          "pdf_page": 13,
+          "pdf_crop_box": [
+            47.5,
+            108,
+            567.5,
+            552.07
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PopPert",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "arXiv preprint",
+      "title": "PopPert: Population-level Joint-Distribution Modeling for Single-Cell Perturbation Prediction",
+      "paper_url": "https://arxiv.org/abs/2609.01357",
+      "status": "downloaded",
+      "note": "Figure 1 为建模范式对比；另附 Figure 2 模型概览。",
+      "images": [
+        {
+          "file": "PopPert_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://arxiv.org/pdf/2609.01357",
+          "dimensions": [
+            691,
+            656
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "f80b365cb2886495ed576067baab7a73512014be08e47a84066f596ea3b6d995",
+          "pdf_page": 1,
+          "pdf_crop_box": [
+            306.307416,
+            188.67328399999997,
+            571.7345232,
+            441.19432159999997
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "PopPert_Architecture_Figure2.png",
+          "figure_number": 2,
+          "source_url": "https://arxiv.org/pdf/2609.01357",
+          "dimensions": [
+            1443,
+            518
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "650e6b3133b902e353ec8e6c4be49fb8b8c1617afaae68417b1d9f0764bea665",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            28.45084,
+            26.63427999999999,
+            583.45568,
+            225.87211719999993
+          ],
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PerturbLDM",
+      "group": "perturbation",
+      "year": 2026,
+      "venue": "bioRxiv preprint",
+      "title": "PerturbLDM: conditional latent diffusion for modelling single-cell perturbation responses",
+      "paper_url": "https://doi.org/10.64898/2026.08.07.743610",
+      "status": "downloaded",
+      "note": "Figure 1 原图来自作者官方代码仓库。",
+      "images": [
+        {
+          "file": "PerturbLDM_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://raw.githubusercontent.com/davidroad/PerturbLDM/HEAD/docs/figures/fig1_PerturbLDM.png",
+          "dimensions": [
+            3388,
+            3729
+          ],
+          "method": "official_author_repository",
+          "sha256": "d0efc87317f6dbd7cbf1516625b3d81a7c32a756dc2568ca23a5752d698c91f8",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scBERT",
+      "group": "scFM",
+      "year": 2022,
+      "venue": "Nature Machine Intelligence",
+      "title": "scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data",
+      "paper_url": "https://www.nature.com/articles/s42256-022-00534-z",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scBERT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-022-00534-z/MediaObjects/42256_2022_534_Fig1_HTML.png",
+          "dimensions": [
+            2121,
+            2330
+          ],
+          "method": "publisher_image",
+          "sha256": "1a1481d3231b8a52bfb6e315758f4be26e973163405002256a4cfaca67fbf56f",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "TransCluster",
+      "group": "scFM",
+      "year": 2022,
+      "venue": "Frontiers in Genetics",
+      "title": "TransCluster: A Cell-Type Identification Method for single-cell RNA-Seq data using deep learning based on transformer.",
+      "paper_url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "TransCluster_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://www.frontiersin.org/files/Articles/1038919/fgene-13-1038919-HTML/image_m/fgene-13-1038919-g001.jpg",
+          "dimensions": [
+            969,
+            494
+          ],
+          "method": "publisher_image",
+          "sha256": "48ae6edd73e1c49da1cdd0d0ea254e88da78f03c0b5f8388fa21fed38129ae43",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scMVP",
+      "group": "scFM",
+      "year": 2022,
+      "venue": "Genome Biology",
+      "title": "A deep generative model for multi-view profiling of single-cell RNA-seq and ATAC-seq data",
+      "paper_url": "https://link.springer.com/article/10.1186/s13059-021-02595-6",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scMVP_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-021-02595-6/MediaObjects/13059_2021_2595_Fig1_HTML.png",
+          "dimensions": [
+            1415,
+            1123
+          ],
+          "method": "publisher_image",
+          "sha256": "e32d8fd6c7634cceb6a4def82a3ab609832d1e1ea3a46184cba99b037473c673",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "DeepMAPS",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "Nature Communications",
+      "title": "Single-cell biological network inference using a heterogeneous graph transformer",
+      "paper_url": "https://www.nature.com/articles/s41467-023-36559-0",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "DeepMAPS_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-36559-0/MediaObjects/41467_2023_36559_Fig1_HTML.png",
+          "dimensions": [
+            1846,
+            2501
+          ],
+          "method": "publisher_image",
+          "sha256": "4410560a408fd6007f9bdd1608c6c3d9d678825789318753b85368df5ac82eb0",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Geneformer",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "Nature",
+      "title": "Transfer learning enables predictions in network biology",
+      "paper_url": "https://www.nature.com/articles/s41586-023-06139-9",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Geneformer_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/60a6/10949956/5afcbd873ef2/nihms-1971443-f0001.jpg",
+          "dimensions": [
+            1392,
+            1849
+          ],
+          "method": "publisher_image",
+          "sha256": "66c7671c74099936697ea7f091e141578e8eb1b581d8e832ef1ffcba608341fe",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CellLM",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "arXiv preprint",
+      "title": "Large-Scale Cell Representation Learning via Divide-and-Conquer Contrastive Learning",
+      "paper_url": "https://arxiv.org/pdf/2306.04371.pdf",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "CellLM_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://arxiv.org/pdf/2306.04371.pdf",
+          "dimensions": [
+            1051,
+            556
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "17286bd46df2a5a14f5db67ed320564f33e8ba9d0718d7ff2c4223ab6a00a75a",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            104,
+            173,
+            508,
+            387
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "tGPT",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "iScience",
+      "title": "Generative pretraining from large-scale transcriptomes for single-cell deciphering",
+      "paper_url": "https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "tGPT_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2589004223006132-gr1_lrg.jpg",
+          "dimensions": [
+            3321,
+            3696
+          ],
+          "method": "publisher_image",
+          "sha256": "565e0dc0720ae629b15c97a7cbdeefad8a6f63b4dafe74ece227b232f7af6919",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "TOSICA",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "Nature Communications",
+      "title": "Transformer for one stop interpretable cell type annotation",
+      "paper_url": "https://www.nature.com/articles/s41467-023-35923-4",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "TOSICA_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-023-35923-4/MediaObjects/41467_2023_35923_Fig1_HTML.png",
+          "dimensions": [
+            1504,
+            1918
+          ],
+          "method": "publisher_image",
+          "sha256": "ca39fb55a7017223dd219a3e27a7288c987fce1049ab711d90f00fd52f106e77",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CIForm",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "Briefings in Bioinformatics",
+      "title": "CIForm as a Transformer-based model for cell-type annotation of large-scale single-cell RNA-seq data",
+      "paper_url": "https://academic.oup.com/bib/article/24/4/bbad195/7169137",
+      "status": "downloaded",
+      "note": "Figure 1 原图来自作者官方代码仓库。",
+      "images": [
+        {
+          "file": "CIForm_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://raw.githubusercontent.com/zhanglab-wbgcas/CIForm/HEAD/Figure%201.jpg",
+          "dimensions": [
+            4142,
+            2722
+          ],
+          "method": "official_author_repository",
+          "sha256": "41a449c2707d15bc6dd09ffac8776654b3bedbd4b98d52e34e7593d88436382d",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scTransSort",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "Biomolecules",
+      "title": "scTransSort: Transformers for Intelligent Annotation of Cell Types by Gene Embeddings",
+      "paper_url": "https://www.mdpi.com/2218-273X/13/4/611",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scTransSort_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/89d8/10136153/3519595df893/biomolecules-13-00611-g001.jpg",
+          "dimensions": [
+            759,
+            520
+          ],
+          "method": "publisher_image",
+          "sha256": "c1ddf907b72eb04c4e58bc3c79d38730a5df5b8916a7327b071c9099700f54ca",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scMoFormer",
+      "group": "scFM",
+      "year": 2023,
+      "venue": "CIKM 2023",
+      "title": "Single-Cell Multimodal Prediction via Transformers",
+      "paper_url": "https://dl.acm.org/doi/pdf/10.1145/3583780.3615061",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scMoFormer_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://arxiv.org/pdf/2303.00233",
+          "dimensions": [
+            1184,
+            443
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "b0b4d380d1ea9eea9f0c201fcb6abb5278dc5ad88bd25d1d292cacc2d1a83234",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            77.117,
+            46.71817899500002,
+            532.64388,
+            216.90183839999997
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scTranslator",
+      "group": "scFM",
+      "year": 2025,
+      "venue": "Nature Biomedical Engineering",
+      "title": "A pre-trained large generative model for translating single-cell transcriptomes to proteomes",
+      "paper_url": "https://www.nature.com/articles/s41551-025-01528-z",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scTranslator_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01528-z/MediaObjects/41551_2025_1528_Fig1_HTML.png",
+          "dimensions": [
+            1889,
+            2626
+          ],
+          "method": "publisher_image",
+          "sha256": "35dceddc8c064351e247863e926e5ed2797b2ce1748ee9518f2dac8b24a07ba4",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scGPT",
+      "group": "scFM",
+      "year": 2024,
+      "venue": "Nature Methods",
+      "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
+      "paper_url": "https://www.nature.com/articles/s41592-024-02201-0",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scGPT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02201-0/MediaObjects/41592_2024_2201_Fig1_HTML.png",
+          "dimensions": [
+            2166,
+            1777
+          ],
+          "method": "publisher_image",
+          "sha256": "4ecd1dbae3c29f2cb6184a6a57414f54a1178d7118e26bbd75f31183cf5b6963",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "SCimilarity",
+      "group": "scFM",
+      "year": 2024,
+      "venue": "Nature",
+      "title": "A cell atlas foundation model for scalable search of similar human cells",
+      "paper_url": "https://www.nature.com/articles/s41586-024-08411-y",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "SCimilarity_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-024-08411-y/MediaObjects/41586_2024_8411_Fig1_HTML.png",
+          "dimensions": [
+            2169,
+            1775
+          ],
+          "method": "publisher_image",
+          "sha256": "e3e324cd53d4c3c708b1f92b840cf969f9b17aa940f7684226156fe1912e7bb7",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scFoundation",
+      "group": "scFM",
+      "year": 2024,
+      "venue": "Nature Methods",
+      "title": "Large-scale foundation model on single-cell transcriptomics",
+      "paper_url": "https://www.nature.com/articles/s41592-024-02305-7",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "scFoundation_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-024-02305-7/MediaObjects/41592_2024_2305_Fig1_HTML.png",
+          "dimensions": [
+            1530,
+            1536
+          ],
+          "method": "publisher_image",
+          "sha256": "2178bcf5b280c0c15cf1698c45a3f457e8328d6840c083535f6b4ed6149733c1",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Cell2Sentence",
+      "group": "scFM",
+      "year": 2024,
+      "venue": "ICML",
+      "title": "Cell2Sentence: Teaching Large Language Models the Language of Biology",
+      "paper_url": "https://proceedings.mlr.press/v235/levine24a.html",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Cell2Sentence_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://raw.githubusercontent.com/mlresearch/v235/main/assets/levine24a/levine24a.pdf",
+          "dimensions": [
+            1287,
+            263
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "19042f0bf0693709fa33dc5299c8e3d7aec31066b65ca5242d1c34297e336bfa",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            51,
+            79,
+            546,
+            180
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "GenePT",
+      "group": "scFM",
+      "year": 2024,
+      "venue": "Nature Biomedical Engineering",
+      "title": "Simple and effective embedding model for single-cell biology built from ChatGPT",
+      "paper_url": "https://www.nature.com/articles/s41551-024-01284-6",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "GenePT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-024-01284-6/MediaObjects/41551_2024_1284_Fig1_HTML.png",
+          "dimensions": [
+            2164,
+            1914
+          ],
+          "method": "publisher_image",
+          "sha256": "9051b338436b93b9a331c9d1a000599a0773196b8ac1986f0a420764e62aa666",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "scMulan",
+      "group": "scFM",
+      "year": 2024,
+      "venue": "RECOMB 2024",
+      "title": "scMulan: a multitask generative pre-trained language model for single-cell analysis.",
+      "paper_url": "https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57",
+      "status": "downloaded",
+      "note": "使用与表中论文对应的作者预印本版本。",
+      "images": [
+        {
+          "file": "scMulan_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.25.577152v1.full.pdf",
+          "dimensions": [
+            1274,
+            819
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "365a19acf9c3505c276ad686dacacd8b28e29a8fe0165a836f81f494337bd725",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            63,
+            103,
+            553,
+            418
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "CellPLM",
+      "group": "scFM",
+      "year": 2024,
+      "venue": "ICLR",
+      "title": "CellPLM: Pre-training of Cell Language Model Beyond Single Cells",
+      "paper_url": "https://openreview.net/forum?id=BKXvPDekud",
+      "status": "downloaded",
+      "note": "Figure 1 为语言建模概念对比；另附 Figure 2 预训练模型结构。使用作者预印本版本。",
+      "images": [
+        {
+          "file": "CellPLM_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560734v1.full.pdf",
+          "dimensions": [
+            1069,
+            229
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "67f8a44df6ae7fd6c910985fb2822bfaafd7cfd532dab103ad3339c5b14daa39",
+          "pdf_page": 2,
+          "pdf_crop_box": [
+            100,
+            42,
+            511,
+            130
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        },
+        {
+          "file": "CellPLM_Architecture_Figure2.png",
+          "figure_number": 2,
+          "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.03.560734v1.full.pdf",
+          "dimensions": [
+            1037,
+            579
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "d9a202eb0bfe6d2a6ab05ac55a230d6b1197f1b5ca2f726b83e0b64b67995781",
+          "pdf_page": 4,
+          "pdf_crop_box": [
+            103,
+            41,
+            502,
+            264
+          ],
+          "role": "模型结构补充图",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "Nicheformer",
+      "group": "scFM",
+      "year": 2025,
+      "venue": "Nature Methods",
+      "title": "Nicheformer: a foundation model for single-cell and spatial omics",
+      "paper_url": "https://www.nature.com/articles/s41592-025-02814-z",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "Nicheformer_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-025-02814-z/MediaObjects/41592_2025_2814_Fig1_HTML.png",
+          "dimensions": [
+            2162,
+            2117
+          ],
+          "method": "publisher_image",
+          "sha256": "f7316b98b15831b74f41025dff74df5d1be70709d5946fb7551f4ecfbd129bcb",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "mcBERT",
+      "group": "scFM",
+      "year": 2025,
+      "venue": "ICLR 2025 LMRL Workshop",
+      "title": "Transformer-Based Integrative Patient Representations from Single-Cell RNA Data",
+      "paper_url": "https://openreview.net/pdf/7c26dfa4dc9e49fb033965e77ec0050a7b7644a6.pdf",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "mcBERT_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://jpennekamp.de/wp-content/papercite-data/pdf/vqlp%2B25.pdf",
+          "dimensions": [
+            1165,
+            833
+          ],
+          "method": "rendered_pdf_crop",
+          "sha256": "4cc9adab7bf64aafcd47cbfbe2c03a4aa3d132134d988e9f556f8a288b9eaaac",
+          "pdf_page": 3,
+          "pdf_crop_box": [
+            82.0,
+            53.86148000000003,
+            529.9063074400001,
+            374.22832159999996
+          ],
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "UCE",
+      "group": "scFM",
+      "year": 2026,
+      "venue": "Nature",
+      "title": "Universal cell embedding provides a foundation model for cell biology",
+      "paper_url": "https://www.nature.com/articles/s41586-026-10689-z",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "UCE_Figure1.png",
+          "figure_number": 1,
+          "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-026-10689-z/MediaObjects/41586_2026_10689_Fig1_HTML.png",
+          "dimensions": [
+            1528,
+            1357
+          ],
+          "method": "publisher_image",
+          "sha256": "fd79d05888534d8eb7eb6bc6ed979514e7716e5bd98550d563fb2dea871c6b99",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    },
+    {
+      "name": "PaSCient",
+      "group": "scFM",
+      "year": 2026,
+      "venue": "Cell Systems",
+      "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
+      "paper_url": "https://doi.org/10.1016/j.cels.2026.101570",
+      "status": "downloaded",
+      "note": "",
+      "images": [
+        {
+          "file": "PaSCient_Figure1.jpg",
+          "figure_number": 1,
+          "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2405471226000529-gr1_lrg.jpg",
+          "dimensions": [
+            2247,
+            1827
+          ],
+          "method": "publisher_image",
+          "sha256": "0499ca14f3f53a38b3c3fdeaa4875e05cfc838f261e6126a5cd0e8fa6ae11328",
+          "role": "Figure 1",
+          "visual_review": "checked"
+        }
+      ]
+    }
+  ]
+}
