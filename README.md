@@ -4,7 +4,7 @@
 
 A curated guide to perturbation-response models, analysis methods, benchmarks, and datasets.
 
-**Last checked: 3 November 2026.** Years use first online publication for journal articles, proceedings publication year for conference papers, and posting year for preprints. Meeting and proceedings years can differ. Workshop papers and preprints are labeled explicitly.
+**Last checked: 3 November 2026.** Years use first online publication for journal articles, proceedings publication year for conference papers, and posting year for preprints. Preprints are labeled explicitly.
 
 **Model names** link to primary papers or official proceedings. The **Code** column links to the official code repository.  
 
