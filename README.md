@@ -1,4 +1,4 @@
-![Virtual cell lab overview](mach.jpg)
+![Virtual cell lab overview](vc.jpg)
 
 # Virtual Cell Lab
 
