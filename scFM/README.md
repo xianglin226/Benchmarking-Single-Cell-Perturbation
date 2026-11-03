@@ -1,26 +1,75 @@
-## (Pretrained) (Large)(Language) Models developed for single-cell data  
-| Name          | Year          | Journal  | Title |
-| ------------- |:-------------:| -----:|--------:|
-|[DeepMAPS](https://www.nature.com/articles/s41467-023-36559-0)|2021       | NC   | DeepMAPS: Single-cell biological network inference using heterogeneous graph transformer
-|[scBERT](https://www.nature.com/articles/s42256-022-00534-z) | 2022      | NMI   | scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data
-|[TransCluster](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full) | 2022      | Frontiers in Genetics   | TransCluster: A Cell-Type Identification Method for single-cell RNA-Seq data using deep learning based on transformer.
-|[scMVP](https://link.springer.com/article/10.1186/s13059-021-02595-6)| 2022      | Genome Biology   | A deep generative model for multi-view profiling of single-cell RNA-seq and ATAC-seq data
-|[scGPT](https://www.nature.com/articles/s41592-024-02201-0) |2023       | NM   | scGPT: Towards Building a Foundation Model for Single-Cell Multi-omics Using Generative AI
-|[Geneformer](https://www.nature.com/articles/s41586-023-06139-9) | 2023      | Nature   | Transfer learning enables predictions in network biology
-|[CellLM](https://arxiv.org/pdf/2306.04371.pdf)  | 2023      |    | Large-Scale Cell Representation Learning via Divide-and-Conquer Contrastive Learning
-|[Tgpt](https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf)  | 2023     | Iscience   | Generative pretraining from large-scale transcriptomes for single-cell deciphering
-|[Scimilarity](https://www.biorxiv.org/content/10.1101/2023.07.18.549537v3.abstract)  | 2023      |    | Scalable querying of human cell atlases via a foundational model reveals commonalities across fibrosis-associated macrophages
-|[scFoundation](https://www.biorxiv.org/content/10.1101/2023.05.29.542705v4.abstract) | 2023      |    |  Large Scale Foundation Model on Single-cell Transcriptomics.
-|[TOSICA](https://www.nature.com/articles/s41467-023-35923-4) | 2023      | NC   | Transformer for one stop interpretable cell type annotation
-|[CIForm](https://academic.oup.com/bib/article/24/4/bbad195/7169137) | 2023      | BIB   | CIForm as a Transformer-based model for cell-type annotation of large-scale single-cell RNA-seq data
-|[scTransSort](https://www.mdpi.com/2218-273X/13/4/611)  | 2023      | Biomolecules   | scTransSort: Transformers for Intelligent Annotation of Cell Types by Gene Embeddings
-|[scMoFormer](https://dl.acm.org/doi/pdf/10.1145/3583780.3615061)  | 2023      |  ICIKM  | Single-Cell Multimodal Prediction via Transformers
-|[scTranslator](https://www.biorxiv.org/content/10.1101/2023.07.04.547619v2.full.pdf)  | 2023      |    | A pre-trained large generative model for translating single-cell transcriptome to proteome
-|[Cell2Sentence](https://www.biorxiv.org/content/biorxiv/early/2024/02/15/2023.09.11.557287.full.pdf)  | 2023      |    | Cell2Sentence: Teaching Large Language Models the Language of Biology
-|[genePT](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10614824/pdf/nihpp-2023.10.16.562533v2.pdf)  |  2023     |    | GENEPT: A SIMPLE BUT HARD-TO-BEAT FOUNDATION MODEL FOR GENES AND CELLS BUILT FROM CHATGPT
-|[scMulan](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57)  |  2024     |ICRCMB| scMulan: a multitask generative pre-trained language model for single-cell analysis.
-|[Nicheformer](https://www.biorxiv.org/content/10.1101/2024.04.15.589472v1)  |  2024     | | Nicheformer: a foundation model for single-cell and spatial omics.  
-|[CellPLM](https://openreview.net/forum?id=BKXvPDekud)  |  2024     | ICLR | CellPLM: Pre-training of Cell Language Model Beyond Single Cells  
-|[UCE](https://www.biorxiv.org/content/10.1101/2023.11.28.568918v1.full.pdf)  |  2024     |  | Universal Cell Embeddings: A Foundation Model for Cell Biology 
-|[PaSCient ](https://www.biorxiv.org/content/10.1101/2024.11.18.624166v1.full)  |  2024     | | Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states
-|[mcBERT](https://www.biorxiv.org/content/10.1101/2024.11.04.621897v1)  |  2024     | | mcBERT: Patient-Level Single-cell Transcriptomics Data Representation
+# Single-cell foundation models and related representation methods
+
+[← Back to PerTogether](../README.md)
+
+This page covers general single-cell representation learning, RNA-to-protein translation, spatial context, and patient-level embeddings. These methods are not all perturbation-specific predictors. Task-specific annotation, integration, and multi-omics models from the original list are retained in a separate section rather than labeled as foundation models.
+
+**Last checked: 3 November 2026.** Years use first online publication for journal articles, proceedings publication year for conference papers, and posting year for preprints. Meeting and proceedings years can differ. Workshop papers and preprints are labeled explicitly.
+
+Model names link to papers or official proceedings. The feature column distinguishes the main training objective from downstream applications; a perturbation demonstration does not mean the model was pretrained to predict perturbation responses. Full titles appear in the expandable reference list.
+
+## Pretrained models and foundation-derived representations
+
+| Model | Year | Publication / status | Features and scope |
+| :--- | :---: | :--- | :--- |
+| [scBERT](https://www.nature.com/articles/s42256-022-00534-z) | 2022 | Nature Machine Intelligence | Masked-expression pretraining with gene and binned-expression embeddings; fine-tuned for cell-type annotation. |
+| [CellLM](https://arxiv.org/pdf/2306.04371.pdf) | 2023 | arXiv preprint | Divide-and-conquer contrastive pretraining learns cell representations for annotation and drug-sensitivity tasks. |
+| [Geneformer](https://www.nature.com/articles/s41586-023-06139-9) | 2023 | Nature | Rank-encoded transcriptome pretraining enables transfer learning and in silico gene perturbation; not trained primarily on Perturb-seq responses. |
+| [tGPT](https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf) | 2023 | iScience | Autoregressive pretraining models gene-expression rankings to learn reusable transcriptome representations. |
+| [Cell2Sentence](https://proceedings.mlr.press/v235/levine24a.html) | 2024 | ICML | Converts expression-ranked genes into text-like cell sentences to adapt language models for cell representation and generation. |
+| [CellPLM](https://openreview.net/forum?id=BKXvPDekud) | 2024 | ICLR | Pretrained cell-language model explicitly captures inter-cell relationships through cell-level representations. |
+| [GenePT](https://www.nature.com/articles/s41551-024-01284-6) | 2024 | Nature Biomedical Engineering | Builds gene embeddings from text descriptions using a general language model; no large transcriptome-pretraining stage is required. |
+| [scFoundation](https://www.nature.com/articles/s41592-024-02305-7) | 2024 | Nature Methods | Read-depth-aware transcriptome pretraining learns gene/cell representations for multiple downstream tasks, including perturbation prediction. |
+| [scGPT](https://www.nature.com/articles/s41592-024-02201-0) | 2024 | Nature Methods | Generative transcriptome pretraining supports multi-omics representations and task-specific fine-tuning, including perturbation prediction. |
+| [SCimilarity](https://www.nature.com/articles/s41586-024-08411-y) | 2024 | Nature | Metric learning with cell-type supervision creates a shared space for scalable cell-state similarity search. |
+| [scMulan](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57) | 2024 | RECOMB 2024 | Multitask generative pretraining combines expression and metadata for annotation, metadata prediction, and conditional cell generation. |
+| [mcBERT](https://openreview.net/pdf/7c26dfa4dc9e49fb033965e77ec0050a7b7644a6.pdf) | 2025 | ICLR 2025 LMRL Workshop | Self-supervised and contrastive learning aggregate cells into patient-level representations; focuses on disease-cohort comparisons. |
+| [Nicheformer](https://www.nature.com/articles/s41592-025-02814-z) | 2025 | Nature Methods | Pretrained on dissociated and spatial transcriptomes to learn cell representations informed by tissue context. |
+| [scTranslator](https://www.nature.com/articles/s41551-025-01528-z) | 2025 | Nature Biomedical Engineering | Pretrained RNA-to-protein translation; perturbation prediction is a downstream application, not the core pretraining task. |
+| [PaSCient](https://doi.org/10.1016/j.cels.2026.101570) | 2026 | Cell Systems | Multi-level representation learning aggregates single-cell profiles into patient embeddings for disease-state characterization. |
+| [UCE](https://www.nature.com/articles/s41586-026-10689-z) | 2026 | Nature | Protein-language-model gene embeddings support self-supervised, cross-species cell representations and zero-shot embedding. |
+
+GenePT derives representations from a general-purpose language model rather than a dedicated transcriptome-pretraining stage. mcBERT and PaSCient represent patient samples; they are not interchangeable with per-cell encoders.
+
+## Related task-specific methods
+
+| Model | Year | Publication / status | Features and scope |
+| :--- | :---: | :--- | :--- |
+| [scMVP](https://link.springer.com/article/10.1186/s13059-021-02595-6) | 2022 | Genome Biology | Multi-view VAE jointly represents RNA and chromatin accessibility for integration and imputation; task-specific multi-omics model. |
+| [TransCluster](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full) | 2022 | Frontiers in Genetics | Task-specific transformer for supervised cell-type identification; not presented here as a broadly pretrained foundation model. |
+| [CIForm](https://academic.oup.com/bib/article/24/4/bbad195/7169137) | 2023 | Briefings in Bioinformatics | Splits expression vectors into patches for transformer-based cell-type annotation; a task-specific classifier. |
+| [DeepMAPS](https://www.nature.com/articles/s41467-023-36559-0) | 2023 | Nature Communications | Heterogeneous cell–gene graph transformer infers cell-type-specific biological networks from multi-omics data; task-specific inference. |
+| [scMoFormer](https://dl.acm.org/doi/pdf/10.1145/3583780.3615061) | 2023 | CIKM 2023 | Combines multimodal graphs and transformers to predict surface-protein abundance from RNA; task-specific cross-modal prediction. |
+| [scTransSort](https://www.mdpi.com/2218-273X/13/4/611) | 2023 | Biomolecules | Gene-expression embeddings and transformer features support cell-type annotation; a task-specific classifier. |
+| [TOSICA](https://www.nature.com/articles/s41467-023-35923-4) | 2023 | Nature Communications | Supervised pathway/regulon-token transformer for interpretable cell-type annotation; not a general pretraining framework. |
+
+<details>
+<summary>Full paper titles and sources</summary>
+
+| Entry | Paper title |
+| :--- | :--- |
+| Cell2Sentence | [Cell2Sentence: Teaching Large Language Models the Language of Biology](https://proceedings.mlr.press/v235/levine24a.html) |
+| CellLM | [Large-Scale Cell Representation Learning via Divide-and-Conquer Contrastive Learning](https://arxiv.org/pdf/2306.04371.pdf) |
+| CellPLM | [CellPLM: Pre-training of Cell Language Model Beyond Single Cells](https://openreview.net/forum?id=BKXvPDekud) |
+| CIForm | [CIForm as a Transformer-based model for cell-type annotation of large-scale single-cell RNA-seq data](https://academic.oup.com/bib/article/24/4/bbad195/7169137) |
+| DeepMAPS | [Single-cell biological network inference using a heterogeneous graph transformer](https://www.nature.com/articles/s41467-023-36559-0) |
+| Geneformer | [Transfer learning enables predictions in network biology](https://www.nature.com/articles/s41586-023-06139-9) |
+| GenePT | [Simple and effective embedding model for single-cell biology built from ChatGPT](https://www.nature.com/articles/s41551-024-01284-6) |
+| mcBERT | [Transformer-Based Integrative Patient Representations from Single-Cell RNA Data](https://openreview.net/pdf/7c26dfa4dc9e49fb033965e77ec0050a7b7644a6.pdf) |
+| Nicheformer | [Nicheformer: a foundation model for single-cell and spatial omics](https://www.nature.com/articles/s41592-025-02814-z) |
+| PaSCient | [Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states](https://doi.org/10.1016/j.cels.2026.101570) |
+| scBERT | [scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data](https://www.nature.com/articles/s42256-022-00534-z) |
+| scFoundation | [Large-scale foundation model on single-cell transcriptomics](https://www.nature.com/articles/s41592-024-02305-7) |
+| scGPT | [scGPT: toward building a foundation model for single-cell multi-omics using generative AI](https://www.nature.com/articles/s41592-024-02201-0) |
+| SCimilarity | [A cell atlas foundation model for scalable search of similar human cells](https://www.nature.com/articles/s41586-024-08411-y) |
+| scMoFormer | [Single-Cell Multimodal Prediction via Transformers](https://dl.acm.org/doi/pdf/10.1145/3583780.3615061) |
+| scMulan | [scMulan: a multitask generative pre-trained language model for single-cell analysis.](https://link.springer.com/chapter/10.1007/978-1-0716-3989-4_57) |
+| scMVP | [A deep generative model for multi-view profiling of single-cell RNA-seq and ATAC-seq data](https://link.springer.com/article/10.1186/s13059-021-02595-6) |
+| scTranslator | [A pre-trained large generative model for translating single-cell transcriptomes to proteomes](https://www.nature.com/articles/s41551-025-01528-z) |
+| scTransSort | [scTransSort: Transformers for Intelligent Annotation of Cell Types by Gene Embeddings](https://www.mdpi.com/2218-273X/13/4/611) |
+| tGPT | [Generative pretraining from large-scale transcriptomes for single-cell deciphering](https://www.cell.com/iscience/pdf/S2589-0042(23)00613-2.pdf) |
+| TOSICA | [Transformer for one stop interpretable cell type annotation](https://www.nature.com/articles/s41467-023-35923-4) |
+| TransCluster | [TransCluster: A Cell-Type Identification Method for single-cell RNA-Seq data using deep learning based on transformer.](https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.1038919/full) |
+| UCE | [Universal cell embedding provides a foundation model for cell biology](https://www.nature.com/articles/s41586-026-10689-z) |
+
+</details>
