@@ -1,0 +1,191 @@
+{
+  "eligible_tags": {
+    "vae": {
+      "label": "VAE",
+      "weight": 3,
+      "level": "family"
+    },
+    "autoencoder": {
+      "label": "Autoencoder",
+      "weight": 1,
+      "level": "family"
+    },
+    "gnn": {
+      "label": "Graph neural network",
+      "weight": 3,
+      "level": "family"
+    },
+    "transformer": {
+      "label": "Transformer",
+      "weight": 3,
+      "level": "family"
+    },
+    "denoising_diffusion": {
+      "label": "Denoising diffusion",
+      "weight": 3,
+      "level": "family"
+    },
+    "masked_diffusion": {
+      "label": "Masked diffusion",
+      "weight": 3,
+      "level": "family"
+    },
+    "diffusion_family": {
+      "label": "Generative diffusion family",
+      "weight": 1,
+      "level": "family"
+    },
+    "flow_matching": {
+      "label": "Flow matching",
+      "weight": 3,
+      "level": "family"
+    },
+    "normalizing_flow": {
+      "label": "Normalizing flow",
+      "weight": 3,
+      "level": "family"
+    },
+    "optimal_transport": {
+      "label": "Optimal transport",
+      "weight": 3,
+      "level": "family"
+    },
+    "gaussian_process": {
+      "label": "Gaussian process",
+      "weight": 3,
+      "level": "family"
+    },
+    "gan": {
+      "label": "Adversarial generator / GAN",
+      "weight": 3,
+      "level": "family"
+    },
+    "ode_network": {
+      "label": "ODE network",
+      "weight": 3,
+      "level": "family"
+    },
+    "regulatory_network": {
+      "label": "Explicit regulatory-network model",
+      "weight": 2,
+      "level": "family"
+    },
+    "factorization": {
+      "label": "Low-rank matrix / tensor method",
+      "weight": 2,
+      "level": "family"
+    },
+    "llm_agent": {
+      "label": "LLM agent",
+      "weight": 3,
+      "level": "family"
+    },
+    "cnn": {
+      "label": "Convolutional neural network",
+      "weight": 3,
+      "level": "family"
+    },
+    "causal_sde": {
+      "label": "Causal stochastic dynamics",
+      "weight": 3,
+      "level": "family"
+    },
+    "gaussian_copula": {
+      "label": "Gaussian copula",
+      "weight": 3,
+      "level": "family"
+    },
+    "attention": {
+      "label": "Attention module",
+      "weight": 1,
+      "level": "module"
+    },
+    "compositional_latent": {
+      "label": "Additive compositional latent structure",
+      "weight": 1,
+      "level": "module"
+    }
+  },
+  "parents": {
+    "vae": "autoencoder",
+    "transformer": "attention",
+    "denoising_diffusion": "diffusion_family",
+    "masked_diffusion": "diffusion_family"
+  },
+  "detail_weight": 1,
+  "detail_tags": [
+    "adapter",
+    "adversarial_alignment",
+    "artifact_latent",
+    "attribute_embeddings",
+    "background_salient_latents",
+    "batch_latent",
+    "causal_spatial_graph",
+    "cell_set_context",
+    "cell_type_graph",
+    "cell_type_response",
+    "chemical_encoder",
+    "coexpression_graph",
+    "compressor_generator",
+    "conditional_encoder_decoder",
+    "conditional_generation",
+    "constrained_regression",
+    "convex_neural_transport",
+    "counterfactual_encoder_decoder",
+    "counterfactual_neural_network",
+    "cycle_consistency",
+    "differential_transformer",
+    "directed_causal_graph",
+    "disentangled_latent_generator",
+    "dose_sequence_input",
+    "dual_branch",
+    "dual_encoder_decoder",
+    "effect_distribution_model",
+    "factorized_latent",
+    "forward_inverse_networks",
+    "functional_data_analysis",
+    "functional_distribution_state",
+    "gcn",
+    "gene_embedding_integration",
+    "genetic_chemical_alignment",
+    "glm",
+    "go_graph",
+    "graph_attention",
+    "ica",
+    "intra_intercellular_parameters",
+    "knn",
+    "knowledge_graph",
+    "knowledge_graph_embedding",
+    "latent_gene_modules",
+    "latent_regulatory_dynamics",
+    "latent_shift",
+    "linear_decoder",
+    "llm_gene_embeddings",
+    "multi_agent_roles",
+    "multimodal_encoders",
+    "multimodal_neural_encoder",
+    "multimodal_prior_attention",
+    "multitask_neural_network",
+    "neural_cell_state_model",
+    "nonnegative_matrix",
+    "ontology_decoder",
+    "perturbation_classifier",
+    "population_distribution_state",
+    "reinforcement_learning",
+    "relational_tensor",
+    "semantic_encoder",
+    "set_aggregation",
+    "signature_enrichment",
+    "similarity_embedding_network",
+    "sparse_dictionary",
+    "sparse_gp",
+    "sparse_latent",
+    "spatial_kernel",
+    "staged_generation",
+    "structural_causal_model",
+    "style_transfer",
+    "temporal_graph",
+    "tensor_completion",
+    "world_model_framework"
+  ]
+}

@@ -1,0 +1,40 @@
+扰动方法架构相似图
+创建日期：2026-11-04
+输入仓库提交：43aaa321771be60a986eaff312504b41bd1fc60c
+
+范围
+主 README 的 77 个方法条目；包括预测模型、相关统计方法与分析框架。scFM 表中的 23 个通用单细胞模型和 benchmark 表不在本图范围。Pertpy 等工具仍保留节点。
+
+节点与连边
+节点为方法。annotations.json 为人工整理的架构成分；input_snapshot.json 保留原始表格、结构标签、论文和图片来源。每个节点的标签及来源见 nodes.csv 和 graph.json。
+若两个方法共享至少一个 taxonomy.json 中的架构家族或模块标签，就建立一条无向边。
+当前共有 77 个节点、429 条边；其中 366 条共享家族标签，63 条仅共享 attention 或 additive compositional latent 模块。20 个节点无匹配边，可能源于注释粒度或结构描述不足，不表示已证明其架构独有。
+
+层级与评分
+VAE 继承 autoencoder；Transformer 继承 attention；continuous denoising diffusion 和 masked diffusion 继承 generative diffusion family。
+家族标签权重通常为 3；autoencoder 和 generative diffusion 父级标签为 1；regulatory-network、factorization 家族为 2；模块与结构细节为 1。
+weight = tag_jaccard = sum(weight(t), t 属于两方法标签交集) / sum(weight(t), t 属于标签并集)。
+这是对人工注释标签的加权 Jaccard，权重选择是可编辑的分析设计，并非从模型预测或参数中测量的相似度。标签一致、分数为 1，也不表示模型完全相同。泛化能力、预测效果、训练数据和模型继承关系均未由连边表达。
+
+需要特别区分
+1. CPA/chemCPA/MultiCPA 标为 compositional autoencoder，未直接当作 VAE；它们与 VAE 的共同标签为父级 autoencoder。
+2. PerturbNet 的 normalizing flow 与 CellFlow/scDFM 的 flow matching 独立标注，未仅凭 flow 一词建立连边。
+3. LCD 为潜在因果随机动力学，不归入 denoising/masked generative diffusion 家族。
+4. X-Cell 的 masked/remasking diffusion LM 与 continuous denoising diffusion 使用不同子类。
+5. 仅共享 LLM-derived gene embeddings、GO 先验、条件输入、预测任务、disentanglement/contrastive 等损失或目标，不足以建立边。
+6. 多成分模型可桥接家族，例如 RegVelo (VAE/ODE/regulatory network)、UNAGI (VAE/GAN/GNN)、CONCERT (VAE/GP)、scDRP (VAE/OT)、scDFM (flow matching/Transformer)。
+7. scDFM/PopPert 的 Transformer、PerturbLDM 的 VAE 等补充标签已对照原论文或作者仓库，而非仅匹配简称。
+
+文件
+edge_list.csv：全部无向边；一对方法只出现一次；含分数、共同标签、原因和两端来源。UTF-8 BOM 编码，可在 Excel/R/Python 中读取。
+edge_list_backbone.csv：仅保留共享家族标签的边，排除 shared_module_only。
+nodes.csv：节点、架构标签、显示分类、度数、论文与图来源。
+architecture.graphml：可导入 Cytoscape / Gephi。
+graph.json：全部节点、连边、位置与元信息。
+architecture_network.png / .svg：固定随机种子的网络图；颜色为人工显示分类，非社区发现。主分量之外的小分量和孤立节点单独排放。
+architecture_similarity_matrix.png / .svg：按显示分类排列的全部两两分数；空白为无边，对角线省略。
+architecture_network.html：交互图，可选择方法查看一阶邻域、边的共同结构和论文来源，并调整最低分数。
+annotations.json / taxonomy.json / input_snapshot.json / build_graph.py：可检查的注释、规则与生成材料。安装 requirements.txt 后，在本目录运行 python build_graph.py 可重建图数据与静态图；交互图使用同一份 graph.json 的数据快照。
+
+注释说明
+该图是文献结构标签驱动的初步知识图谱。新的来源或更细的结构标签可能改变分数与连边。布局坐标仅用于可视化，无生物学坐标或因果方向意义。

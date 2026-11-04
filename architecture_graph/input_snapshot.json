@@ -1,0 +1,1241 @@
+{
+  "input_commit": "43aaa321771be60a986eaff312504b41bd1fc60c",
+  "models": [
+    {
+      "name": "Hodos et al.",
+      "model_structure": "kNN / tensor completion",
+      "table": "README.md",
+      "figure_file": "Hodos_et_al._Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf",
+      "figure_source_url": "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf",
+      "note": "Figure 1 为数据特征分析；另附 Figure 2 方法流程图。",
+      "evidence_urls": [
+        "https://psb.stanford.edu/psb-online/proceedings/psb18/hodos.pdf"
+      ],
+      "year": 2018,
+      "section": "Genetic and chemical response prediction",
+      "features": "Bulk expression: nearest-neighbor prediction and tensor completion for unmeasured drug–cell-type profiles."
+    },
+    {
+      "name": "scGen",
+      "model_structure": "VAE",
+      "table": "README.md",
+      "figure_file": "scGen_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-019-0494-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-019-0494-8/MediaObjects/41592_2019_494_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-019-0494-8"
+      ],
+      "year": 2019,
+      "section": "Genetic and chemical response prediction",
+      "features": "VAE latent-space vector arithmetic transfers perturbation effects to held-out cell populations."
+    },
+    {
+      "name": "CellBox",
+      "model_structure": "ODE network",
+      "table": "README.md",
+      "figure_file": "CellBox_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.cels.2020.11.013",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2405471220304646-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.cels.2020.11.013"
+      ],
+      "year": 2020,
+      "section": "Genetic and chemical response prediction",
+      "features": "Interpretable dynamical network model of signaling and viability responses, used to design cancer drug combinations."
+    },
+    {
+      "name": "chemCPA",
+      "model_structure": "Compositional autoencoder",
+      "table": "README.md",
+      "figure_file": "chemCPA_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/aa933b5abc1be30baece1d230ec575a7-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/aa933b5abc1be30baece1d230ec575a7-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2022/hash/aa933b5abc1be30baece1d230ec575a7-Abstract-Conference.html"
+      ],
+      "year": 2022,
+      "section": "Genetic and chemical response prediction",
+      "features": "Chemical-structure embeddings extend a compositional autoencoder to predict responses to unseen drugs."
+    },
+    {
+      "name": "MultiCPA",
+      "model_structure": "Compositional autoencoder",
+      "table": "README.md",
+      "figure_file": "MultiCPA_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf",
+      "figure_source_url": "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://icml-compbio.github.io/2022/papers/WCBICML2022_paper_50.pdf"
+      ],
+      "year": 2022,
+      "section": "Genetic and chemical response prediction",
+      "features": "Compositional latent modeling of multimodal perturbation responses, including unseen combinations of measured interventions."
+    },
+    {
+      "name": "scPreGAN",
+      "model_structure": "Autoencoder + GAN",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://academic.oup.com/bioinformatics/article/38/13/3377/6593485",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://academic.oup.com/bioinformatics/article/38/13/3377/6593485"
+      ],
+      "year": 2022,
+      "section": "Genetic and chemical response prediction",
+      "features": "Combines an autoencoder with adversarial generation to predict perturbed single-cell expression distributions."
+    },
+    {
+      "name": "CellOT",
+      "model_structure": "Neural optimal transport",
+      "table": "README.md",
+      "figure_file": "CellOT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-023-01969-x",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-01969-x/MediaObjects/41592_2023_1969_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-023-01969-x"
+      ],
+      "year": 2023,
+      "section": "Genetic and chemical response prediction",
+      "features": "Learns neural optimal-transport maps between unpaired control and treated cell distributions; fits a map per perturbation."
+    },
+    {
+      "name": "CPA",
+      "model_structure": "Compositional autoencoder",
+      "table": "README.md",
+      "figure_file": "CPA_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.embopress.org/doi/full/10.15252/msb.202211517",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/2b72/10258562/2b1f6cfa2f9e/MSB-19-e11517-g003.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.embopress.org/doi/full/10.15252/msb.202211517"
+      ],
+      "year": 2023,
+      "section": "Genetic and chemical response prediction",
+      "features": "Disentangles basal state, perturbations, and covariates; composes latent effects to predict doses and perturbation combinations."
+    },
+    {
+      "name": "GEARS",
+      "model_structure": "GNN",
+      "table": "README.md",
+      "figure_file": "GEARS_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41587-023-01905-6",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-023-01905-6/MediaObjects/41587_2023_1905_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41587-023-01905-6"
+      ],
+      "year": 2023,
+      "section": "Genetic and chemical response prediction",
+      "features": "GO-derived perturbation graphs and coexpression graphs support prediction of unseen genetic perturbations and combinations."
+    },
+    {
+      "name": "ontoVAE",
+      "model_structure": "Ontology-informed VAE",
+      "table": "README.md",
+      "figure_file": "ontoVAE_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://academic.oup.com/bioinformatics/article/39/6/btad387/7199588",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ea93/10301695/d78709fd58a7/btad387f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://academic.oup.com/bioinformatics/article/39/6/btad387/7199588"
+      ],
+      "year": 2023,
+      "section": "Genetic and chemical response prediction",
+      "features": "Ontology-structured VAE decoder yields interpretable pathway activities and supports in silico genetic/drug perturbations."
+    },
+    {
+      "name": "SAMS-VAE",
+      "model_structure": "Sparse additive VAE",
+      "table": "README.md",
+      "figure_file": "SAMS-VAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/0001ca33ba34ce0351e4612b744b3936-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/hash/0001ca33ba34ce0351e4612b744b3936-Abstract-Conference.html"
+      ],
+      "year": 2023,
+      "section": "Genetic and chemical response prediction",
+      "features": "Sparse additive perturbation embeddings compose with basal cell states in a VAE for response modeling."
+    },
+    {
+      "name": "scDiff",
+      "model_structure": "Conditional diffusion",
+      "table": "README.md",
+      "figure_file": "scDiff_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.1101/2023.10.13.562243v1.abstract"
+      ],
+      "year": 2023,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditional diffusion framework for multiple single-cell tasks, including perturbation-response prediction."
+    },
+    {
+      "name": "scVIDR",
+      "model_structure": "VAE",
+      "table": "README.md",
+      "figure_file": "scVIDR_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.cell.com/patterns/pdf/S2666-3899(23)00186-1.pdf",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dcc/10436058/7d7782e9d44c/gr1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.cell.com/patterns/pdf/S2666-3899(23)00186-1.pdf"
+      ],
+      "year": 2023,
+      "section": "Genetic and chemical response prediction",
+      "features": "VAE with cell-type-specific latent response vectors and dose interpolation for chemical perturbations."
+    },
+    {
+      "name": "biolord",
+      "model_structure": "Disentangled latent model",
+      "table": "README.md",
+      "figure_file": "biolord_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41587-023-02079-x",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-023-02079-x/MediaObjects/41587_2023_2079_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41587-023-02079-x"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "Disentangles known attributes from residual cell variation and generates counterfactuals by changing attribute embeddings."
+    },
+    {
+      "name": "CODEX",
+      "model_structure": "Counterfactual neural network",
+      "table": "README.md",
+      "figure_file": "CODEX_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/c315/11211812/3a44e2d9c67c/btae261f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://academic.oup.com/bioinformatics/article/40/Supplement_1/i91/7700898"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "Counterfactual deep learning predicts cancer-cell-line responses to unseen intervention combinations and can incorporate GO priors."
+    },
+    {
+      "name": "cycleCDR",
+      "model_structure": "Cycle-consistent network",
+      "table": "README.md",
+      "figure_file": "cycleCDR_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btae248",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6d8b/11256949/a413e4cf9e3f/btae248f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btae248"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "Uses cycle-consistency constraints for bidirectional control–perturbed state mapping; evaluated on chemical and genetic responses."
+    },
+    {
+      "name": "PRnet",
+      "model_structure": "Conditional encoder–decoder",
+      "table": "README.md",
+      "figure_file": "PRnet_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-53457-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-53457-1/MediaObjects/41467_2024_53457_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-53457-1"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditions on compound structure and baseline expression to generate chemical responses at bulk and single-cell resolution."
+    },
+    {
+      "name": "scDisInFact",
+      "model_structure": "Disentangled VAE",
+      "table": "README.md",
+      "figure_file": "scDisInFact_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-45227-w",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-45227-w/MediaObjects/41467_2024_45227_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-45227-w"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "Disentangled VAE separates shared biology, condition-specific factors, and batch effects for integration and condition-response prediction."
+    },
+    {
+      "name": "scLAMBDA",
+      "model_structure": "VAE",
+      "table": "README.md",
+      "figure_file": "scLAMBDA_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1101/2024.12.04.626878",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11643044/supplementaryFiles",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1101/2024.12.04.626878"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "VAE with language-model-derived gene embeddings separates basal and perturbation-specific representations for single/multi-gene prediction."
+    },
+    {
+      "name": "STAMP",
+      "model_structure": "Multi-task neural network",
+      "table": "README.md",
+      "figure_file": "STAMP_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s43588-024-00698-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-024-00698-1/MediaObjects/43588_2024_698_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s43588-024-00698-1"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "Decomposes genetic-response prediction into differential-expression detection, change direction, and change magnitude."
+    },
+    {
+      "name": "TranSiGen",
+      "model_structure": "Dual VAE",
+      "table": "README.md",
+      "figure_file": "TranSiGen_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-49620-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-49620-3/MediaObjects/41467_2024_49620_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-49620-3"
+      ],
+      "year": 2024,
+      "section": "Genetic and chemical response prediction",
+      "features": "Self-supervised generative representations combine baseline expression and molecular structure to reconstruct chemical-induced transcriptional profiles."
+    },
+    {
+      "name": "CausalGRN",
+      "model_structure": "Causal regulatory network",
+      "table": "README.md",
+      "figure_file": "CausalGRN_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2025.12.30.692369v1.abstract"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Infers a network skeleton, orients edges using CRISPR effects, and predicts downstream responses through the directed regulatory network."
+    },
+    {
+      "name": "CellFlow",
+      "model_structure": "Flow matching",
+      "table": "README.md",
+      "figure_file": "CellFlow_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1",
+      "figure_source_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/4f42b78a-5f94-4234-a8b7-644864ce7137/content",
+      "note": "使用 ETH 机构仓储保存的作者预印本版本。",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditional flow matching generates cell-phenotype distributions for chemical, genetic, and signaling perturbations."
+    },
+    {
+      "name": "Cradle-VAE",
+      "model_structure": "Causal VAE",
+      "table": "README.md",
+      "figure_file": "Cradle-VAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/33695",
+      "figure_source_url": "https://arxiv.org/pdf/2409.05484",
+      "note": "使用作者 arXiv 预印本版本。",
+      "evidence_urls": [
+        "https://ojs.aaai.org/index.php/AAAI/article/view/33695"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Counterfactual artifact disentanglement separates technical effects from biological perturbation signals in a causal generative VAE."
+    },
+    {
+      "name": "GPerturb",
+      "model_structure": "Gaussian process",
+      "table": "README.md",
+      "figure_file": "GPerturb_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-025-61165-7",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-025-61165-7/MediaObjects/41467_2025_61165_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-025-61165-7"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Sparse Gaussian-process regression models gene-level perturbation effects and provides uncertainty estimates, including for dose responses."
+    },
+    {
+      "name": "IMPA",
+      "model_structure": "Adversarial autoencoder",
+      "table": "README.md",
+      "figure_file": "IMPA_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-55707-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-55707-8/MediaObjects/41467_2024_55707_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-55707-8"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditional adversarial autoencoder transfers perturbation style to control-cell images to generate morphological responses."
+    },
+    {
+      "name": "PerturbNet",
+      "model_structure": "Conditional normalizing flow",
+      "table": "README.md",
+      "figure_file": "PerturbNet_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s44320-025-00131-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs44320-025-00131-3/MediaObjects/44320_2025_131_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s44320-025-00131-3"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditional normalizing flows link perturbation representations to cell-state distributions for unseen chemicals, gene interventions, and coding variants."
+    },
+    {
+      "name": "PRESAGE",
+      "model_structure": "Attention network",
+      "table": "README.md",
+      "figure_file": "PRESAGE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1101/2025.06.03.657653",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657653v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1101/2025.06.03.657653"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Attention-based integration of diverse gene embeddings predicts expression responses to unmeasured genetic perturbations."
+    },
+    {
+      "name": "Scouter",
+      "model_structure": "Compressor–generator network",
+      "table": "README.md",
+      "figure_file": "Scouter_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s43588-025-00912-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs43588-025-00912-8/MediaObjects/43588_2025_912_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s43588-025-00912-8"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Uses LLM-derived gene embeddings and a compressor–generator network to predict unseen genetic perturbation responses."
+    },
+    {
+      "name": "Squidiff",
+      "model_structure": "Conditional diffusion",
+      "table": "README.md",
+      "figure_file": "Squidiff_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-025-02877-y",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/00e3/12872408/161d1f1e16b7/nihms-2128263-f0001.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-025-02877-y"
+      ],
+      "year": 2025,
+      "section": "Genetic and chemical response prediction",
+      "features": "Diffusion-based generation models cell development and transcriptomic responses to perturbations."
+    },
+    {
+      "name": "Conditional Monge Gap",
+      "model_structure": "Conditional optimal transport",
+      "table": "README.md",
+      "figure_file": "Conditional_Monge_Gap_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s42256-026-01242-8",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01242-8/MediaObjects/42256_2026_1242_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s42256-026-01242-8"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditional optimal transport models drug-, dose-, and combination-dependent single-cell response distributions."
+    },
+    {
+      "name": "CSTATE",
+      "model_structure": "Structural causal model",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://doi.org/10.1145/3807503.3819991",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://doi.org/10.1145/3807503.3819991"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Structural causal modeling over latent gene modules estimates intervention effects conditional on cellular context."
+    },
+    {
+      "name": "LCD",
+      "model_structure": "Latent causal diffusion",
+      "table": "README.md",
+      "figure_file": "LCD_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1073/pnas.2602630123",
+      "figure_source_url": "https://arxiv.org/pdf/2601.15341",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1073/pnas.2602630123"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Latent causal diffusion models gene-regulatory dynamics and unseen perturbation combinations; CLIPR interprets direct causal effects."
+    },
+    {
+      "name": "MultiPert",
+      "model_structure": "Autoencoder + dual attention",
+      "table": "README.md",
+      "figure_file": "MultiPert_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1371/journal.pcbi.1014054",
+      "figure_source_url": "https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1014054.g001",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1371/journal.pcbi.1014054"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Adversarial alignment and dual attention model perturbation responses across single-cell omics modalities."
+    },
+    {
+      "name": "PertAdapt",
+      "model_structure": "Foundation-model adapter",
+      "table": "README.md",
+      "figure_file": "PertAdapt_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag307",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/df8c/13341120/7e0b7b9fd7f9/btag307f1.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btag307"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Adds a perturbation-conditioned adapter and adaptive loss to foundation models for genetic-response prediction."
+    },
+    {
+      "name": "PerturbDiff",
+      "model_structure": "Functional diffusion",
+      "table": "README.md",
+      "figure_file": "PerturbDiff_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://proceedings.mlr.press/v306/yuan26d.html",
+      "figure_source_url": "https://raw.githubusercontent.com/mlresearch/v306/main/assets/yuan26d/yuan26d.pdf",
+      "note": "Figure 1 为建模概念示意；另附 Figure 2 模型框架图。",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v306/yuan26d.html"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Functional diffusion operates on population distributions to model hidden-context variation in perturbation responses."
+    },
+    {
+      "name": "PerturbLDM",
+      "model_structure": "Latent diffusion",
+      "table": "README.md",
+      "figure_file": "PerturbLDM_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.64898/2026.08.07.743610",
+      "figure_source_url": "https://raw.githubusercontent.com/davidroad/PerturbLDM/HEAD/docs/figures/fig1_PerturbLDM.png",
+      "note": "Figure 1 原图来自作者官方代码仓库。",
+      "evidence_urls": [
+        "https://doi.org/10.64898/2026.08.07.743610"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditional latent diffusion generates single-cell responses in specified drug and cellular contexts."
+    },
+    {
+      "name": "PopPert",
+      "model_structure": "Gaussian copula",
+      "table": "README.md",
+      "figure_file": "PopPert_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://arxiv.org/abs/2609.01357",
+      "figure_source_url": "https://arxiv.org/pdf/2609.01357",
+      "note": "Figure 1 为建模范式对比；另附 Figure 2 模型概览。",
+      "evidence_urls": [
+        "https://arxiv.org/abs/2609.01357"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Models population-level joint expression distributions with a low-rank Gaussian copula, including cross-gene dependencies."
+    },
+    {
+      "name": "PrePR-CT",
+      "model_structure": "Graph attention network",
+      "table": "README.md",
+      "figure_file": "PrePR-CT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s42256-026-01202-2",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01202-2/MediaObjects/42256_2026_1202_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s42256-026-01202-2"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Cell-type-specific graphs and inductive biological priors support interpretable drug-response prediction in limited-data settings."
+    },
+    {
+      "name": "scBalFlow",
+      "model_structure": "Staged flow matching",
+      "table": "README.md",
+      "figure_file": "scBalFlow_Architecture_Figure2.webp",
+      "figure_number": 2,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag682",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13619003/supplementaryFiles",
+      "note": "Figure 1 展示数据不平衡；另附 Figure 2 模型结构图。",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btag682"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Staged flow matching separates response-intensity prediction from expression generation to address imbalanced drug responses."
+    },
+    {
+      "name": "scDFM",
+      "model_structure": "Flow matching",
+      "table": "README.md",
+      "figure_file": "scDFM_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/75f029a1289a47aa99c86588239f0c12-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/file/75f029a1289a47aa99c86588239f0c12-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2026/hash/75f029a1289a47aa99c86588239f0c12-Abstract-Conference.html"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Conditional flow matching with population-distribution alignment predicts genetic and chemical responses from unpaired cell populations."
+    },
+    {
+      "name": "scDRP",
+      "model_structure": "VAE + optimal transport",
+      "table": "README.md",
+      "figure_file": "scDRP_Figure1.webp",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bib/bbag482",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/91c0/13704780/9e0f52daeea1/bbag482f1.webp",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bib/bbag482"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Disentangles perturbation-dependent response from cell identity to estimate heterogeneous individual treatment effects."
+    },
+    {
+      "name": "scLDM",
+      "model_structure": "VAE + latent diffusion",
+      "table": "README.md",
+      "figure_file": "scLDM_Figure1.webp",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1093/bioinformatics/btag727",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/700a/13661255/338ec69d1574/btag727f1.webp",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1093/bioinformatics/btag727"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "VAE compression and conditional latent diffusion generate responses conditioned on baseline cell state, cell type, and perturbation."
+    },
+    {
+      "name": "scPert",
+      "model_structure": "Transformer",
+      "table": "README.md",
+      "figure_file": "scPert_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.04.24.720560v1.abstract"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Transformer fuses LLM-derived gene embeddings with structured biological knowledge for single and combinatorial genetic-response prediction."
+    },
+    {
+      "name": "Stack",
+      "model_structure": "Cell-set transformer",
+      "table": "README.md",
+      "figure_file": "Stack_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1",
+      "figure_source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/ec10/12803207/c760613c4b2e/nihpp-2026.01.09.698608v1-f0001.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.01.09.698608v1"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Cell-set foundation model uses prompt cells for in-context, counterfactual expression generation across cellular conditions."
+    },
+    {
+      "name": "STATE",
+      "model_structure": "Set transformer",
+      "table": "README.md",
+      "figure_file": "STATE_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.cell.2026.07.052",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426009219-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.cell.2026.07.052",
+        "https://huggingface.co/collections/arcinstitute/state"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Set-based transition model predicts context-dependent perturbation responses; observationally pretrained embeddings provide complementary cell-state information."
+    },
+    {
+      "name": "TxPert",
+      "model_structure": "GNN + encoder–decoder",
+      "table": "README.md",
+      "figure_file": "TxPert_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://www.nature.com/articles/s41587-026-03113-4",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41587-026-03113-4/MediaObjects/41587_2026_3113_Fig2_HTML.png",
+      "note": "Figure 1 为数据与基准分析；另附 Figure 2 模型框架图。",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41587-026-03113-4"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Latent transfer integrates multiple gene-interaction knowledge graphs to predict genetic perturbation effects and cross-context responses."
+    },
+    {
+      "name": "UniPert-G2CP",
+      "model_structure": "Multimodal neural encoder",
+      "table": "README.md",
+      "figure_file": "UniPert-G2CP_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0092867426006549",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426006549-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0092867426006549"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Unifies genetic and chemical molecular representations, then transfers genetic-screen information to chemical phenotype prediction."
+    },
+    {
+      "name": "X-Cell",
+      "model_structure": "Diffusion language model",
+      "table": "README.md",
+      "figure_file": "X-Cell_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1.abstract",
+      "figure_source_url": "https://www.cdn.xaira.com/papers/X_CELL_V1_0316_final.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.03.18.712807v1.abstract"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Diffusion language model uses multimodal biological priors to predict genetic perturbation responses across cellular contexts."
+    },
+    {
+      "name": "XPert",
+      "model_structure": "Dual-branch transformer",
+      "table": "README.md",
+      "figure_file": "XPert_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s42256-025-01165-w",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-025-01165-w/MediaObjects/42256_2025_1165_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s42256-025-01165-w"
+      ],
+      "year": 2026,
+      "section": "Genetic and chemical response prediction",
+      "features": "Biologically informed dual-branch transformer models baseline expression, drug-induced changes, and dose/time dependence."
+    },
+    {
+      "name": "CellDrift",
+      "model_structure": "GLM / functional analysis",
+      "table": "README.md",
+      "figure_file": "CellDrift_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://academic.oup.com/bib/article/23/5/bbac324/6673850",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9487655/supplementaryFiles",
+      "note": "",
+      "evidence_urls": [
+        "https://academic.oup.com/bib/article/23/5/bbac324/6673850"
+      ],
+      "year": 2022,
+      "section": "Spatial context and cellular dynamics",
+      "features": "Generalized linear models and functional data analysis identify temporal perturbation-response patterns across cell types."
+    },
+    {
+      "name": "CONCERT",
+      "model_structure": "GP-VAE",
+      "table": "README.md",
+      "figure_file": "CONCERT_Architecture_Figure2.jpg",
+      "figure_number": 2,
+      "paper_url": "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract",
+      "figure_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12642540/supplementaryFiles",
+      "note": "另附 Figure 2，详细展示模型结构。",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.1101/2025.11.08.686890v2.abstract",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12642540/"
+      ],
+      "year": 2025,
+      "section": "Spatial context and cellular dynamics",
+      "features": "Disentangles perturbation/state attributes and learns spatial Gaussian-process kernels for niche-aware counterfactual response prediction."
+    },
+    {
+      "name": "UNAGI",
+      "model_structure": "VAE-GAN + GCN",
+      "table": "README.md",
+      "figure_file": "UNAGI_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s41551-025-01423-7",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01423-7/MediaObjects/41551_2025_1423_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s41551-025-01423-7"
+      ],
+      "year": 2025,
+      "section": "Spatial context and cellular dynamics",
+      "features": "Learns disease-associated cellular dynamics and performs in silico gene/pathway/drug interventions for drug discovery and repurposing."
+    },
+    {
+      "name": "AlphaCell",
+      "model_structure": "World-model framework",
+      "table": "README.md",
+      "figure_file": "AlphaCell_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract",
+      "figure_source_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.full.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://www.biorxiv.org/content/10.64898/2026.03.02.709176v1.abstract"
+      ],
+      "year": 2026,
+      "section": "Spatial context and cellular dynamics",
+      "features": "World-model framework for simulating perturbation-induced cellular dynamics; described in a preprint."
+    },
+    {
+      "name": "Celcomen",
+      "model_structure": "Causal graph model",
+      "table": "README.md",
+      "figure_file": "Celcomen_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1038/s41467-026-69856-5",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-026-69856-5/MediaObjects/41467_2026_69856_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1038/s41467-026-69856-5"
+      ],
+      "year": 2026,
+      "section": "Spatial context and cellular dynamics",
+      "features": "Causal graph modeling separates intra- and inter-cellular regulation to generate counterfactual spatial transcriptomics."
+    },
+    {
+      "name": "RegVelo",
+      "model_structure": "VAE + neural ODE",
+      "table": "README.md",
+      "figure_file": "RegVelo_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867426004575-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.cell.com/cell/fulltext/S0092-8674(26)00457-5",
+        "https://regvelo.readthedocs.io/en/stable/api/genapi/regvelo.VELOVAE.html"
+      ],
+      "year": 2026,
+      "section": "Spatial context and cellular dynamics",
+      "features": "Couples splicing kinetics with gene-regulatory interactions; supports in silico regulatory perturbation and cell-fate analysis."
+    },
+    {
+      "name": "BioDiscoveryAgent",
+      "model_structure": "LLM agent",
+      "table": "README.md",
+      "figure_file": "BioDiscoveryAgent_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html",
+      "figure_source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/4252dc94531833029000f85dc5fac792-Paper-Conference.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.iclr.cc/paper_files/paper/2025/hash/4252dc94531833029000f85dc5fac792-Abstract-Conference.html"
+      ],
+      "year": 2025,
+      "section": "Target discovery and experimental design",
+      "features": "LLM agent designs genetic perturbation experiments using biological knowledge and observed outcomes; experimental design rather than expression generation."
+    },
+    {
+      "name": "PDGrapher",
+      "model_structure": "GNN",
+      "table": "README.md",
+      "figure_file": "PDGrapher_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41551-025-01481-x",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41551-025-01481-x/MediaObjects/41551_2025_1481_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41551-025-01481-x"
+      ],
+      "year": 2025,
+      "section": "Target discovery and experimental design",
+      "features": "Inverse design: causally inspired graph networks propose therapeutic target combinations to move a diseased state toward a treated state."
+    },
+    {
+      "name": "SequenTx",
+      "model_structure": "Neural model + RL",
+      "table": "README.md",
+      "figure_file": "SequenTx_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s42256-026-01192-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42256-026-01192-1/MediaObjects/42256_2026_1192_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s42256-026-01192-1"
+      ],
+      "year": 2026,
+      "section": "Target discovery and experimental design",
+      "features": "Combines a tumour cell-state model with reinforcement learning to design sequential drug treatments."
+    },
+    {
+      "name": "DTD",
+      "model_structure": "Tensor factorization",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://dl.acm.org/doi/abs/10.1145/3308558.3313476",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://dl.acm.org/doi/abs/10.1145/3308558.3313476"
+      ],
+      "year": 2019,
+      "section": "Perturbation analysis and related applications",
+      "features": "Drug–target–disease association prediction by relational tensor factorization; not a single-cell response generator."
+    },
+    {
+      "name": "scINSIGHT",
+      "model_structure": "Matrix factorization",
+      "table": "README.md",
+      "figure_file": "scINSIGHT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1186/s13059-022-02649-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13059-022-02649-3/MediaObjects/13059_2022_2649_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1186/s13059-022-02649-3"
+      ],
+      "year": 2022,
+      "section": "Perturbation analysis and related applications",
+      "features": "Matrix factorization separates shared and condition-specific gene programs; an integration/interpretation method, not a response predictor."
+    },
+    {
+      "name": "CINEMA-OT",
+      "model_structure": "ICA + optimal transport",
+      "table": "README.md",
+      "figure_file": "CINEMA-OT_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-023-02040-5",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-02040-5/MediaObjects/41592_2023_2040_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-023-02040-5"
+      ],
+      "year": 2023,
+      "section": "Perturbation analysis and related applications",
+      "features": "Separates treatment-associated signals from confounders and uses optimal transport to estimate single-cell treatment effects."
+    },
+    {
+      "name": "contrastiveVI",
+      "model_structure": "Contrastive VAE",
+      "table": "README.md",
+      "figure_file": "contrastiveVI_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-023-01955-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-023-01955-3/MediaObjects/41592_2023_1955_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-023-01955-3"
+      ],
+      "year": 2023,
+      "section": "Perturbation analysis and related applications",
+      "features": "Separates target-specific variation from variation shared with background/control cells; a contrastive analysis model."
+    },
+    {
+      "name": "DREEP",
+      "model_structure": "Signature enrichment",
+      "table": "README.md",
+      "figure_file": "DREEP_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://link.springer.com/article/10.1186/s12916-023-03182-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12916-023-03182-1/MediaObjects/12916_2023_3182_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://link.springer.com/article/10.1186/s12916-023-03182-1"
+      ],
+      "year": 2023,
+      "section": "Perturbation analysis and related applications",
+      "features": "Uses pharmacogenomic sensitivity signatures and enrichment to estimate drug vulnerability from tumour-cell expression; not transcriptome generation."
+    },
+    {
+      "name": "MOASL",
+      "model_structure": "Contrastive neural network",
+      "table": "README.md",
+      "figure_file": "MOASL_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0010482523013185-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/abs/pii/S0010482523013185"
+      ],
+      "year": 2023,
+      "section": "Perturbation analysis and related applications",
+      "features": "Contrastive similarity learning predicts drug mechanisms of action from transcriptomic signatures."
+    },
+    {
+      "name": "sVAE",
+      "model_structure": "Sparse VAE",
+      "table": "README.md",
+      "figure_file": "sVAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.mlr.press/v213/lopez23a.html",
+      "figure_source_url": "https://proceedings.mlr.press/v213/lopez23a/lopez23a.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v213/lopez23a.html"
+      ],
+      "year": 2023,
+      "section": "Perturbation analysis and related applications",
+      "features": "Models perturbations as sparse interventions on latent mechanisms to learn interpretable cellular representations."
+    },
+    {
+      "name": "Cell Painting CNN",
+      "model_structure": "CNN",
+      "table": "README.md",
+      "figure_file": "Cell_Painting_CNN_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41467-024-45999-1",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-024-45999-1/MediaObjects/41467_2024_45999_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41467-024-45999-1"
+      ],
+      "year": 2024,
+      "section": "Perturbation analysis and related applications",
+      "features": "Weakly supervised CNN learns morphological profiles from Cell Painting images; represents observed phenotypes rather than generating responses."
+    },
+    {
+      "name": "DRSPRING",
+      "model_structure": "GCN",
+      "table": "README.md",
+      "figure_file": "DRSPRING_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0010482524005201",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0010482524005201-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.sciencedirect.com/science/article/pii/S0010482524005201"
+      ],
+      "year": 2024,
+      "section": "Perturbation analysis and related applications",
+      "features": "GCN integrates chemical, interaction, and expression information to predict drug-pair synergy; endpoint is synergy, not cell-state generation."
+    },
+    {
+      "name": "PertKGE",
+      "model_structure": "Knowledge-graph embeddings",
+      "table": "README.md",
+      "figure_file": "PertKGE_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.xgen.2024.100655",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S2666979X24002660-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.xgen.2024.100655"
+      ],
+      "year": 2024,
+      "section": "Perturbation analysis and related applications",
+      "features": "Knowledge-graph embedding of perturbation transcriptomics infers compound–protein interactions for target identification and virtual screening."
+    },
+    {
+      "name": "SC-VAE",
+      "model_structure": "Contrastive VAE",
+      "table": "README.md",
+      "figure_file": "SC-VAE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://proceedings.mlr.press/v240/tu24a.html",
+      "figure_source_url": "https://proceedings.mlr.press/v240/tu24a/tu24a.pdf",
+      "note": "",
+      "evidence_urls": [
+        "https://proceedings.mlr.press/v240/tu24a.html"
+      ],
+      "year": 2024,
+      "section": "Perturbation analysis and related applications",
+      "features": "Guide-supervised contrastive VAE separates perturbation effects from baseline heterogeneity for perturbation interpretation."
+    },
+    {
+      "name": "scRank",
+      "model_structure": "Regulatory-network model",
+      "table": "README.md",
+      "figure_file": "scRank_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S266637912400260X-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(24)00260-X"
+      ],
+      "year": 2024,
+      "section": "Perturbation analysis and related applications",
+      "features": "Perturbs cell-type-specific regulatory networks in silico to rank drug-responsive populations from untreated scRNA-seq."
+    },
+    {
+      "name": "TAT",
+      "model_structure": "Transformer",
+      "table": "README.md",
+      "figure_file": "TAT_Architecture_Figure2.png",
+      "figure_number": 2,
+      "paper_url": "https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01855",
+      "figure_source_url": "https://www.biorxiv.org/content/10.1101/2023.08.03.551883v1.full.pdf",
+      "note": "Figure 1 为任务概览；另附 Figure 2 模型结构图。使用作者预印本版本。",
+      "evidence_urls": [
+        "https://pubs.acs.org/doi/full/10.1021/acs.jcim.3c01855"
+      ],
+      "year": 2024,
+      "section": "Perturbation analysis and related applications",
+      "features": "Transformer maps dose-dependent transcriptional profiles to compound activity in other assays; not a transcriptome-response generator."
+    },
+    {
+      "name": "CellCap",
+      "model_structure": "VAE + attention",
+      "table": "README.md",
+      "figure_file": "CellCap_Figure1.jpg",
+      "figure_number": 1,
+      "paper_url": "https://doi.org/10.1016/j.cels.2025.101245",
+      "figure_source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S240547122500078X-gr1_lrg.jpg",
+      "note": "",
+      "evidence_urls": [
+        "https://doi.org/10.1016/j.cels.2025.101245",
+        "https://cellcap.readthedocs.io/en/latest/"
+      ],
+      "year": 2025,
+      "section": "Perturbation analysis and related applications",
+      "features": "Sparse response programs and attention model how basal cell state shapes heterogeneous perturbation responses."
+    },
+    {
+      "name": "Pertpy",
+      "model_structure": "Analysis toolkit",
+      "table": "README.md",
+      "figure_file": "Pertpy_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41592-025-02909-7",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41592-025-02909-7/MediaObjects/41592_2025_2909_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41592-025-02909-7"
+      ],
+      "year": 2025,
+      "section": "Perturbation analysis and related applications",
+      "features": "Modular perturbation-analysis toolkit covering datasets, annotations, distances, and statistical analyses; not one predictive model."
+    },
+    {
+      "name": "PS",
+      "model_structure": "Constrained regression",
+      "table": "README.md",
+      "figure_file": "PS_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41556-025-01626-9",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41556-025-01626-9/MediaObjects/41556_2025_1626_Fig1_HTML.png",
+      "note": "",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41556-025-01626-9"
+      ],
+      "year": 2025,
+      "section": "Perturbation analysis and related applications",
+      "features": "Estimates continuous per-cell perturbation strength from downstream expression changes to resolve heterogeneous responses."
+    },
+    {
+      "name": "scAgents",
+      "model_structure": "LLM multi-agent framework",
+      "table": "README.md",
+      "figure_file": null,
+      "figure_number": null,
+      "paper_url": "https://openreview.net/forum?id=HGJQvwGtfJ",
+      "figure_source_url": null,
+      "note": "截至本次收集，出版商/论文网站限制下载；未获得可核验的公开图像文件。",
+      "evidence_urls": [
+        "https://openreview.net/forum?id=HGJQvwGtfJ"
+      ],
+      "year": 2025,
+      "section": "Perturbation analysis and related applications",
+      "features": "Multi-agent analysis framework generates models and executable workflows for single-cell perturbation tasks; not one fixed predictor."
+    },
+    {
+      "name": "TRADE",
+      "model_structure": "Statistical effect model",
+      "table": "README.md",
+      "figure_file": "TRADE_Figure1.png",
+      "figure_number": 1,
+      "paper_url": "https://www.nature.com/articles/s41588-025-02169-3",
+      "figure_source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41588-025-02169-3/MediaObjects/41588_2025_2169_Fig1_HTML.png",
+      "note": "Figure 1 以分布与效应量示意图说明统计方法，并非神经网络结构图。",
+      "evidence_urls": [
+        "https://www.nature.com/articles/s41588-025-02169-3"
+      ],
+      "year": 2025,
+      "section": "Perturbation analysis and related applications",
+      "features": "Statistical model estimates the distribution and transcriptome-wide impact of differential-expression effects while accounting for estimation error."
+    }
+  ]
+}
