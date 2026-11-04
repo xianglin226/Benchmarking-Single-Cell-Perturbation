@@ -1835,7 +1835,7 @@ html&gt;body{padding:0}&lt;/style&gt;
  function save(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{selected_method:selected||null,minimum_tag_similarity:minimum},privateContent:{selected,minimum}}).catch(()=&gt;{})}
  function choose(id){selected=id;picker.value=id;save();draw()}
  function draw(){
-  const width=Math.max(280,Math.floor(svg.getBoundingClientRect().width)),height=selected?Math.max(440,width*.8):Math.max(490,width*.84);
+  const width=Math.max(280,Math.floor(svg.getBoundingClientRect().width)),height=selected?Math.max(440,width*.8):Math.max(900,width*.95);
   svg.setAttribute(&#x27;viewBox&#x27;,`0 0 ${width} ${height}`);svg.setAttribute(&#x27;height&#x27;,String(height));svg.replaceChildren();
   svg.append(node(&#x27;title&#x27;,{},&#x27;Perturbation model architecture similarity network&#x27;),node(&#x27;desc&#x27;,{},&#x27;Nodes represent methods. Edges indicate shared curated architecture tags; line width represents weighted tag Jaccard similarity. Dashed edges share attention or latent composition modules only.&#x27;));
   const candidates=data.edges.filter(e=&gt;e.weight+1e-8&gt;=minimum);
@@ -1855,15 +1855,29 @@ html&gt;body{padding:0}&lt;/style&gt;
   const occupied=[];
   shown.slice().sort((a,b)=&gt;(b.id===selected?1:0)-(a.id===selected?1:0)||b.degree-a.degree).forEach(n=&gt;{
    const xy=p.get(n.id);const r=n.id===selected?9:5;const circle=node(&#x27;circle&#x27;,{cx:xy[0],cy:xy[1],r,fill:colors[n.group],class:&#x27;node cursor-interaction&#x27;,&#x27;data-tooltip&#x27;:`${n.id} · ${n.structure_label} · ${n.degree} edges`});const hit=node(&#x27;circle&#x27;,{cx:xy[0],cy:xy[1],r:16,fill:&#x27;transparent&#x27;,class:&#x27;cursor-interaction&#x27;,&#x27;data-tooltip&#x27;:`${n.id} · ${n.structure_label}`});hit.addEventListener(&#x27;click&#x27;,()=&gt;choose(n.id));svg.append(hit);circle.addEventListener(&#x27;click&#x27;,()=&gt;choose(n.id));svg.append(circle);
-   const anchors=new Set([&#x27;scGen&#x27;,&#x27;GEARS&#x27;,&#x27;PDGrapher&#x27;,&#x27;CellFlow&#x27;,&#x27;scDFM&#x27;,&#x27;STATE&#x27;,&#x27;X-Cell&#x27;,&#x27;UNAGI&#x27;,&#x27;RegVelo&#x27;,&#x27;PerturbLDM&#x27;,&#x27;scDRP&#x27;,&#x27;CONCERT&#x27;,&#x27;DTD&#x27;,&#x27;scAgents&#x27;,&#x27;PerturbNet&#x27;,&#x27;LCD&#x27;]);
-   if(!selected&amp;&amp;!anchors.has(n.id))return;
    let x=xy[0],y=xy[1]+16,align=&#x27;middle&#x27;;
    if(selected&amp;&amp;n.id!==selected){const dx=xy[0]-width/2,dy=xy[1]-height/2;if(Math.abs(dx)&gt;width*.12){align=dx&gt;0?&#x27;start&#x27;:&#x27;end&#x27;;x+=dx&gt;0?8:-8;y=xy[1]+4}else{align=&#x27;middle&#x27;;y+=dy&gt;0?0:-24}}
-   const textWidth=n.id.length*6.6,left=align===&#x27;start&#x27;?x:align===&#x27;end&#x27;?x-textWidth:x-textWidth/2;
+   const measure=node(&#x27;text&#x27;,{class:&#x27;node-label&#x27;},n.id);svg.append(measure);const textWidth=measure.getComputedTextLength()+4;measure.remove();const left=align===&#x27;start&#x27;?x:align===&#x27;end&#x27;?x-textWidth:x-textWidth/2;
    if(left&lt;5){x+=5-left}if(left+textWidth&gt;width-5)x-=left+textWidth-(width-5);
-   // Suppress optional overview labels on collisions; detail remains available through native selection.
-   const box=[x-(align===&#x27;middle&#x27;?textWidth/2:align===&#x27;end&#x27;?textWidth:0),y-11,textWidth,15];
-   if(!selected&amp;&amp;occupied.some(b=&gt;box[0]&lt;b[0]+b[2]+4&amp;&amp;box[0]+box[2]+4&gt;b[0]&amp;&amp;box[1]&lt;b[1]+b[3]+3&amp;&amp;box[1]+box[3]+3&gt;b[1]))return;
+   // Keep every overview name visible; move colliding labels and connect them to their nodes.
+   let box=[x-(align===&#x27;middle&#x27;?textWidth/2:align===&#x27;end&#x27;?textWidth:0),y-11,textWidth,15];
+   if(!selected){
+    const overlaps=b=&gt;occupied.some(a=&gt;b[0]&lt;a[0]+a[2]+5&amp;&amp;b[0]+b[2]+5&gt;a[0]&amp;&amp;b[1]&lt;a[1]+a[3]+4&amp;&amp;b[1]+b[3]+4&gt;a[1]);
+    const clampX=v=&gt;Math.max(textWidth/2+6,Math.min(width-textWidth/2-6,v));
+    let best=null;
+    for(let radius=0;radius&lt;=Math.max(width,height)&amp;&amp;!best;radius+=18){
+     const steps=radius?Math.max(12,Math.ceil(2*Math.PI*radius/18)):1;
+     for(let k=0;k&lt;steps;k++){
+      const angle=Math.PI/2+2*Math.PI*k/steps;
+      const cx=clampX(xy[0]+Math.cos(angle)*radius),cy=xy[1]+16+Math.sin(angle)*radius;
+      const b=[cx-textWidth/2,cy-11,textWidth,15];
+      if(cy&lt;18||cy&gt;height-8||overlaps(b))continue;
+      best={x:cx,y:cy,box:b};break;
+     }
+    }
+    if(best){x=best.x;y=best.y;box=best.box;align=&#x27;middle&#x27;}
+    if(Math.hypot(x-xy[0],y-8-xy[1])&gt;25)svg.append(node(&#x27;line&#x27;,{x1:xy[0],y1:xy[1],x2:x,y2:y-7,stroke:&#x27;var(--muted-foreground)&#x27;,&#x27;stroke-width&#x27;:.6,&#x27;stroke-opacity&#x27;:.45,&#x27;pointer-events&#x27;:&#x27;none&#x27;}));
+   }
    occupied.push(box);svg.append(node(&#x27;text&#x27;,{x,y,&#x27;text-anchor&#x27;:align,class:&#x27;node-label&#x27;},n.id));
   });
   details.replaceChildren();linkbody.replaceChildren();linkbox.hidden=!selected;
