@@ -16,9 +16,7 @@ A curated guide to perturbation-response models, analysis methods, benchmarks, a
 
 **[Open the interactive graph →](https://xianglin226.github.io/Benchmarking-Single-Cell-Perturbation/architecture_graph/architecture_network.html)**
 
-Explore 77 perturbation methods by shared architecture, select a method to inspect its neighbors, and filter edges by similarity. Edges reflect curated architecture tags, not measured predictive performance; dashed edges share modules only. This graph is a snapshot of the model table checked on 4 November 2026.
-
-[Edge list](architecture_graph/edge_list.csv) · [Backbone-only edges](architecture_graph/edge_list_backbone.csv) · [GraphML](architecture_graph/architecture.graphml) · [Methods and sources](architecture_graph/METHODS.txt) · [HTML file](architecture_graph/architecture_network.html)
+Explore 77 perturbation methods by shared architecture, select a method to inspect its neighbors, and filter edges by similarity. Edges reflect curated architecture tags, not measured predictive performance; dashed edges share modules only.
 
 ## Genetic and chemical response prediction
 
